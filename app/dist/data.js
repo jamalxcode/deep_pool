@@ -300,7 +300,7 @@
     var order = (opts.order || ORDER).slice();
     // the site's own public node (config.js), tried before the public explorers for every visitor
     var home = opts.siteNode && opts.siteNode.url && (!opts.siteNode.networks || opts.siteNode.networks.indexOf(net) >= 0)
-      ? nodeProvider(opts.siteNode.url, net, { name: opts.siteNode.name || null, site: true }) : null;
+      ? nodeProvider(opts.siteNode.url, net, { name: opts.siteNode.name || null, site: true, lookups: opts.siteNode.lookups !== false }) : null;
     if (home) { if (!home.name) home.name = nodeProvider(opts.siteNode.url, net).name; this.providers.home = home; order.unshift('home'); }
     // a visitor's own node (set in the footer) goes before everything
     var node = opts.node ? nodeProvider(opts.node, net, { own: true }) : null;
@@ -419,9 +419,16 @@
   };
 
   // Block, transaction and address lookups use the shared Esplora API, so either source works.
-  Client.prototype.lookup = function (path) {
+  // Sources that answer block, transaction and address lookups, best first. A node set up for the
+  // dashboard only (lookups: false, e.g. one without Electrs) is left out.
+  Client.prototype.lookupOrder = function () {
     var self = this;
     var list = this.current ? [this.current].concat(this.order.filter(function (p) { return p !== self.current; })) : this.queue();
+    return list.filter(function (p) { return self.providers[p].lookups !== false; });
+  };
+  Client.prototype.lookup = function (path) {
+    var self = this;
+    var list = this.lookupOrder();
     var i = 0, lastErr;
     function next() {
       if (i >= list.length) return Promise.reject(lastErr || new Error('not found'));
@@ -441,7 +448,7 @@
   Client.prototype.block = function (hash) {
     var self = this;
     // mempool.space's v1 block has the fee and pool details; plain Esplora's doesn't
-    var cur = this.current || this.order[0];
+    var cur = this.lookupOrder()[0];
     var cp = this.providers[cur] || {};
     var hasV1 = cur === 'mempool' || (cp.selfHosted && !cp.plainEsplora);
     var v1 = hasV1

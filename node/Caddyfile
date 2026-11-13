@@ -1,8 +1,9 @@
 # deep pool node gateway: the only service the Cloudflare tunnel can reach.
+#  - allowlist: only the calls deep pool makes to its node; everything else is 404
 #  - read-only: GET (and the browser's OPTIONS check) only
-#  - only /api/* is passed on; Bitcoin Core's RPC is never reachable from outside
+#  - Bitcoin Core's RPC is never reachable from outside
 #  - browsers may call it only from deep pool's address (DEEPPOOL_ORIGIN in .env)
-#  - tells Cloudflare what it may cache, so most visitors never reach the Mac mini
+#  - tells Cloudflare it may cache answers for 10 seconds, so most visitors never reach the Mac
 {
 	admin off
 	auto_https off
@@ -19,6 +20,13 @@
 	}
 
 	route {
+		# deep pool's dashboard calls, and nothing else
+		@denied not path_regexp ^/api/(v1/(blocks(/[0-9]{1,8}|/tip/height)?|fees/(mempool-blocks|recommended)|difficulty-adjustment|replacements|statistics/2h|prices|ws)|mempool(/recent)?)$
+		respond @denied "Not found" 404
+
+		# drop any query string: deep pool never sends one, and random ones would bypass the cache
+		rewrite * {path}?
+
 		@preflight method OPTIONS
 		respond @preflight 204
 
@@ -29,32 +37,18 @@
 		@ws path /api/v1/ws
 		reverse_proxy @ws mempool:8999
 
-		# a block found by its hash, and its transactions, never change: cache them for a day
-		@immutable path_regexp ^/api/(v1/)?block/[0-9a-f]{64}(/txs(/[0-9]+)?|/txids|/header)?$
-		header @immutable {
-			Cache-Control "public, max-age=86400"
-			defer
-		}
-		# everything else moves with the mempool: cache for 10 seconds
-		@moving {
-			path /api/*
-			not path_regexp ^/api/(v1/)?block/[0-9a-f]{64}(/txs(/[0-9]+)?|/txids|/header)?$
-		}
-		header @moving {
+		header {
 			Cache-Control "public, max-age=10"
 			defer
 		}
 
-		# the backend serves everything under /api/v1/; the Esplora-style paths (/api/tx/...,
-		# /api/block/..., /api/address/...) are the same routes without the v1
+		# the backend serves /api/mempool and /api/mempool/recent under /api/v1/
 		@esplora {
 			path /api/*
 			not path /api/v1/*
 		}
 		uri @esplora replace /api/ /api/v1/ 1
 
-		reverse_proxy /api/v1/* mempool:8999
-
-		respond "Not found" 404
+		reverse_proxy mempool:8999
 	}
 }

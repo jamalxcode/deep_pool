@@ -1,33 +1,18 @@
-# deep pool's Bitcoin node services, for the Mac mini (Docker Desktop).
+# deep pool's node services, for the Mac mini (OrbStack or Docker Desktop).
 # Bitcoin Core runs natively on macOS (see README.md); everything else runs here:
 #
-#   visitors' browsers ──▶ Cloudflare ──tunnel──▶ gateway (Caddy: CORS, read-only, cache hints)
-#                                                    └──▶ mempool backend ──▶ Electrs ──▶ Bitcoin Core
-#                                                                        └──▶ MariaDB      (on the Mac)
+#   visitors' browsers ──▶ Cloudflare ──tunnel──▶ gateway (Caddy: allowlist, read-only, cache hints)
+#                                                    └──▶ mempool backend ──▶ Bitcoin Core (on the Mac)
+#                                                                        └──▶ MariaDB
 #
 # No port is opened on the router: the tunnel connects out to Cloudflare.
+# There's no Electrs: the node serves the dashboard only, and deep pool sends address and
+# transaction lookups to mempool.space and blockstream.info (nodeLookups: false in config.js).
 # Fill in .env (copy .env.example), then: docker compose up -d
 
 name: deep-pool-node
 
 services:
-  electrs:
-    # Address index over Bitcoin Core, so addresses and transactions can be looked up.
-    # Check https://hub.docker.com/r/getumbrel/electrs/tags for the newest version before starting.
-    image: getumbrel/electrs:v0.10.6
-    restart: unless-stopped
-    stop_grace_period: 2m
-    environment:
-      ELECTRS_NETWORK: bitcoin
-      ELECTRS_DB_DIR: /data
-      ELECTRS_DAEMON_RPC_ADDR: host.docker.internal:8332
-      ELECTRS_DAEMON_P2P_ADDR: host.docker.internal:8333
-      ELECTRS_ELECTRUM_RPC_ADDR: 0.0.0.0:50001
-      ELECTRS_AUTH: ${BITCOIN_RPC_USER}:${BITCOIN_RPC_PASSWORD}
-      ELECTRS_LOG_FILTERS: INFO
-    volumes:
-      - ${DATA_DIR}/electrs:/data
-
   db:
     image: mariadb:10.11
     restart: unless-stopped
@@ -46,14 +31,11 @@ services:
     restart: unless-stopped
     stop_grace_period: 1m
     user: "1000:1000"
-    depends_on: [db, electrs]
+    depends_on: [db]
     command: ./wait-for-it.sh db:3306 --timeout=720 --strict -- ./start.sh
     environment:
       MEMPOOL_NETWORK: mainnet
-      MEMPOOL_BACKEND: electrum
-      ELECTRUM_HOST: electrs
-      ELECTRUM_PORT: "50001"
-      ELECTRUM_TLS_ENABLED: "false"
+      MEMPOOL_BACKEND: none
       CORE_RPC_HOST: host.docker.internal
       CORE_RPC_PORT: "8332"
       CORE_RPC_USERNAME: ${BITCOIN_RPC_USER}
@@ -68,7 +50,8 @@ services:
       - ${DATA_DIR}/mempool-cache:/backend/cache
 
   gateway:
-    # The only thing the tunnel can reach. Read-only, deep pool's address only, cache hints.
+    # The only thing the tunnel can reach: just the calls deep pool makes, read-only, deep pool's
+    # address only, with cache hints for Cloudflare.
     image: caddy:2.8.4
     restart: unless-stopped
     depends_on: [mempool]
@@ -77,8 +60,8 @@ services:
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
     ports:
-      # For testing from the Mac itself (http://localhost:8080/api/v1/blocks). Not reachable from
-      # the network: it's bound to 127.0.0.1, and the router forwards nothing anyway.
+      # For checking from the Mac itself (http://localhost:8080/api/v1/blocks/tip/height).
+      # Bound to 127.0.0.1, so not reachable from the network.
       - "127.0.0.1:8080:8080"
 
   tunnel:

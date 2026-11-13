@@ -1863,7 +1863,7 @@
       return;
     }
     var cfg = window.DEEP_POOL_CONFIG || {};
-    client = new window.DeepPoolData.Client(net, { node: store('node') || '', siteNode: cfg.node ? { url: cfg.node, name: cfg.nodeName, networks: cfg.nodeNetworks } : null });
+    client = new window.DeepPoolData.Client(net, { node: store('node') || '', siteNode: cfg.node ? { url: cfg.node, name: cfg.nodeName, networks: cfg.nodeNetworks, lookups: cfg.nodeLookups } : null });
     refresh(true).then(schedule);
   }
   function nodeDialog() {

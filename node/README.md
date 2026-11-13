@@ -1,137 +1,215 @@
-# deep pool's own Bitcoin node (Mac mini + Cloudflare Tunnel)
+# deep pool's own Bitcoin node: the recommended setup
 
-deep pool itself stays a static site on GitHub Pages. This folder is the other half: the Mac mini
-runs a Bitcoin node plus the mempool backend, and a Cloudflare Tunnel gives it a public `https://`
-address **without exposing your home IP or opening any port on the router**.
+Goals: **maximum safety for the Mac mini**, **anyone on the internet can use deep pool**, **easy to
+install**, **as few things as possible that can break**.
 
 ```
-visitor's browser ── loads deep pool ──▶ GitHub Pages (static files)
-       │
-       └── asks for data ──▶ https://node.<your-domain>  (Cloudflare: HTTPS, cache, rate limit)
-                                   │ outbound tunnel, started by the Mac mini
-                                   ▼
-             Mac mini: gateway (Caddy) ─▶ mempool backend ─▶ Electrs ─▶ Bitcoin Core
-                                                     └─▶ MariaDB
+Visitors ──▶ GitHub Pages (deep pool, static files)
+    │
+    ├─ dashboard data ──▶ Cloudflare (HTTPS, firewall rule, cache, rate limit)
+    │                        ▲ outbound tunnel only: no open ports, home IP never shown
+    │                        │
+    │                 Mac mini (dedicated, no wallet)
+    │                   OrbStack: cloudflared → Caddy gateway → mempool backend → MariaDB
+    │                   Native:   Bitcoin Core (its RPC listens on this Mac only)
+    │
+    └─ address / transaction lookups ──▶ mempool.space → blockstream.info  (never the Mac)
+
+You (admin) ──▶ Tailscale ──▶ Mac mini   (private; nothing public)
 ```
 
-- **Your IP stays hidden.** The Mac mini connects *out* to Cloudflare; nobody connects in. There's
-  nothing to announce when your IP changes, and the router needs no changes.
-- **Read-only.** The gateway passes on GET requests under `/api/` only. Bitcoin Core's RPC (the
-  part that can spend or change things) is bound to the Mac itself and never reachable.
-- **If the node is down**, deep pool quietly uses mempool.space, then blockstream.info, then its
-  built-in snapshot. Visitors always see something.
+## Why it's built this way
 
-Nothing in deep pool is secret: the node address is in `app/src/config.js` for anyone to read. That's
-fine. The node only serves public blockchain data, and Cloudflare's cache and rate limit keep the
-load down.
+**Safety**
+- **Nothing connects in.** The Mac mini opens an outbound tunnel to Cloudflare. The router forwards
+  no ports, and your home IP never appears in DNS, in deep pool or anywhere public.
+- **Nothing to steal.** Bitcoin Core runs with `disablewallet=1`. There are no coins on the machine,
+  and its RPC (the control port) only listens on the Mac itself.
+- **A tiny, read-only public surface, checked twice.** Cloudflare's firewall lets only `GET /api/...`
+  through. Then the gateway allows only the dozen calls deep pool's dashboard makes and answers
+  everything else with "Not found". Address and transaction lookups, the heavy queries someone
+  could abuse, never reach the Mac.
+- **Most traffic never reaches the Mac.** Cloudflare caches every answer for 10 seconds, so a
+  thousand visitors cost the Mac about the same as one.
+- **The public-facing parts are boxed in.** They run in containers. Only the gateway is reachable,
+  and only through the tunnel.
 
-## What you need
+**Fewer things to break**
+- **Five parts:** Bitcoin Core, the mempool backend, MariaDB, the Caddy gateway and cloudflared.
+  No Electrs: it's the largest, slowest and most fragile piece (hours of indexing, 60 GB, heavy queries).
+- **One command** starts, stops or updates everything except Bitcoin Core.
+- **deep pool never depends on the Mac.** If the node is down, visitors' browsers quietly use
+  mempool.space, then blockstream.info, then deep pool's built-in snapshot.
 
-- **Mac mini** that stays on (16 GB memory or more is comfortable).
-- **External SSD, 2 TB** (USB-C / Thunderbolt). The blockchain is about 750 GB in late 2026 and grows
-  roughly 60-80 GB a year. Electrs adds about 60 GB, the rest is small. A pruned node won't work.
-- **Docker Desktop** for Mac.
-- **A domain on Cloudflare** (free plan is fine), for example `sala.company`. The node gets a
-  subdomain such as `node.sala.company`.
-- Patience for the first sync: Bitcoin Core takes **1-3 days**, then Electrs **several hours** more.
+**The trade-off:** block transaction lists, transaction and address lookups come from mempool.space
+and blockstream.info. Everything on the dashboard (blocks, fees, projected blocks, difficulty,
+mempool size, replacements, the incoming-transactions chart, prices, the live stream) comes from
+your node.
 
-## 1. Bitcoin Core
+## Shopping list
 
-1. Install Bitcoin Core from https://bitcoincore.org/en/download/ (the macOS `.dmg`).
-2. Copy `bitcoin.conf.example` to `~/Library/Application Support/Bitcoin/bitcoin.conf`, set
-   `datadir` to your SSD and choose a long random `rpcpassword`.
-3. Start Bitcoin Core and let it sync to 100%. Keep the Mac awake:
-   **System Settings → Energy → Prevent automatic sleeping**, and turn on **Start up automatically
-   after a power failure**. Add Bitcoin Core to **Login Items** so it starts after a restart.
+- **Mac mini** used only for this, 16 GB memory or more.
+- **External SSD, 2 TB** (USB-C / Thunderbolt). The blockchain is about 750 GB in late 2026, plus
+  about 60 GB for the transaction index. It grows roughly 60-80 GB a year.
+- **A small UPS** (battery backup). With FileVault on, a power cut means someone has to type the
+  password at the Mac before it starts again. A UPS rides through short cuts.
+- **A domain on Cloudflare** (the free plan is enough), e.g. `sala.company`. The node becomes
+  `node.sala.company`.
 
-## 2. The Cloudflare Tunnel
+## 1. Prepare the Mac (once, as the admin user)
 
-1. In the Cloudflare dashboard open **Zero Trust → Networks → Tunnels → Create a tunnel →
-   Cloudflared**, and name it `deep-pool-node`.
-2. On the "Install connector" step, copy the long **token** (the part after `--token`). It goes into
-   `.env` in the next step. You don't need to run the command they show; Docker does that.
-3. Under **Public Hostname**, add one: subdomain `node`, your domain, service type **HTTP**,
-   URL **`gateway:8080`**.
+1. Finish macOS setup, install all updates, and create two accounts: your **admin** account, and a
+   **standard** (non-admin) account called `node` that will run everything.
+2. **FileVault on**: System Settings → Privacy & Security → FileVault.
+3. **Firewall on, in stealth mode** (the Mac ignores probes from the local network):
+   ```bash
+   sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on --setstealthmode on
+   ```
+4. **Automatic updates**: System Settings → General → Software Update → Automatic updates →
+   turn everything on.
+5. **Sharing off**: System Settings → General → Sharing → turn off everything (File Sharing, Screen
+   Sharing, Remote Login, Remote Management, Media Sharing, AirPlay Receiver). You'll manage it
+   through Tailscale instead (step 6).
+6. **Never sleep, restart after power cuts**:
+   ```bash
+   sudo pmset -a sleep 0 disksleep 0 autorestart 1
+   ```
+7. **Router**: turn **UPnP off**, make sure there are **no port forwards** to the Mac, and set a
+   strong router admin password.
+8. Install the two apps (they need admin once):
+   ```bash
+   brew install --cask orbstack tailscale
+   ```
+   (Install Homebrew first from https://brew.sh if it isn't there.)
+9. Download **Bitcoin Core** for macOS from https://bitcoincore.org/en/download/ and drag it to
+   Applications. To check the download, compare `shasum -a 256 ~/Downloads/bitcoin-*.dmg` with the
+   `SHA256SUMS` file on that page.
 
-Then, in the dashboard for your domain:
+Then log out, and **log in as `node`** for everything below. From now on, unlocking the Mac after a
+restart means logging in as `node`, which starts everything.
 
-4. **Caching → Cache Rules → Create rule**: when *Hostname equals* `node.<your-domain>`, set
-   **Eligible for cache**, with **Edge TTL: use cache-control header if present**. The gateway marks
-   blocks as cacheable for a day and everything else for 10 seconds, so a busy day costs the Mac
-   mini very little.
-5. **Security → WAF → Rate limiting rules → Create rule**: for *Hostname equals*
-   `node.<your-domain>`, block an IP that sends more than **100 requests per 10 seconds** for 10 seconds.
-   (An open deep pool page sends about a dozen requests a minute, fewer while the live stream is connected, plus a few per block or address someone opens.)
+## 2. Bitcoin Core (as `node`)
 
-## 3. Start the node services
+1. Copy `bitcoin.conf.example` to `~/Library/Application Support/Bitcoin/bitcoin.conf`. Set
+   `datadir` to your SSD and choose a long random `rpcpassword`. This makes one:
+   ```bash
+   openssl rand -hex 24
+   ```
+2. Open Bitcoin Core. In **Settings → Main**, tick **Start Bitcoin Core on system login**.
+3. Let it sync to 100%. That takes **1-3 days**; the rest can be set up meanwhile.
 
-In Terminal, in this `node` folder:
+## 3. Cloudflare (in the browser, any computer)
+
+1. **Zero Trust → Networks → Tunnels → Create a tunnel → Cloudflared**, name it `deep-pool-node`.
+   On the "Install connector" step copy the long **token** (the text after `--token`); you only need
+   the token, not the command.
+2. **Public Hostname**: subdomain `node`, your domain, service type **HTTP**, URL **`gateway:8080`**.
+
+Then, in your domain's dashboard:
+
+3. **Security → WAF → Custom rules → Create rule** "Read-only node", action **Block**, expression:
+   ```
+   (http.host eq "node.YOUR-DOMAIN" and (http.request.method ne "GET" or not starts_with(http.request.uri.path, "/api/")))
+   ```
+4. **Security → WAF → Rate limiting rules → Create rule**: when *Hostname equals*
+   `node.YOUR-DOMAIN`, **Block** an IP that sends more than **100 requests per 10 seconds**, for 10 seconds.
+   An open deep pool page sends about a dozen requests a minute.
+5. **Caching → Cache Rules → Create rule**: when *Hostname equals* `node.YOUR-DOMAIN`, set
+   **Eligible for cache**, **Edge TTL: use cache-control header if present**, and under **Cache key**
+   turn on **Ignore query string**.
+6. **SSL/TLS → Edge Certificates**: **Always Use HTTPS** on, **Minimum TLS Version** 1.2.
+
+## 4. Start the node services (as `node`, in this folder)
+
+Open OrbStack once (if it asks for an administrator password, enter the admin account's) and turn on **Start at login** in its settings. Then:
 
 ```bash
-cp .env.example .env
+cp .env.example .env && chmod 600 .env
 ```
 
-Edit `.env`: the SSD path, the same RPC user and password as in `bitcoin.conf`, two database
-passwords, deep pool's address (`DEEPPOOL_ORIGIN`) and the tunnel token. Then:
+Edit `.env`:
+- the SSD path
+- the RPC user and password from `bitcoin.conf`
+- two database passwords (`openssl rand -hex 24` each)
+- deep pool's address as `DEEPPOOL_ORIGIN`
+- the tunnel token
+
+When Bitcoin Core has finished syncing:
 
 ```bash
 docker compose up -d
 ```
 
-```bash
-docker compose logs -f electrs
-```
-
-Electrs indexes the whole chain the first time (several hours). When its log says it's finished,
-check the API from the Mac itself:
+The mempool backend needs a few minutes to load the mempool. Check it from the Mac:
 
 ```bash
 curl -s http://localhost:8080/api/v1/blocks/tip/height
 ```
 
-and from anywhere, through the tunnel:
+and from anywhere:
 
 ```bash
-curl -sI https://node.<your-domain>/api/v1/fees/recommended
+curl -sI https://node.YOUR-DOMAIN/api/v1/fees/recommended
 ```
 
-The second answer should include `access-control-allow-origin: https://jamalxcode.github.io` (your
-`DEEPPOOL_ORIGIN`) and `cache-control: public, max-age=10`.
+The answer should show `access-control-allow-origin` with your deep pool address, and
+`cache-control: public, max-age=10`. This one should be refused, which proves the allowlist works:
 
-In Docker Desktop's settings, turn on **Start Docker Desktop when you sign in**. The services
-restart by themselves after that.
-
-## 4. Point deep pool at it
-
-In `app/src/config.js`, set:
-
-```js
-node: 'https://node.<your-domain>',
+```bash
+curl -s https://node.YOUR-DOMAIN/api/tx/0000000000000000000000000000000000000000000000000000000000000000
 ```
 
-then rebuild (`npm run build` in `app/`) and publish. The footer then reads
-**"Live data from the deep pool node (our own Bitcoin node), streaming"**. If it says mempool.space
-instead, the browser couldn't reach the node: open the browser's developer console to see why.
+## 5. Point deep pool at it
+
+In `app/src/config.js` set `node: 'https://node.YOUR-DOMAIN'` (keep `nodeLookups: false`), then
+rebuild (`npm run build` in `app/`) and publish. The footer reads **"Live data from the deep pool
+node (our own Bitcoin node), streaming"**.
+
+## 6. Private admin access (Tailscale)
+
+Open Tailscale on the Mac mini and sign in, then do the same on your laptop or phone. To get a
+terminal on the Mac mini from anywhere, turn on **Remote Login** for the `node` user only
+(System Settings → General → Sharing → Remote Login → "Only these users"), with keys instead of a
+password:
+
+```bash
+sudo tee /etc/ssh/sshd_config.d/100-deep-pool.conf <<'EOF'
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+PermitRootLogin no
+EOF
+```
+
+Put your laptop's public key in `~node/.ssh/authorized_keys`, then connect with
+`ssh node@<mac-mini-name>` over Tailscale. The router still forwards nothing, so this is reachable
+only from your own devices on Tailscale and your home network.
+
+## Running it
+
+| Task | How |
+|---|---|
+| Status | `docker compose ps`, and Bitcoin Core's window |
+| Logs | `docker compose logs -f mempool` (or `gateway`, `tunnel`, `db`) |
+| Update the services (monthly) | change the image tags in `docker-compose.yml` to the newest (links in the file), then `docker compose pull && docker compose up -d` |
+| Update Bitcoin Core | download the new version from bitcoincore.org, quit Bitcoin Core, replace the app, open it |
+| Planned restart (FileVault) | `sudo fdesetup authrestart`: restarts without asking for the password once |
+| Know when it's down | optional: a free uptime monitor on `https://node.YOUR-DOMAIN/api/v1/blocks/tip/height`. deep pool keeps working either way. |
 
 ## When something's wrong
 
 | Symptom | Likely cause |
 |---|---|
-| Electrs or mempool log: *connection refused* to `host.docker.internal:8332` | Bitcoin Core isn't running, or still starting. If it is running, Docker Desktop may not reach services bound to `127.0.0.1` on your setup: in `bitcoin.conf` use `rpcbind=0.0.0.0` and add `rpcallowip=192.168.65.0/24` (Docker Desktop's network). Port 8332 still isn't reachable from outside, since the router forwards nothing. |
-| *401 Unauthorized* in the logs | `BITCOIN_RPC_USER` / `BITCOIN_RPC_PASSWORD` in `.env` don't match `bitcoin.conf`. |
-| deep pool falls back to mempool.space, console says *CORS* | `DEEPPOOL_ORIGIN` doesn't match deep pool's address exactly (scheme + host, no path, no trailing slash). After changing it, run `docker compose up -d gateway` and purge the Cloudflare cache. |
-| Tunnel shows *Inactive* in Cloudflare | The `tunnel` container isn't running or the token is wrong: `docker compose logs tunnel`. |
-| Address lookups are slow | Normal for the first queries after a restart; Electrs warms up. |
+| mempool log: *connection refused* to `host.docker.internal:8332` | Bitcoin Core isn't running or still starting. If it is running and Docker Desktop is used instead of OrbStack, Docker may not reach services bound to `127.0.0.1`: use `rpcbind=0.0.0.0` and add `rpcallowip=192.168.65.0/24`. The router forwards nothing, and stealth mode is on. |
+| *401 Unauthorized* in the mempool log | `BITCOIN_RPC_USER` / `BITCOIN_RPC_PASSWORD` in `.env` don't match `bitcoin.conf`. |
+| deep pool falls back to mempool.space, browser console says *CORS* | `DEEPPOOL_ORIGIN` doesn't match deep pool's address exactly (scheme + host, no path, no trailing slash). Fix it, run `docker compose up -d gateway`, and purge the Cloudflare cache. |
+| Tunnel shows *Inactive* in Cloudflare | `docker compose logs tunnel`: the token is wrong or the container isn't running. |
+| Everything stopped after a power cut | The Mac is waiting for the FileVault password: log in as `node`. |
 
-## Updating
+## Other options
 
-Check each image's page on Docker Hub for newer versions (the links are in `docker-compose.yml`),
-change the tag, then:
-
-```bash
-docker compose pull
-```
-
-```bash
-docker compose up -d
-```
+- **Without Docker**: [MACOS-NATIVE.md](MACOS-NATIVE.md) installs the same five parts with Homebrew.
+  It's faster and lighter, but there are more things to update by hand.
+- **With address lookups on your own node**: add Electrs (an address index) and set
+  `nodeLookups: true` in `config.js`. That means more disk, hours of indexing and a heavier public
+  surface, so it isn't part of the recommended setup. The Electrs version of these files is in this
+  folder's git history (commit `8ec62e9`).

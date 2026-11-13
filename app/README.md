@@ -22,7 +22,9 @@ The browser fetches live data itself; there is still no server of our own. `src/
    https, the node needs an https address too, or the browser blocks it.
 2. **deep pool's own node**, if `src/config.js` names one: a Bitcoin node on a Mac mini behind a
    Cloudflare Tunnel, which keeps its IP hidden. Setup: [`../node/README.md`](../node/README.md).
-   Pages for networks it doesn't serve skip it.
+   Pages for networks it doesn't serve skip it. With `nodeLookups: false` (the recommended node has
+   no Electrs) it serves the dashboard only, and block, transaction and address lookups go to the
+   public explorers below.
 3. **mempool.space**: everything, including projected blocks, fee bands, difficulty, prices,
    replacements, the incoming-transactions chart and a WebSocket that pushes new blocks.
 4. **blockstream.info** (Esplora): blocks, fee estimates, recent transactions, mempool size.
