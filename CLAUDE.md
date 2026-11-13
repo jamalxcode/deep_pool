@@ -61,6 +61,11 @@ cd node && cp .env.example .env && docker compose config --quiet   # compose syn
   passwords and tunnel token live only in `node/.env` (gitignored).
 - Keep the swimmer logo and the "deep pool" name; don't add the original site's trademarks or logo.
 
+## Git workflow
+
+- **Always merge finished work to `main`** (the owner's standing instruction). Work on a branch,
+  then fast-forward `main` to it and push both. Don't wait for a pull request unless asked for one.
+
 ## Deployment
 
 Not wired up yet. GitHub Pages can only serve a repo's root or `/docs` from a branch, and the site
