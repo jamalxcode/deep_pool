@@ -248,6 +248,11 @@
       .map(function (r, i) { return { txid: TXIDS.acc[i], boost: r[0], block: r[1], status: r[2] }; })
   };
 
+  // ---------- live data state (filled in by the live-data section at the end) ----------
+  var liveState = { mode: 'connecting', source: null, name: '', own: false, ws: false };
+  var liveCache = { blocks: {}, txs: {}, addr: {} };
+  var client = null;
+
   // ---------- settings ----------
   var settings = {
     currency: store('currency') || 'USD',
@@ -336,8 +341,8 @@
   }
   function avgMinutes() { return D.difficulty.avg || 10; }
   function blockBody(b, size, when) {
-    return '<div class="block-body"><div class="fees">~' + Math.round(b.median) + ' sat/vB</div>' +
-      '<div class="fee-span">' + feeFmt(b.range[0]) + ' - ' + feeFmt(b.range[1]) + ' sat/vB</div>' +
+    return '<div class="block-body"><div class="fees">' + (b.median == null ? '&nbsp;' : '~' + Math.round(b.median) + ' sat/vB') + '</div>' +
+      '<div class="fee-span">' + (b.range ? feeFmt(b.range[0]) + ' - ' + feeFmt(b.range[1]) + ' sat/vB' : '&nbsp;') + '</div>' +
       '<div class="block-size">' + size + '</div><div class="transaction-count">' + commas(b.txs) + ' transaction' + (b.txs === 1 ? '' : 's') + '</div>' +
       '<div class="time-difference">' + when + '</div></div>';
   }
@@ -354,7 +359,7 @@
     var now = Date.now();
     var mined = D.blocks.map(function (b, i) {
       var minutes = b.timestamp ? (now - b.timestamp * 1000) / 60000 : b.minutes + (now - D.minutesBase) / 60000;
-      var size = settings.sizeView ? ((b.size || b.fullness * 1.6e6) / 1e6).toFixed(2) + ' MB' : btcFmt(b.btc) + ' ' + unit;
+      var size = settings.sizeView || b.btc == null ? ((b.size || b.fullness * 1.6e6) / 1e6).toFixed(2) + ' MB' : btcFmt(b.btc) + ' ' + unit;
       var on = selected && selected.kind === 'block' && String(selected.id) === String(b.height);
       return '<div class="bitcoin-block mined-block' + (on ? ' selected' : '') + '" data-height="' + b.height + '" style="left:' + (40 + 155 * i) + 'px;' + minedBlockStyle(b) + '">' + (on ? '<div class="spotlight"></div>' : '') +
         '<div class="block-height"><a href="#block-' + b.height + '">' + b.height + '</a></div>' +
@@ -448,11 +453,12 @@
     return (bytes / 1e3).toFixed(bytes >= 1e5 ? 0 : 1) + ' kB';
   }
   function mempoolInfoCard() {
-    var m = D.info, pct = Math.max(0.3, m.usage / m.max * 100);
+    var m = D.info, mem = m.usage != null;
+    var pct = mem ? Math.max(0.3, m.usage / m.max * 100) : Math.max(0.3, Math.min(100, (m.vsize || 0) / 3e8 * 100));
     return '<div class="col"><div class="card graph-card"><div class="card-body">' +
       '<div class="mempool-info-data">' +
       '<div class="item"><h5 class="card-title">Minimum fee</h5><p class="card-text">' + m.minFee.toFixed(2) + ' <span class="unit">sat/vB</span></p></div>' +
-      '<div class="item bar"><h5 class="card-title">Memory Usage</h5><div class="progress"><div class="progress-bar" style="width:' + pct.toFixed(2) + '%"></div><span class="progress-label">' + sizeFmt(m.usage) + ' / ' + sizeFmt(m.max) + '</span></div></div>' +
+      '<div class="item bar"><h5 class="card-title">' + (mem ? 'Memory Usage' : 'Mempool Size') + '</h5><div class="progress"><div class="progress-bar" style="width:' + pct.toFixed(2) + '%"></div><span class="progress-label">' + (mem ? sizeFmt(m.usage) + ' / ' + sizeFmt(m.max) : sizeFmt(m.vsize || 0).replace('B', 'vB') + ' &middot; ~' + Math.max(1, Math.ceil((m.vsize || 0) / 1e6)) + ' blocks') + '</span></div></div>' +
       '<div class="item count"><h5 class="card-title">Unconfirmed</h5><p class="card-text">' + commas(m.count) + ' <span class="unit">TXs</span></p></div>' +
       '</div><h5 class="card-title chart-title"><a href="#graphs" style="color:inherit">Incoming Transactions</a></h5>' +
       '<div class="mempool-graph" id="incoming-chart"></div></div></div></div>';
@@ -469,7 +475,8 @@
     }).join('');
     return '<div class="col"><div class="card"><div class="card-body">' +
       '<a class="title-link" href="#rbf">Recent Replacements' + I.ext + '</a>' +
-      '<table class="table replacements"><thead><tr><th class="txid">TXID</th><th class="col-old end">Previous fee</th><th class="col-new end">New fee</th><th class="col-status end">Status</th></tr></thead><tbody>' + rows + '</tbody></table>' +
+      '<table class="table replacements"><thead><tr><th class="txid">TXID</th><th class="col-old end">Previous fee</th><th class="col-new end">New fee</th><th class="col-status end">Status</th></tr></thead><tbody>' +
+      (rows || '<tr><td colspan="4" class="empty-note">' + (D.noReplacements ? 'Not available from ' + esc(liveState.name) + '.' : 'No replacements yet.') + '</td></tr>') + '</tbody></table>' +
       '</div></div></div>';
   }
   function amountCell(v) {
@@ -543,7 +550,7 @@
     return e;
   }
   function incomingSeries() {
-    if (D.stats && D.stats.length > 10) return D.stats;
+    if (D.stats && D.stats.length > (D.live ? 1 : 10)) return D.stats;
     if (D.series) return D.series;
     var r = seeded({ mainnet: 5, signet: 9, testnet: 13, testnet4: 17 }[net]);
     var c = D.chart, pts = [], n = 80, end = Date.UTC(2026, 10, 13, 7, 17);
@@ -570,11 +577,15 @@
     box.innerHTML = '';
     var W = box.clientWidth, H = box.clientHeight;
     if (!W || !H) return;
+    if (D.noStats && !(D.stats && D.stats.length > 1)) {
+      box.innerHTML = '<p class="empty-note chart-note">The incoming-transactions history isn\'t available from ' + esc(liveState.name) + '.</p>';
+      return;
+    }
     var pts = incomingSeries();
     var maxV = 0;
     pts.forEach(function (p) { maxV = Math.max(maxV, p.v); });
     var full = 1667, top, step;
-    if (D.chart.max) maxV = Math.max(maxV, D.chart.max);
+    if (D.chart.max && !D.live) maxV = Math.max(maxV, D.chart.max);
     if (maxV <= 1800) { top = 1800; step = 300; } else { top = Math.ceil(maxV); step = 500; }
     var narrow = W < 400;
     var L = narrow ? 50 : 55, R = W - (narrow ? 22 : 16), T = H < 300 ? 31 : 23, B = H - 46;
@@ -704,7 +715,7 @@
       '<div class="row social-links">' + ['GitHub', 'X', 'Nostr', 'Primal', 'YouTube', 'BitcoinTV', 'Matrix'].map(function (n, i) {
         return '<a href="#' + n.toLowerCase() + '" title="' + n + '" aria-label="' + n + '">' + SOCIAL[i] + '</a>';
       }).join('') + '</div>' +
-      '<div class="row version"><p>node208.fra.deep.pool (v3.4-dev) <a href="#changelog">[04c299c3]</a>[ca77acb1]</p></div>' +
+      '<div class="row version"><p id="data-source">' + sourceText() + '</p></div>' +
       '</footer>';
   }
 
@@ -760,12 +771,14 @@
       drag.offset = -Math.max(0, idx * 155 - 200) * (settings.timeLtr ? -1 : 1);
       renderBlockchain();
       go('#block-' + q);
+    } else if (/^\d{1,8}$/.test(q) && liveOn()) {
+      go('#block-' + q);
     } else if (isAddress(q)) {
       go('#address-' + q);
     } else if (/^[0-9a-f]{64}$/i.test(q)) {
       showTx(q.toLowerCase());
     } else {
-      toast(q ? 'Nothing found for "' + q + '". Try a block height from the strip, a Bitcoin address or a transaction ID from the lists.' : 'Type a block height or a transaction ID.');
+      toast(q ? 'Nothing found for "' + q + '". Try a block height, a Bitcoin address, a transaction ID or a block hash.' : 'Type a block height, an address or a transaction ID.');
       input.style.borderColor = 'var(--down)';
       input.setAttribute('aria-invalid', 'true');
       setTimeout(function () { input.style.borderColor = ''; input.removeAttribute('aria-invalid'); }, 1500);
@@ -891,6 +904,12 @@
   }
   function blockAge(b) { return b.ageText && !D.live ? b.ageText : ago(blockMinutes(b)); }
   var SUBSIDY = 3.125;
+  function blockSubsidy(h) { var halvings = Math.floor(h / 210000); return halvings >= 64 ? 0 : 50 / Math.pow(2, halvings); }
+  function diffFmt(d) {
+    var units = [[1e15, ' P'], [1e12, ' T'], [1e9, ' G'], [1e6, ' M']];
+    for (var i = 0; i < units.length; i++) if (d >= units[i][0]) return (d / units[i][0]).toFixed(2) + units[i][1];
+    return Number(d).toFixed(2);
+  }
   function btcAmount(v) { return v.toFixed(8) + ' <span class="symbol">' + unit + '</span>'; }
   function fiatTag(btc) { return D.price ? ' <span class="fiat">' + fiat(btc) + '</span>' : ''; }
   function featureBadges() { return '<span class="badge rbf">SegWit</span><span class="badge rbf">Taproot</span>'; }
@@ -967,6 +986,11 @@
     var b = null, idx = -1;
     if (selected.kind === 'block') D.blocks.forEach(function (x, i) { if (String(x.height) === String(selected.id)) { b = x; idx = i; } });
     else { idx = +selected.id; b = D.mempool[idx]; }
+    if (!b && selected.kind === 'block' && liveOn()) {
+      // a block that isn't on the strip: look it up
+      b = want(liveCache.blocks, 'h' + selected.id, function () { return client.blockByHeight(selected.id); });
+      if (!b || b.error) return pendingView(b ? 'Block ' + esc(selected.id) + ' wasn\'t found.' : 'Loading block ' + esc(selected.id) + '&hellip;');
+    }
     if (!b) return '';
     var projected = selected.kind === 'projected';
     var title, left, right, prev, next;
@@ -982,22 +1006,33 @@
         ['Median fee', '~' + Math.round(b.median) + ' <span class="symbol">sat/vB</span>' + fiatTag(b.median * 140 / 1e8)],
         ['Total fees', btcFmt(b.btc) + ' <span class="symbol">' + unit + '</span>' + fiatTag(b.btc)]];
     } else {
-      var hash = blockHash(b.height), mins = blockMinutes(b);
-      title = 'Block <a class="blk-nav" href="' + (D.blocks[idx + 1] ? '#block-' + D.blocks[idx + 1].height : '#') + '" aria-label="Older block">&lsaquo;</a> <span class="blk-num">' + b.height + '</span>' +
-        ' <a class="blk-nav" href="' + (idx > 0 ? '#block-' + D.blocks[idx - 1].height : '#mempool-block-0') + '" aria-label="Newer block">&rsaquo;</a>';
-      var sizeMb = Math.min(1.99, 0.05 + b.fullness * 1.6 + (b.height % 7) / 100);
+      var real = !!b.hash;
+      var hash = b.hash || blockHash(b.height), mins = blockMinutes(b);
+      var older = real ? '#block-' + (b.height - 1) : (D.blocks[idx + 1] ? '#block-' + D.blocks[idx + 1].height : '#');
+      var newer = real ? (D.blocks[0] && b.height >= D.blocks[0].height ? '#mempool-block-0' : '#block-' + (b.height + 1)) : (idx > 0 ? '#block-' + D.blocks[idx - 1].height : '#mempool-block-0');
+      title = 'Block <a class="blk-nav" href="' + older + '" aria-label="Older block">&lsaquo;</a> <span class="blk-num">' + b.height + '</span>' +
+        ' <a class="blk-nav" href="' + newer + '" aria-label="Newer block">&rsaquo;</a>';
+      var sizeMb = b.size ? b.size / 1e6 : Math.min(1.99, 0.05 + b.fullness * 1.6 + (b.height % 7) / 100);
+      var subsidy = blockSubsidy(b.height);
+      var none = '<span class="muted">&ndash;</span>';
       left = [['Hash', '<a href="#hash" class="hash-link" title="' + hash + '">' + hash.slice(0, 6) + '&hellip;' + hash.slice(-7) + '</a> <button type="button" class="copy" data-copy="' + hash + '" aria-label="Copy block hash">' + COPY_ICON + '</button>'],
         ['Timestamp', stamp(mins) + ' <i class="ago">(' + blockAge(b) + ')</i>'],
         ['Size', sizeMb.toFixed(2) + ' <span class="symbol">MB</span>'],
-        ['Weight', Math.min(4, b.fullness * 3.99).toFixed(2) + ' <span class="symbol">MWU</span>'],
-        ['Health', '<span class="badge rbf">' + (99 + (b.height % 100) / 100).toFixed(2) + '%</span>']];
-      right = [['Fee span', feeFmt(b.range[0]) + ' - ' + feeFmt(b.range[1]) + ' <span class="symbol">sat/vB</span>'],
-        ['Median fee', '~' + Math.round(b.median) + ' <span class="symbol">sat/vB</span>' + fiatTag(b.median * 140 / 1e8)],
-        ['Total fees', btcFmt(b.btc) + ' <span class="symbol">' + unit + '</span>' + fiatTag(b.btc)],
-        ['Subsidy + fees', (SUBSIDY + b.btc).toFixed(3) + ' <span class="symbol">' + unit + '</span>' + fiatTag(SUBSIDY + b.btc)],
-        ['Miner', '<span class="miner">' + poolBadge(b.pool) + '</span>'],
-        ['Features', featureBadges()]];
-      if (view.details) {
+        ['Weight', (b.weight ? b.weight / 1e6 : Math.min(4, b.fullness * 3.99)).toFixed(2) + ' <span class="symbol">MWU</span>']];
+      if (!real) left.push(['Health', '<span class="badge rbf">' + (99 + (b.height % 100) / 100).toFixed(2) + '%</span>']);
+      else if (b.health != null) left.push(['Health', '<span class="badge rbf">' + b.health.toFixed(2) + '%</span>']);
+      right = [['Fee span', b.range ? feeFmt(b.range[0]) + ' - ' + feeFmt(b.range[1]) + ' <span class="symbol">sat/vB</span>' : none],
+        ['Median fee', b.median != null ? '~' + Math.round(b.median) + ' <span class="symbol">sat/vB</span>' + fiatTag(b.median * 140 / 1e8) : none],
+        ['Total fees', b.btc != null ? btcFmt(b.btc) + ' <span class="symbol">' + unit + '</span>' + fiatTag(b.btc) : none],
+        ['Subsidy + fees', b.btc != null ? (subsidy + b.btc).toFixed(3) + ' <span class="symbol">' + unit + '</span>' + fiatTag(subsidy + b.btc) : none],
+        ['Miner', '<span class="miner">' + poolBadge(b.pool) + '</span>']];
+      if (!real) right.push(['Features', featureBadges()]);
+      if (view.details && real) {
+        left = left.concat([['Version', b.version != null ? '0x' + Number(b.version).toString(16) : none], ['Bits', b.bits != null ? (typeof b.bits === 'number' ? b.bits.toString(16) : esc(b.bits)) : none],
+          ['Merkle root', b.merkle ? '<span class="mono" title="' + esc(b.merkle) + '">' + esc(b.merkle.slice(0, 12)) + '&hellip;</span>' : none]]);
+        right = right.concat([['Difficulty', b.difficulty ? diffFmt(b.difficulty) : none], ['Nonce', b.nonce != null ? '0x' + Number(b.nonce).toString(16) : none],
+          ['Block reward', subsidy.toFixed(3) + ' <span class="symbol">' + unit + '</span>']]);
+      } else if (view.details) {
         var r = seeded(b.height * 3 + 1);
         left = left.concat([['Version', '0x' + hexFrom(r, 8)], ['Bits', hexFrom(r, 8)], ['Merkle root', '<span class="mono">' + hexFrom(r, 12) + '&hellip;</span>']]);
         right = right.concat([['Difficulty', (net === 'mainnet' ? '149.30 T' : '1.00')], ['Nonce', '0x' + hexFrom(r, 8)], ['Block reward', SUBSIDY.toFixed(3) + ' <span class="symbol">' + unit + '</span>']]);
@@ -1006,13 +1041,21 @@
     var head = projected
       ? '<h1 class="blk-title">' + (prev ? '<a class="blk-nav" href="' + prev + '" aria-label="Previous">&lsaquo;</a> ' : '') + title + (next ? ' <a class="blk-nav" href="' + next + '" aria-label="Next">&rsaquo;</a>' : '') + '</h1>'
       : '<h1 class="blk-title">' + title + '</h1>';
-    var perPage = 10, pages = Math.max(1, Math.ceil(b.txs / perPage));
+    // real blocks list their real transactions, 25 to a page (the size the explorers' API pages in)
+    var perPage = !projected && b.hash ? 25 : 10, pages = Math.max(1, Math.ceil(b.txs / perPage));
     if (view.page > pages) view.page = pages;
-    var txs = projected ? [] : blockTransactions(b, view.page, perPage);
+    var txs = [], txNote = '';
+    if (!projected && b.hash) {
+      var start = (view.page - 1) * perPage;
+      var got = want(liveCache.txs, b.hash + ':' + start, function () { return client.blockTxs(b.hash, start); });
+      if (!got) txNote = '<p class="proj-note">Loading transactions&hellip;</p>';
+      else if (got.error) txNote = '<p class="proj-note">The transactions couldn\'t be loaded. <a href="#" data-retry-txs="' + b.hash + ':' + start + '">Try again</a></p>';
+      else txs = got;
+    } else if (!projected) txs = blockTransactions(b, view.page, perPage);
     var when = projected ? '' : stamp(blockMinutes(b));
     var txList = projected
       ? '<p class="proj-note">These transactions are still waiting. Any transaction paying at least ' + feeFmt(b.range[0]) + ' sat/vB is expected to be in this block.</p>'
-      : txs.map(function (t) { return txCard(t, when, narrow); }).join('');
+      : txNote + txs.map(function (t) { return txCard(t, when, narrow); }).join('');
     return '<div class="container-xl block-view">' +
       '<div class="blk-header">' + head + '<button type="button" class="blk-close" aria-label="Close block view">' + I.close + '</button></div>' +
       '<div class="blk-box"><div class="blk-col">' + detailRows(left) + '</div><div class="blk-col">' + detailRows(right) + '</div></div>' +
@@ -1022,7 +1065,27 @@
   }
   var COPY_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5" y="5" width="9" height="10" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 11V2.5A1.5 1.5 0 0 1 4.5 1H11" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
 
+  function liveTxRows(t) {
+    var rows = [['Transaction ID', '<span class="mono">' + t.txid + '</span>']];
+    rows.push(['Status', t.confirmed ? 'Confirmed in block <a href="#block-' + t.height + '" data-close-modal>' + t.height + '</a>' + (t.time ? ' <i class="ago">(' + ago((Date.now() - t.time * 1000) / 60000) + ')</i>' : '') : 'Unconfirmed, waiting in the mempool']);
+    rows.push(['Amount', btcAmount(t.total) + fiatTag(t.total)]);
+    if (!t.coinbase) rows.push(['Fee', commas(t.fee) + ' <span class="symbol">sats</span> &ndash; ' + feeCell(t.rate) + fiatTag(t.fee / 1e8)]);
+    rows.push(['Size', commas(t.vsize) + ' <span class="symbol">vB</span>']);
+    rows.push(['Inputs &amp; outputs', t.coinbase ? 'Coinbase (newly generated coins) &rarr; ' + t.outs.length : t.ins.length + ' &rarr; ' + t.outs.length]);
+    if (!t.confirmed) rows.push(['Replaceable (RBF)', t.rbf ? 'Yes' : 'No']);
+    return rows;
+  }
   function showTx(txid) {
+    if (liveOn()) {
+      toast('Looking up the transaction…');
+      client.tx(txid).then(function (t) { openModal('Transaction', liveTxRows(t), 'From ' + esc(liveState.name) + '.'); }, function (err) {
+        // not a transaction? It may be a block hash
+        if (err && err.status !== 400 && err.status !== 404) return toast('The lookup failed. Check the connection and try again.');
+        client.block(txid).then(function (b) { liveCache.blocks['h' + b.height] = b; go('#block-' + b.height); },
+          function () { toast('Nothing found for that ID on ' + NET_LABEL[net] + '.'); });
+      });
+      return;
+    }
     var tx = null, kind = '';
     D.recent.forEach(function (t) { if (t.txid === txid && !tx) { tx = t; kind = 'recent'; } });
     D.replacements.forEach(function (t) { if (t.txid === txid && !tx) { tx = t; kind = 'rbf'; } });
@@ -1160,14 +1223,40 @@
       '<defs><linearGradient id="bal-grad" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#8a7a22"/><stop offset="1" stop-color="#8a5a24"/></linearGradient></defs>' +
       grid + '<path d="' + area + '" fill="url(#bal-grad)" opacity=".9"/><path d="' + d + '" fill="none" stroke="#fdd835" stroke-width="2"/>' + labels + '</svg>';
   }
+  function liveAddressData(addr) {
+    var got = want(liveCache.addr, addr, function () { return client.address(addr); });
+    if (!got || got.error) return got;
+    var now = Date.now();
+    var confirmed = got.txs.filter(function (a) { return a.confirmed; });
+    var acts = confirmed.map(function (a) {
+      return { height: a.height, minutes: (now - a.time * 1000) / 60000, kind: a.kind, amount: a.amount, balance: a.balance };
+    });
+    var txs = got.txs.map(function (a) {
+      var t = a.tx;
+      t.when = a.confirmed ? stamp((now - a.time * 1000) / 60000) : 'Unconfirmed';
+      return t;
+    });
+    return { addr: addr, acts: acts, txs: txs, balance: got.balance, pending: got.pending, received: got.received, utxos: got.utxos,
+      pendingUtxos: got.pendingUtxos, txCount: got.txCount, type: addressType(addr), live: true };
+  }
+  function pendingView(text) {
+    return '<div class="container-xl block-view"><div class="blk-header"><h1 class="blk-title">' + text + '</h1>' +
+      '<button type="button" class="blk-close" aria-label="Close">' + I.close + '</button></div></div>';
+  }
   function addressView() {
-    var data = addressData(selected.id);
+    var data;
+    if (liveOn()) {
+      data = liveAddressData(selected.id);
+      if (!data) return pendingView('Loading address&hellip;');
+      if (data.error) return pendingView(data.error.status === 400 || data.error.status === 404 ? 'That address wasn\'t found on ' + NET_LABEL[net] + '.' : 'The address couldn\'t be loaded. Check the connection and try again.');
+    } else data = addressData(selected.id);
     var narrow = document.documentElement.clientWidth < 576;
     var left = [['Confirmed balance', data.balance.toFixed(8) + ' <span class="symbol">' + unit + '</span>' + fiatTag(data.balance)],
       ['Confirmed UTXOs', String(data.utxos)],
       ['Total received', data.received.toFixed(8) + ' <span class="symbol">' + unit + '</span>']];
-    var right = [['<i>Pending</i>', '<i>+0.00000000 <span class="symbol">' + unit + '</span></i>' + (D.price ? ' <i class="fiat">' + fiat(0) + '</i>' : '')],
-      ['<i>Pending UTXOs</i>', '<i>0</i>'],
+    var pend = data.pending || 0;
+    var right = [['<i>Pending</i>', '<i>' + (pend >= 0 ? '+' : '') + pend.toFixed(8) + ' <span class="symbol">' + unit + '</span></i>' + (D.price ? ' <i class="fiat">' + fiat(pend) + '</i>' : '')],
+      ['<i>Pending UTXOs</i>', '<i>' + (data.pendingUtxos || 0) + '</i>'],
       ['Type', '<span class="badge full-rbf">' + data.type + '</span>']];
     var blocks = data.acts.map(function (a, i) {
       return '<a class="addr-block" href="#block-' + a.height + '" title="Block ' + a.height + '">' +
@@ -1176,8 +1265,9 @@
         '<span class="addr-count">1 transaction</span><span class="addr-date">' + shortDate(a.minutes) + '</span></span></a>' +
         (i < data.acts.length - 1 ? '<span class="addr-gap" aria-hidden="true">&middot;&middot;&middot;</span>' : '');
     }).join('');
-    var txs = addressTxs(data);
+    var txs = data.live ? data.txs : addressTxs(data);
     var perPage = 10, pages = Math.max(1, Math.ceil(txs.length / perPage));
+    var count = data.live ? data.txCount : data.acts.length;
     var shown = txs.slice((view.page - 1) * perPage, view.page * perPage);
     var toggler = ['all', 'recent'].map(function (k) {
       return '<a href="#" data-balrange="' + k + '" class="' + (addrView.range === k ? 'inactive' : '') + '">' + k + '</a>';
@@ -1191,7 +1281,7 @@
       '<div class="addr-chart"><div class="addr-legend"><span class="sw btc"></span>' + unit + '</div>' + balanceChart(data) + '</div>' +
       '<div class="addr-section"><h2>Activity by block</h2></div>' +
       '<div class="addr-activity"><div class="addr-strip">' + blocks + '</div></div>' +
-      '<div class="tx-header"><h2>' + data.acts.length + ' transaction' + (data.acts.length === 1 ? '' : 's') + '</h2>' + (pages > 1 ? pager(pages) : '') + '</div>' +
+      '<div class="tx-header"><h2>' + commas(count) + ' transaction' + (count === 1 ? '' : 's') + (data.live && count > txs.length ? ' <span class="muted">(latest ' + txs.length + ' shown)</span>' : '') + '</h2>' + (pages > 1 ? pager(pages) : '') + '</div>' +
       shown.map(function (t) { return txCard(t, t.when, narrow); }).join('') +
       '</div>';
   }
@@ -1569,7 +1659,7 @@
     if (selected && selected.kind === 'block') {
       var found = false;
       D.blocks.forEach(function (x) { if (String(x.height) === selected.id) found = true; });
-      if (!found) { toast('Block ' + selected.id + ' is no longer in view.'); selected = null; }
+      if (!found && !liveOn()) { toast('Block ' + selected.id + ' is no longer in view.'); selected = null; }
     }
     renderBlockchain();
     renderContent();
@@ -1622,8 +1712,8 @@
     toast(name.replace(/\s+/g, ' ') + ' isn\'t part of deep pool yet. Try the dashboard, the network pages or the Accelerator.');
   });
 
-  // ---------- activity (self-contained, no outside services) ----------
-  // The site never contacts another server. After a short pause it keeps itself moving on its own:
+  // ---------- simulated activity (only when no live source answers) ----------
+  // Offline, or with every source blocked, the site keeps itself moving on its own from the snapshot:
   // new transactions arrive, fees drift, and roughly every ten minutes the next waiting block is mined.
   var poolNames = ['AntPool', 'Foundry USA', 'F2Pool', 'ViaBTC', 'SpiderPool', 'MARA Pool', 'Luxor', 'Braiins Pool'];
   var live = seeded(Date.now() % 100000);
@@ -1656,6 +1746,7 @@
     goggles.txs = null;
   }
   function tick() {
+    if (liveState.mode !== 'snapshot') return;
     D.live = true;
     newTransaction();
     if (live() < 0.35) newReplacement();
@@ -1663,6 +1754,142 @@
     renderBlockchain();
     renderContent();
   }
-  setTimeout(function () { tick(); setInterval(tick, 15000); }, 45000);
+  var simStarted = false;
+  function startSimulation() {
+    if (simStarted) return;
+    simStarted = true;
+    setTimeout(function () { tick(); setInterval(tick, 15000); }, 45000);
+  }
+
+  // ---------- live data ----------
+  // data.js asks your own node (if you set one), then mempool.space, then blockstream.info, straight
+  // from the browser. The snapshot above stays as the last fallback.
+  function applyLive(d, full) {
+    if (d.blocks && d.blocks.length) D.blocks = d.blocks.slice(0, 28);
+    if (d.newBlock && (!D.blocks[0] || d.newBlock.height > D.blocks[0].height)) {
+      D.blocks.unshift(d.newBlock);
+      D.blocks.length = Math.min(D.blocks.length, 28);
+      goggles.seed++;
+      goggles.txs = null;
+    }
+    if (d.mempool && d.mempool.length) D.mempool = d.mempool.slice(0, 8);
+    if (d.fees) D.fees = d.fees;
+    if (d.difficulty) { D.difficulty = d.difficulty; if (D.blocks[0]) D.difficulty.height = D.blocks[0].height; }
+    else if (D.blocks[0]) D.difficulty.height = D.blocks[0].height;
+    if (d.mempoolInfo) {
+      var mi = d.mempoolInfo;
+      D.info.count = mi.count;
+      D.info.vsize = mi.vsize;
+      if (mi.usage != null) { D.info.usage = mi.usage; D.info.max = mi.max || D.info.max; }
+      else if (full && !liveState.ws) D.info.usage = null;
+      if (mi.minFee != null) D.info.minFee = mi.minFee;
+    }
+    if (d.minFee != null && !isNaN(d.minFee)) D.info.minFee = d.minFee;
+    if (d.price) { D.price = d.price; D.rates = d.rates; }
+    if (d.recent) D.recent = d.recent.map(function (r) { if (r.usd == null && D.price && net === 'mainnet') r.usd = r.value * D.price; return r; }).slice(0, 6);
+    if (d.replacements) { D.replacements = d.replacements.slice(0, 6); D.noReplacements = false; }
+    else if (full) { D.replacements = []; D.noReplacements = true; }
+    if (d.stats && d.stats.length) {
+      if (full || !D.stats) D.stats = d.stats;
+      else { D.stats = D.stats.concat(d.stats.filter(function (p) { return p.t > D.stats[D.stats.length - 1].t; })).slice(-400); }
+      D.noStats = false;
+    } else if (full && !d.stats) { D.stats = null; D.noStats = true; }
+    if (d.vBytesPerSecond != null && D.stats && D.stats.length && !d.stats) {
+      var lastT = D.stats[D.stats.length - 1].t;
+      if (Date.now() - lastT > 60000) D.stats = D.stats.concat([{ t: Date.now(), v: d.vBytesPerSecond }]).slice(-400);
+    }
+    D.live = true;
+    D.eta0 = 0;
+  }
+  function liveOn() { return liveState.mode === 'live'; }
+  function want(cache, key, load) {
+    if (cache[key] === undefined) {
+      cache[key] = null;
+      load().then(function (v) { cache[key] = v; renderContent(); }, function (err) { cache[key] = { error: err || {} }; renderContent(); });
+    }
+    return cache[key];
+  }
+  function sourceText() {
+    var nodeLink = ' &middot; <a href="#data-source" class="source-link">' + (store('node') ? 'Your node: ' + esc(store('node').replace(/^https?:\/\//, '')) : 'Use your own node') + '</a>';
+    if (liveState.mode === 'live') return '<span class="live-dot" aria-hidden="true"></span>Live data from ' + esc(liveState.name) + (liveState.own ? ' (your node)' : '') + (liveState.ws ? ', streaming' : '') + nodeLink;
+    if (liveState.mode === 'connecting') return 'Connecting to live data&hellip;' + nodeLink;
+    return 'Offline: showing a recorded snapshot (no live source answered)' + nodeLink;
+  }
+  function updateSource() { var el = document.getElementById('data-source'); if (el) el.innerHTML = sourceText(); }
+  function rerender() {
+    renderBlockchain();
+    // don't throw away a block or address view someone is reading, just its numbers
+    if (!selected || selected.kind === 'projected') renderContent();
+    updateSource();
+  }
+  var stopStream = null, pollTimer = null;
+  function refresh(first) {
+    return client.snapshot().then(function (r) {
+      var switched = liveState.source !== r.source;
+      liveState.mode = 'live';
+      liveState.source = r.source;
+      liveState.name = r.name;
+      liveState.own = r.own;
+      applyLive(r.data, true);
+      rerender();
+      if (switched || first) {
+        if (stopStream) stopStream();
+        liveState.ws = false;
+        stopStream = client.subscribe(function (d) { if (liveState.mode === 'live') { applyLive(d, false); rerender(); } },
+          function (state) { liveState.ws = state === 'open'; updateSource(); });
+      }
+    }, function () {
+      if (liveState.mode !== 'live') {
+        liveState.mode = 'snapshot';
+        liveState.name = 'the snapshot';
+        updateSource();
+        startSimulation();
+      }
+      // a live source that stops answering: keep showing the last real numbers, and keep trying
+    });
+  }
+  function schedule() {
+    clearTimeout(pollTimer);
+    // the stream keeps blocks and fees current; the poll picks up the rest (and finds a source again)
+    pollTimer = setTimeout(function () { refresh(false).then(schedule); }, liveState.ws ? 180000 : (liveState.mode === 'live' ? 60000 : 120000));
+  }
+  function startLive() {
+    if (!window.DeepPoolData) {
+      liveState.mode = 'snapshot';
+      liveState.name = 'the snapshot';
+      updateSource();
+      startSimulation();
+      return;
+    }
+    client = new window.DeepPoolData.Client(net, { node: store('node') || '' });
+    refresh(true).then(schedule);
+  }
+  function nodeDialog() {
+    var cur = store('node') || '';
+    openModal('Use your own node', [
+      ['Address', '<form class="node-form"><input type="url" name="node" placeholder="http://umbrel.local:3006" value="' + esc(cur) + '" aria-label="Node address" spellcheck="false"> ' +
+        '<button type="submit" class="pg active">Save</button>' + (cur ? ' <button type="button" class="pg" data-node-clear>Remove</button>' : '') + '</form>']
+    ], 'Paste the address of the <b>mempool</b> or <b>Electrs/Esplora</b> app on your node (Umbrel, Start9, RaspiBlitz and myNode all offer one). ' +
+      'deep pool asks it first and falls back to mempool.space, then blockstream.info. Bitcoin Core\'s own RPC port can\'t be used from a web page. ' +
+      'If this page is served over https, the node needs an https address too, or the browser will block it.');
+    var f = document.querySelector('.node-form');
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var v = f.node.value.trim();
+      if (v && !/^https?:\/\//i.test(v)) { toast('The address has to start with http:// or https://'); return; }
+      store('node', v);
+      closeModal();
+      location.reload();
+    });
+    var clear = f.querySelector('[data-node-clear]');
+    if (clear) clear.addEventListener('click', function () { store('node', ''); closeModal(); location.reload(); });
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('a[href="#data-source"]')) { e.preventDefault(); e.stopPropagation(); nodeDialog(); return; }
+    if (e.target.closest('[data-close-modal]')) closeModal();
+    var rt = e.target.closest('[data-retry-txs]');
+    if (rt) { e.preventDefault(); delete liveCache.txs[rt.getAttribute('data-retry-txs')]; renderContent(); }
+  }, true);
+  startLive();
   if (readHash()) applyHash(false);
 })();

@@ -645,3 +645,12 @@ html { scroll-padding-top: 80px; }
   .tab-chart { height: 300px; flex: none; }
   .tab-page h1 { font-size: 24px; }
 }
+
+/* live data */
+.empty-note { text-align: center; color: var(--footer-fg, #ffffff99); font-size: 13px; padding: 18px 8px !important; }
+.chart-note { margin: 70px 0 0; }
+.muted { color: #ffffff88; font-weight: normal; }
+.live-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #009e73; margin-right: 6px; vertical-align: 1px; box-shadow: 0 0 0 2px #009e7333; }
+footer .version a.source-link { color: #56b4e9; }
+.node-form { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.node-form input { flex: 1 1 220px; min-width: 0; padding: 6px 8px; border-radius: 4px; border: 1px solid #ffffff33; background: #11131f; color: #fff; font-size: 14px; }

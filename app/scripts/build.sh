@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")/.."
 rm -rf dist
 mkdir -p dist
-cp src/style.css src/app.js src/favicon.svg dist/
+cp src/style.css src/data.js src/app.js src/favicon.svg dist/
 sed "s#{{ROOT}}#./#g" src/index.html > dist/index.html
 for route in signet testnet testnet4 acceleration; do
   mkdir -p "dist/$route"
