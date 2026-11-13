@@ -1,0 +1,64 @@
+# deep pool node gateway, native macOS version (Homebrew Caddy). Same rules as ./Caddyfile, but it
+# listens on this Mac only and talks to the mempool backend on 127.0.0.1.
+# Installed as $(brew --prefix)/etc/Caddyfile. Replace DEEPPOOL_ORIGIN_HERE with deep pool's address.
+#  - read-only: GET (and the browser's OPTIONS check) only
+#  - only /api/* is passed on; Bitcoin Core's RPC is never reachable from outside
+#  - browsers may call it only from deep pool's address (DEEPPOOL_ORIGIN in .env)
+#  - tells Cloudflare what it may cache, so most visitors never reach the Mac mini
+{
+	admin off
+	auto_https off
+}
+
+:8080 {
+	bind 127.0.0.1
+
+	header {
+		Access-Control-Allow-Origin DEEPPOOL_ORIGIN_HERE
+		Access-Control-Allow-Methods "GET, OPTIONS"
+		Access-Control-Allow-Headers "Content-Type"
+		Access-Control-Max-Age "86400"
+		X-Content-Type-Options "nosniff"
+		-Server
+	}
+
+	route {
+		@preflight method OPTIONS
+		respond @preflight 204
+
+		@notget not method GET
+		respond @notget "Read-only" 405
+
+		# live stream (WebSocket) for new blocks, fees and the mempool
+		@ws path /api/v1/ws
+		reverse_proxy @ws 127.0.0.1:8999
+
+		# a block found by its hash, and its transactions, never change: cache them for a day
+		@immutable path_regexp ^/api/(v1/)?block/[0-9a-f]{64}(/txs(/[0-9]+)?|/txids|/header)?$
+		header @immutable {
+			Cache-Control "public, max-age=86400"
+			defer
+		}
+		# everything else moves with the mempool: cache for 10 seconds
+		@moving {
+			path /api/*
+			not path_regexp ^/api/(v1/)?block/[0-9a-f]{64}(/txs(/[0-9]+)?|/txids|/header)?$
+		}
+		header @moving {
+			Cache-Control "public, max-age=10"
+			defer
+		}
+
+		# the backend serves everything under /api/v1/; the Esplora-style paths (/api/tx/...,
+		# /api/block/..., /api/address/...) are the same routes without the v1
+		@esplora {
+			path /api/*
+			not path /api/v1/*
+		}
+		uri @esplora replace /api/ /api/v1/ 1
+
+		reverse_proxy /api/v1/* 127.0.0.1:8999
+
+		respond "Not found" 404
+	}
+}
