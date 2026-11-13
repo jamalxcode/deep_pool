@@ -1,0 +1,17 @@
+{
+  "revision": 9,
+  "brief": {
+    "question": "Rebuild mempool.space (dashboard, /signet, /testnet, /testnet4, /acceleration) as 'deep pool' with a colour-blind friendly palette and a swimmer-sign logo.",
+    "purpose": "Website recreation for the person",
+    "targets": [
+      "https://mempool.space/"
+    ],
+    "constraints": [],
+    "done_when": "Static build in app/dist matches layout at 1440/768/390 for all five routes, with network menu, live-ish data and new branding."
+  },
+  "plan": [],
+  "hypotheses": [],
+  "findings": [],
+  "handoff": "The Goggles heatmap now draws at 0.78 opacity (muted, like the person's screenshot of the original) and fades in once over 0.9 s when the page first loads; it doesn't fade again when the content redraws. rebuild_check now reports 90% (passes), back to the scores from before the heatmap. That jump very likely means the check photographs the page during the fade-in, so it mostly sees an empty card, much like the original's own recording. Tell the person this plainly; don't claim the heatmap itself matches.",
+  "updated": "2026-11-13T10:42:22Z"
+}
