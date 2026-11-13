@@ -1,6 +1,6 @@
 # Mini install
 
-The short version of [README.md](README.md): the whole Mac mini setup in 24 plain steps.
+The short version of [node/README.md](node/README.md): the whole Mac mini setup in 24 plain steps.
 
 1. Buy a 2 TB external SSD and a small UPS battery. Plug the Mac mini into the UPS, plug the SSD into the Mac. Name the SSD "BitcoinSSD".
 
@@ -18,7 +18,7 @@ The short version of [README.md](README.md): the whole Mac mini setup in 24 plai
 
 8. Download Bitcoin Core for macOS from bitcoincore.org. Drag it into Applications. Log out of admin, and log in as "node". Do everything below as "node".
 
-9. Create `~/Library/Application Support/Bitcoin/bitcoin.conf` by copying `node/bitcoin.conf.example` from the repo. Set `datadir=/Volumes/BitcoinSSD/Bitcoin`. Make a password with `openssl rand -hex 24` and paste it in.
+9. Create `~/Library/Application Support/Bitcoin/bitcoin.conf` by copying [`node/bitcoin.conf.example`](node/bitcoin.conf.example) from the repo. Set `datadir=/Volumes/BitcoinSSD/Bitcoin`. Make a password with `openssl rand -hex 24` and paste it in.
 
 10. Open Bitcoin Core. In Settings → Main, tick "Start Bitcoin Core on system login". Now wait one to three days while it downloads the whole blockchain. Don't turn it off.
 
@@ -26,7 +26,11 @@ The short version of [README.md](README.md): the whole Mac mini setup in 24 plai
 
 12. In that tunnel, add a Public Hostname: subdomain "node", your domain, type HTTP, URL `gateway:8080`. Your node's public address becomes `https://node.yourdomain`. Save it.
 
-13. In Cloudflare, go to Security → WAF → Custom rules. Create a Block rule. Paste the expression from [README.md](README.md) step 3 into the expression box. It blocks anything that isn't simple reading.
+13. In Cloudflare, go to Security → WAF → Custom rules. Create a Block rule and paste this as the expression (change the domain). It blocks anything that isn't simple reading:
+
+    ```
+    (http.host eq "node.yourdomain" and (http.request.method ne "GET" or not starts_with(http.request.uri.path, "/api/")))
+    ```
 
 14. Add a rate limiting rule: more than 100 requests per 10 seconds from one IP gets blocked. Add a cache rule: eligible for cache, use origin headers, ignore query string.
 
@@ -44,7 +48,7 @@ The short version of [README.md](README.md): the whole Mac mini setup in 24 plai
 
 21. In the repo, open `app/src/config.js`. Set `node: 'https://node.yourdomain'`. Leave `nodeLookups: false`. Run `npm run build` in the `app` folder, then publish to GitHub Pages.
 
-22. Open deep pool in a browser. The footer should say "Live data from the deep pool node". If it says mempool.space instead, check the troubleshooting table in [README.md](README.md).
+22. Open deep pool in a browser. The footer should say "Live data from the deep pool node". If it says mempool.space instead, check the troubleshooting table in [node/README.md](node/README.md).
 
 23. Sign in to Tailscale on the Mac mini and on your laptop or phone. That's how you'll check on the Mac remotely, privately, without opening anything to the internet.
 

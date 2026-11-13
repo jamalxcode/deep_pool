@@ -41,3 +41,16 @@ Still sample data: the Pool Goggles heatmap (coloured by the real fee range), th
 statistics, and the Mining, Lightning and Graphs tabs.
 
 Settings (currency, theme, timezone, closed banners, your node's address) are kept in the browser's local storage only.
+
+## Tests
+
+```bash
+npm test
+```
+
+Builds the site, then drives it in Chromium with every API mocked: 13 scenarios covering each
+data source, the fallbacks, a visitor's node, deep pool's own node (also dashboard-only), Testnet4
+and a phone-width layout. It needs Playwright (`npm i -g playwright && npx playwright install chromium`)
+and exits non-zero if anything fails. Screenshots go to `tests/out/`.
+
+See also the repo's [README](../README.md), [design notes](../docs/DESIGN.md) and [lessons learned](../docs/LESSONS.md).

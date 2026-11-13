@@ -4,6 +4,7 @@
   "private": true,
   "description": "deep pool - a Bitcoin mempool explorer with a colour-blind friendly palette",
   "scripts": {
-    "build": "sh scripts/build.sh"
+    "build": "sh scripts/build.sh",
+    "test": "sh scripts/build.sh && node tests/live-data.test.js"
   }
 }
