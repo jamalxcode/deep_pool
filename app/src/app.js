@@ -17,7 +17,8 @@
   function L(p) {
     if (p.charAt(0) !== '/') return p;
     var r = p.slice(1);
-    return ROOT + (r ? r + (FILE ? '/index.html' : '') : (FILE ? 'index.html' : ''));
+    // a trailing slash, so the page's ../ asset paths work on hosts that don't add one themselves
+    return ROOT + (r ? r + (FILE ? '/index.html' : '/') : (FILE ? 'index.html' : ''));
   }
   var NETWORKS = ['mainnet', 'signet', 'testnet', 'testnet4'];
   var net = 'mainnet';

@@ -56,9 +56,9 @@ Ordered by value:
 1. **Check against the real APIs.** Everything was built offline with mocked answers. Open the
    built site in a normal browser, confirm the footer says "Live data from mempool.space", and
    check the WebSocket messages and replacements list (`data.js` `subscribe()` / `norm.replacements`).
-2. **Publish to GitHub Pages.** Add a workflow (`actions/upload-pages-artifact` with `app/dist`, then
-   `actions/deploy-pages`), set Pages to "GitHub Actions", and set `DEEPPOOL_ORIGIN` on the node to the
-   published origin. Optionally a custom domain (e.g. `deeppool.sala.company`).
+2. ~~**Publish to GitHub Pages.**~~ Done: `.github/workflows/pages.yml` publishes `app/dist` on every push
+   to `main`. Left to do: switch Pages to "GitHub Actions" in the repo settings (once), and optionally
+   add a custom domain (e.g. `deeppool.sala.company`). The node's `DEEPPOOL_ORIGIN` must match.
 3. **Bring the node up** following [MINI-INSTALL.md](../MINI-INSTALL.md), pin the image versions to
    the newest tags, then set `node:` in `config.js`.
 4. **Apply the colour-blind palette for real.** The brief asked for it, but the fee colours, block

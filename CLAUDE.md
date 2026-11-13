@@ -68,6 +68,10 @@ cd node && cp .env.example .env && docker compose config --quiet   # compose syn
 
 ## Deployment
 
-Not wired up yet. GitHub Pages can only serve a repo's root or `/docs` from a branch, and the site
-lives in `app/dist`, so publishing needs a GitHub Actions workflow (planned in docs/DESIGN.md).
-Pushing to `main` triggers nothing today.
+- `.github/workflows/pages.yml` builds `app/` and publishes `app/dist` to GitHub Pages on every
+  push to `main` that touches `app/` (and on manual dispatch). The site lives at
+  `https://jamalxcode.github.io/deep_pool/` (a project site, so in a subfolder; all links are relative).
+- One-time setup in the repo: Settings → Pages → Source: **GitHub Actions**. The repo is private,
+  and Pages for a private repo needs a paid GitHub plan. The published site is public either way.
+- When the node is up, its `DEEPPOOL_ORIGIN` must be `https://jamalxcode.github.io` (the origin,
+  without `/deep_pool`), or the custom domain if one is added later.

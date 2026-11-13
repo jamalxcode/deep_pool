@@ -77,4 +77,6 @@ lookups always go to the public explorers.
   statistics, and the Mining, Lightning and Graphs tabs.
 - **Not yet checked against the real APIs:** everything was built and tested offline with mocked
   answers. The first real-browser run should confirm the API field names.
-- **Not yet published:** there's no GitHub Pages workflow yet. See [docs/DESIGN.md](docs/DESIGN.md) for the plan.
+- **Publishing:** every push to `main` that changes `app/` publishes the site to GitHub Pages
+  (`https://jamalxcode.github.io/deep_pool/`) through `.github/workflows/pages.yml`. One-time setup:
+  Settings → Pages → Source: GitHub Actions. The repo is private, so Pages needs a paid GitHub plan.

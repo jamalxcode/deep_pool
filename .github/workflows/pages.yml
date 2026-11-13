@@ -1,0 +1,53 @@
+# Builds deep pool (app/) and publishes app/dist to GitHub Pages on every push to main.
+# One-time setup: Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['app/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# one deployment at a time; a newer push replaces a waiting one, but a running one finishes
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The build has no dependencies: it copies src/ into dist/ and makes one page per route.
+      # dist/ is committed too; building here guarantees what's published matches src/.
+      - name: Build
+        run: sh app/scripts/build.sh
+
+      - name: Check the build
+        run: |
+          for f in index.html app.js data.js config.js style.css favicon.svg signet/index.html testnet/index.html testnet4/index.html acceleration/index.html; do
+            test -s "app/dist/$f" || { echo "missing app/dist/$f"; exit 1; }
+          done
+          node --check app/dist/app.js && node --check app/dist/data.js && node --check app/dist/config.js
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

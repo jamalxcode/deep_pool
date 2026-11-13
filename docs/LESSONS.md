@@ -67,6 +67,19 @@ them again.
     slower (it matters most for Electrs). OrbStack is lighter than Docker Desktop and runs the same
     compose file.
 
+## Publishing
+
+24. **A GitHub Pages project site lives in a subfolder** (`/deep_pool/`), so every link must be
+    relative. deep pool's are: `{{ROOT}}` becomes `./` or `../` per route at build time.
+25. **Link to folders with a trailing slash** (`testnet4/`, not `testnet4`). GitHub Pages and
+    `python3 -m http.server` redirect a bare folder name to the slashed one, but not every host does.
+    Without the redirect, the page's `../style.css` resolves one level too high and the page loads
+    unstyled and broken.
+26. **Pages on a private repo needs a paid plan, and the site is public anyway.** Only GitHub
+    Enterprise can make Pages private.
+27. **The CORS origin is scheme + host only.** For `https://jamalxcode.github.io/deep_pool/` the origin
+    browsers send is `https://jamalxcode.github.io`; putting the path in `DEEPPOOL_ORIGIN` breaks every call.
+
 ## Working method
 
 19. **Build offline, verify online.** This sandbox couldn't reach mempool.space or Blockstream, so
