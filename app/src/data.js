@@ -278,14 +278,16 @@
   // A person's own node: the base address of a mempool or Esplora/Electrs instance running on it,
   // for example http://umbrel.local:3006 or https://mempool.mynode.example. Bitcoin Core's own RPC
   // can't be used from a web page (no CORS, needs a password), so it has to be one of those apps.
-  function nodeProvider(base, net) {
+  function nodeProvider(base, net, extra) {
     base = String(base || '').trim().replace(/\/+$/, '').replace(/\/api$/, '');
     if (!/^https?:\/\//i.test(base)) return null;
     var prefix = net === 'mainnet' ? '' : '/' + net;
     var api = {}, ws = {};
     api[net] = base + prefix + '/api';
     ws[net] = base.replace(/^http/i, 'ws') + prefix + '/api/v1/ws';
-    return { name: base.replace(/^https?:\/\//i, ''), api: api, ws: ws, own: true };
+    var prov = { name: base.replace(/^https?:\/\//i, ''), api: api, ws: ws, selfHosted: true };
+    for (var k in extra || {}) prov[k] = extra[k];
+    return prov;
   }
 
   function Client(net, opts) {
@@ -296,7 +298,12 @@
     this.providers = {};
     for (var k in PROVIDERS) this.providers[k] = PROVIDERS[k];
     var order = (opts.order || ORDER).slice();
-    var node = opts.node ? nodeProvider(opts.node, net) : null;
+    // the site's own public node (config.js), tried before the public explorers for every visitor
+    var home = opts.siteNode && opts.siteNode.url && (!opts.siteNode.networks || opts.siteNode.networks.indexOf(net) >= 0)
+      ? nodeProvider(opts.siteNode.url, net, { name: opts.siteNode.name || null, site: true }) : null;
+    if (home) { if (!home.name) home.name = nodeProvider(opts.siteNode.url, net).name; this.providers.home = home; order.unshift('home'); }
+    // a visitor's own node (set in the footer) goes before everything
+    var node = opts.node ? nodeProvider(opts.node, net, { own: true }) : null;
     if (node) { this.providers.node = node; order.unshift('node'); }
     var providers = this.providers;
     this.order = order.filter(function (p) { return providers[p] && providers[p].api[net]; });
@@ -348,8 +355,8 @@
     }).then(function (r) {
       self.current = r.provider;
       var prov = self.providers[r.provider];
-      if (r.provider === 'node') prov.plainEsplora = !!r.value.plainEsplora;
-      return { source: r.provider, name: prov.name, own: !!prov.own, data: r.value };
+      if (prov.selfHosted) prov.plainEsplora = !!r.value.plainEsplora;
+      return { source: r.provider, name: prov.name, own: !!prov.own, site: !!prov.site, data: r.value };
     });
   };
 
@@ -435,7 +442,8 @@
     var self = this;
     // mempool.space's v1 block has the fee and pool details; plain Esplora's doesn't
     var cur = this.current || this.order[0];
-    var hasV1 = cur === 'mempool' || (cur === 'node' && !this.providers.node.plainEsplora);
+    var cp = this.providers[cur] || {};
+    var hasV1 = cur === 'mempool' || (cp.selfHosted && !cp.plainEsplora);
     var v1 = hasV1
       ? this.get(cur, '/v1/block/' + hash).catch(function () { return self.lookup('/block/' + hash); })
       : this.lookup('/block/' + hash);
@@ -456,8 +464,10 @@
   // same field names as snapshot(). Reconnects with a growing delay; gives up quietly if it can't.
   Client.prototype.subscribe = function (onData, onState) {
     var self = this;
-    var wsProv = this.current === 'node' && !this.providers.node.plainEsplora ? 'node' : 'mempool';
-    if (this.current === 'node' && wsProv !== 'node') wsProv = null; // a plain Esplora node has no WebSocket
+    var curProv = this.providers[this.current] || {};
+    // a self-hosted mempool streams itself; a plain Esplora node has no WebSocket; Blockstream
+    // borrows mempool.space's stream for new blocks when it can
+    var wsProv = curProv.selfHosted ? (curProv.plainEsplora ? null : this.current) : 'mempool';
     var wsUrl = wsProv && this.providers[wsProv].ws && this.providers[wsProv].ws[this.net];
     if (!this.WebSocket || !wsUrl) return function () {};
     var stopped = false, delay = 2000, tip = 0;

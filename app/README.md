@@ -16,16 +16,19 @@ There are none. The site is plain static files (HTML, CSS and one JavaScript fil
 
 The browser fetches live data itself; there is still no server of our own. `src/data.js` tries these in order:
 
-1. **Your own node**, if you set one (footer link "Use your own node"). Paste the address of the
+1. **A visitor's own node**, if they set one (footer link "Use your own node"). Paste the address of the
    **mempool** or **Electrs/Esplora** app on your node, e.g. `http://umbrel.local:3006`. Bitcoin Core's
    own RPC can't be used from a web page (no CORS, needs a password). If the site is served over
    https, the node needs an https address too, or the browser blocks it.
-2. **mempool.space**: everything, including projected blocks, fee bands, difficulty, prices,
+2. **deep pool's own node**, if `src/config.js` names one: a Bitcoin node on a Mac mini behind a
+   Cloudflare Tunnel, which keeps its IP hidden. Setup: [`../node/README.md`](../node/README.md).
+   Pages for networks it doesn't serve skip it.
+3. **mempool.space**: everything, including projected blocks, fee bands, difficulty, prices,
    replacements, the incoming-transactions chart and a WebSocket that pushes new blocks.
-3. **blockstream.info** (Esplora): blocks, fee estimates, recent transactions, mempool size.
+4. **blockstream.info** (Esplora): blocks, fee estimates, recent transactions, mempool size.
    Projected blocks are cut from its fee histogram and the difficulty numbers are worked out
    from block times. It has no replacements, chart, prices or pool names, so those say so. No Testnet4.
-4. **The recorded snapshot** built into `app.js`, used when nothing answers (offline, blocked,
+5. **The recorded snapshot** built into `app.js`, used when nothing answers (offline, blocked,
    rate limited). It keeps itself moving with simulated activity, as before.
 
 A source that fails is skipped for 5 minutes, then tried again. The footer always says which

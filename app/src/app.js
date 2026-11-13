@@ -1811,7 +1811,7 @@
   }
   function sourceText() {
     var nodeLink = ' &middot; <a href="#data-source" class="source-link">' + (store('node') ? 'Your node: ' + esc(store('node').replace(/^https?:\/\//, '')) : 'Use your own node') + '</a>';
-    if (liveState.mode === 'live') return '<span class="live-dot" aria-hidden="true"></span>Live data from ' + esc(liveState.name) + (liveState.own ? ' (your node)' : '') + (liveState.ws ? ', streaming' : '') + nodeLink;
+    if (liveState.mode === 'live') return '<span class="live-dot" aria-hidden="true"></span>Live data from ' + esc(liveState.name) + (liveState.own ? ' (your node)' : '') + (liveState.site ? ' (our own Bitcoin node)' : '') + (liveState.ws ? ', streaming' : '') + nodeLink;
     if (liveState.mode === 'connecting') return 'Connecting to live data&hellip;' + nodeLink;
     return 'Offline: showing a recorded snapshot (no live source answered)' + nodeLink;
   }
@@ -1830,6 +1830,7 @@
       liveState.source = r.source;
       liveState.name = r.name;
       liveState.own = r.own;
+      liveState.site = r.site;
       applyLive(r.data, true);
       rerender();
       if (switched || first) {
@@ -1861,7 +1862,8 @@
       startSimulation();
       return;
     }
-    client = new window.DeepPoolData.Client(net, { node: store('node') || '' });
+    var cfg = window.DEEP_POOL_CONFIG || {};
+    client = new window.DeepPoolData.Client(net, { node: store('node') || '', siteNode: cfg.node ? { url: cfg.node, name: cfg.nodeName, networks: cfg.nodeNetworks } : null });
     refresh(true).then(schedule);
   }
   function nodeDialog() {
@@ -1870,7 +1872,7 @@
       ['Address', '<form class="node-form"><input type="url" name="node" placeholder="http://umbrel.local:3006" value="' + esc(cur) + '" aria-label="Node address" spellcheck="false"> ' +
         '<button type="submit" class="pg active">Save</button>' + (cur ? ' <button type="button" class="pg" data-node-clear>Remove</button>' : '') + '</form>']
     ], 'Paste the address of the <b>mempool</b> or <b>Electrs/Esplora</b> app on your node (Umbrel, Start9, RaspiBlitz and myNode all offer one). ' +
-      'deep pool asks it first and falls back to mempool.space, then blockstream.info. Bitcoin Core\'s own RPC port can\'t be used from a web page. ' +
+      'deep pool asks it first and falls back to its own node, then mempool.space, then blockstream.info. Bitcoin Core\'s own RPC port can\'t be used from a web page. ' +
       'If this page is served over https, the node needs an https address too, or the browser will block it.');
     var f = document.querySelector('.node-form');
     f.addEventListener('submit', function (e) {

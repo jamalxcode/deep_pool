@@ -1,0 +1,23 @@
+# Bitcoin Core settings for deep pool's node.
+# On macOS this file goes in: ~/Library/Application Support/Bitcoin/bitcoin.conf
+# (or in the datadir you choose on the external SSD).
+
+# Keep the chain on the big external SSD (about 750 GB in late 2026, still growing)
+datadir=/Volumes/BitcoinSSD/Bitcoin
+
+# Full, unpruned node with a transaction index (Electrs and mempool need the full chain)
+prune=0
+txindex=1
+
+# RPC for Electrs and mempool, on this Mac only. Never forward port 8332 on the router.
+server=1
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+rpcuser=deeppool
+rpcpassword=change-me-to-a-long-random-password
+
+# Faster first sync on a Mac mini with 16 GB+ of memory; lower it (e.g. 2000) on 8 GB
+dbcache=4000
+
+# Normal peer-to-peer networking (outbound works behind the router with nothing to configure)
+listen=1
