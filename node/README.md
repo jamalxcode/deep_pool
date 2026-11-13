@@ -207,6 +207,7 @@ only from your own devices on Tailscale and your home network.
 
 ## Other options
 
+- **Short version**: [MINI-INSTALL.md](MINI-INSTALL.md), the whole setup in 24 plain steps.
 - **Without Docker**: [MACOS-NATIVE.md](MACOS-NATIVE.md) installs the same five parts with Homebrew.
   It's faster and lighter, but there are more things to update by hand.
 - **With address lookups on your own node**: add Electrs (an address index) and set
