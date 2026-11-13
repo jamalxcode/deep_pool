@@ -2,6 +2,16 @@
 
 This file guides Claude Code when working in this repository.
 
+## Hard rules
+
+- **Never commit `.env` or put real passwords in any file.** Secrets live only in `.env` files
+  (gitignored) or in GitHub Actions secrets. Example files (`.env.example`, `bitcoin.conf.example`)
+  hold placeholders only.
+- **Anything in `app/` becomes the public website, so never put keys there.** Anyone visiting the
+  site can read every file in it, including `config.js`.
+- **If a secret ever gets pushed, rotate it right away.** Deleting the file afterwards doesn't hide
+  it: it stays in the commit history. Change the password or token first, then clean up.
+
 ## Overview
 
 deep pool is a Bitcoin mempool explorer: a static site (vanilla HTML/CSS/JS, no framework, no

@@ -1,0 +1,4 @@
+# secrets never go in git (see CLAUDE.md, hard rules)
+.env
+.env.*
+!.env.example
