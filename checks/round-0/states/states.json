@@ -1,0 +1,16 @@
+{
+  "states": [
+    {
+      "changed": [
+        "expanded"
+      ],
+      "file": "state-1.png",
+      "index": 0,
+      "kind": "menu",
+      "label": "Select network. Current: Mainnet",
+      "sha256": "e26a03c80d3974df2a279a20ae92220a3298e60129dc7ee7f29441c7fd026bd2"
+    }
+  ],
+  "url": "http://127.0.0.1:52915/",
+  "width": 1440
+}

@@ -1,0 +1,24 @@
+{
+  "states": [
+    {
+      "changed": [
+        "expanded"
+      ],
+      "file": "state-1.png",
+      "index": 0,
+      "kind": "menu",
+      "label": "Select network. Current: Mainnet",
+      "sha256": "4b97e24e7ef3ba41763f3d0b3047ed2d8d30734e0644edc2cac0dfb3a30d17ea"
+    },
+    {
+      "changed": [],
+      "file": "state-2.png",
+      "index": 1,
+      "kind": "menu",
+      "label": "Show heatmap",
+      "sha256": "9c271b1679d8b9cf06c9bb934a1f1ed2faf883052e5ecee75f64761c7d551a69"
+    }
+  ],
+  "url": "http://127.0.0.1:52915/",
+  "width": 390
+}

@@ -1,0 +1,5312 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "contentinfo": 1,
+      "main": 1,
+      "navigation": 2,
+      "search": 1
+    },
+    "lang": "en-US",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [],
+    "images": [
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      }
+    ],
+    "inline_scripts": 0,
+    "requests": [
+      {
+        "bytes": 40510,
+        "type": "link",
+        "url": "http://127.0.0.1:52915/style.css"
+      },
+      {
+        "bytes": 135863,
+        "type": "script",
+        "url": "http://127.0.0.1:52915/app.js"
+      }
+    ],
+    "scripts": [
+      "http://127.0.0.1:52915/app.js"
+    ],
+    "stylesheets": [
+      "http://127.0.0.1:52915/style.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 369,
+      "query": "max-width 369px"
+    },
+    {
+      "count": 1,
+      "px": 429,
+      "query": "max-width 429px"
+    },
+    {
+      "count": 2,
+      "px": 450,
+      "query": "max-width 450px"
+    },
+    {
+      "count": 2,
+      "px": 484,
+      "query": "max-width 484px"
+    },
+    {
+      "count": 3,
+      "px": 575,
+      "query": "max-width 575px"
+    },
+    {
+      "count": 2,
+      "px": 613,
+      "query": "max-width 613px"
+    },
+    {
+      "count": 8,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 6,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 12,
+      "px": 991,
+      "query": "max-width 991px"
+    },
+    {
+      "count": 1,
+      "px": 992,
+      "query": "min-width 992px"
+    },
+    {
+      "count": 1,
+      "px": 1019,
+      "query": "max-width 1019px"
+    },
+    {
+      "count": 1,
+      "px": 1080,
+      "query": "max-width 1080px"
+    },
+    {
+      "count": 1,
+      "px": 1199,
+      "query": "max-width 1199px"
+    },
+    {
+      "count": 1,
+      "px": 1200,
+      "query": "max-width 1200px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 10,
+        "value": "#11131f"
+      },
+      {
+        "count": 9,
+        "value": "#272f4e"
+      },
+      {
+        "count": 7,
+        "value": "#0aab2f"
+      },
+      {
+        "count": 4,
+        "value": "#007cfa"
+      },
+      {
+        "count": 2,
+        "value": "#6225b2"
+      },
+      {
+        "count": 1,
+        "value": "#000000"
+      },
+      {
+        "count": 1,
+        "value": "#1d486f"
+      },
+      {
+        "count": 1,
+        "value": "#b71c1c"
+      },
+      {
+        "count": 1,
+        "value": "#007d3d"
+      },
+      {
+        "count": 1,
+        "value": "#0162c8"
+      }
+    ],
+    "css_variables": {
+      "--active-bg": "#000000",
+      "--active-nav": "#6225b2",
+      "--alert": "#b71c1c",
+      "--behind": "#ff3d00",
+      "--bg": "#11131f",
+      "--block-side": "#191c27",
+      "--block-top": "#232838",
+      "--border-subtle": "rgba(255, 255, 255, .11)",
+      "--button": "#6225b2",
+      "--chart-high": "#fdd835",
+      "--chart-low": "#83c341",
+      "--down": "#ff3d00",
+      "--fee-span": "#fff000",
+      "--fg": "#ffffff",
+      "--fiat": "#83fd00",
+      "--font": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Appl",
+      "--footer-fg": "rgba(255, 255, 255, .4)",
+      "--icon": "#f1f1f1",
+      "--link": "#00ddff",
+      "--mempool-block-empty": "#554b45",
+      "--mempool-block-side": "#2d2825",
+      "--mempool-block-top": "#403834",
+      "--mined-bottom": "#105fb0",
+      "--mined-empty": "#2b3456",
+      "--mined-top": "#9339f4",
+      "--nav-bg": "#11131f",
+      "--opacity": ".57",
+      "--primary": "#007cfa",
+      "--primary-dark": "#0162c8",
+      "--secondary": "#272f4e",
+      "--success": "#0aab2f",
+      "--title-fg": "#2055e3",
+      "--transparent-fg": "#ffffffbb",
+      "--up": "#83fd00",
+      "--warning": "#b58800"
+    },
+    "font_faces": [],
+    "font_sizes": [
+      {
+        "count": 169,
+        "value": "16px"
+      },
+      {
+        "count": 81,
+        "value": "12px"
+      },
+      {
+        "count": 58,
+        "value": "13px"
+      },
+      {
+        "count": 44,
+        "value": "11px"
+      },
+      {
+        "count": 32,
+        "value": "10px"
+      },
+      {
+        "count": 7,
+        "value": "20px"
+      },
+      {
+        "count": 7,
+        "value": "10.5px"
+      },
+      {
+        "count": 3,
+        "value": "9px"
+      },
+      {
+        "count": 2,
+        "value": "18px"
+      },
+      {
+        "count": 1,
+        "value": "20.5px"
+      },
+      {
+        "count": 1,
+        "value": "19px"
+      },
+      {
+        "count": 1,
+        "value": "14px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 323,
+        "value": "400"
+      },
+      {
+        "count": 78,
+        "value": "700"
+      },
+      {
+        "count": 5,
+        "value": "500"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 388,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+      },
+      {
+        "count": 15,
+        "value": "sans-serif"
+      },
+      {
+        "count": 2,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif"
+      },
+      {
+        "count": 1,
+        "value": "Arial"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 28,
+        "value": "145px"
+      },
+      {
+        "count": 3,
+        "value": "1140px"
+      },
+      {
+        "count": 1,
+        "value": "500px"
+      },
+      {
+        "count": 1,
+        "value": "1440px"
+      },
+      {
+        "count": 1,
+        "value": "180px"
+      },
+      {
+        "count": 1,
+        "value": "160px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 52,
+        "value": "4px"
+      },
+      {
+        "count": 1,
+        "value": "0px 10px 10px 0px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 0px 0px 15px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 5px 0px 30px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 142,
+        "value": "12px"
+      },
+      {
+        "count": 98,
+        "value": "3px"
+      },
+      {
+        "count": 82,
+        "value": "5px"
+      },
+      {
+        "count": 81,
+        "value": "10px"
+      },
+      {
+        "count": 69,
+        "value": "4px"
+      },
+      {
+        "count": 56,
+        "value": "4.8px"
+      },
+      {
+        "count": 49,
+        "value": "11.36px"
+      },
+      {
+        "count": 41,
+        "value": "2px"
+      },
+      {
+        "count": 40,
+        "value": "8px"
+      },
+      {
+        "count": 25,
+        "value": "15px"
+      },
+      {
+        "count": 19,
+        "value": "20px"
+      },
+      {
+        "count": 14,
+        "value": "5.6px"
+      },
+      {
+        "count": 9,
+        "value": "1px"
+      },
+      {
+        "count": 9,
+        "value": "7px"
+      },
+      {
+        "count": 8,
+        "value": "24px"
+      },
+      {
+        "count": 8,
+        "value": "18px"
+      },
+      {
+        "count": 7,
+        "value": "3.2px"
+      },
+      {
+        "count": 6,
+        "value": "6px"
+      },
+      {
+        "count": 5,
+        "value": "36px"
+      },
+      {
+        "count": 3,
+        "value": "16px"
+      },
+      {
+        "count": 2,
+        "value": "32px"
+      },
+      {
+        "count": 2,
+        "value": "9px"
+      },
+      {
+        "count": 2,
+        "value": "48px"
+      },
+      {
+        "count": 2,
+        "value": "-13px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 228,
+        "value": "#ffffff"
+      },
+      {
+        "count": 56,
+        "value": "#00ddff"
+      },
+      {
+        "count": 35,
+        "value": "#ffffffbb"
+      },
+      {
+        "count": 29,
+        "value": "#fff000"
+      },
+      {
+        "count": 25,
+        "value": "#ffffff66"
+      },
+      {
+        "count": 12,
+        "value": "#00000000"
+      },
+      {
+        "count": 11,
+        "value": "#2055e3"
+      },
+      {
+        "count": 8,
+        "value": "#83fd00"
+      },
+      {
+        "count": 1,
+        "value": "#ffffffdd"
+      },
+      {
+        "count": 1,
+        "value": "#3fb8d6"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "Explore the full Bitcoin ecosystem",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    }
+  ],
+  "headings": [],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en-US",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "column": {
+            "max_w": 500,
+            "pad": [
+              15,
+              0
+            ],
+            "w": 500,
+            "x": 908
+          },
+          "h": 64,
+          "pad": [
+            0,
+            32,
+            0,
+            32
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 65
+        },
+        {
+          "column": {
+            "max_w": 1440,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1440,
+            "x": 0
+          },
+          "h": 1390,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "main",
+          "w": 1440,
+          "y": 161
+        },
+        {
+          "background": "#11131f",
+          "column": {
+            "max_w": 1140,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1140,
+            "x": 150
+          },
+          "h": 517,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 1440,
+          "y": 1581
+        }
+      ],
+      "page_h": 2098,
+      "page_w": 1440,
+      "type": {
+        "body": 18,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 6,
+          "tag": "header",
+          "w": 768,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 6,
+          "tag": "nav",
+          "w": 768,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 65
+        },
+        {
+          "column": {
+            "max_w": 768,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 768,
+            "x": 0
+          },
+          "h": 1295,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 28,
+          "tag": "main",
+          "w": 768,
+          "y": 161
+        },
+        {
+          "background": "#11131f",
+          "h": 1193,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 768,
+          "y": 1486
+        }
+      ],
+      "page_h": 2728,
+      "page_w": 768,
+      "type": {
+        "body": 18,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 6,
+          "tag": "header",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 6,
+          "tag": "nav",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 105
+        },
+        {
+          "column": {
+            "max_w": 390,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 390,
+            "x": 0
+          },
+          "h": 2054,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 28,
+          "tag": "main",
+          "w": 390,
+          "y": 249
+        },
+        {
+          "background": "#11131f",
+          "h": 1323,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "footer",
+          "w": 390,
+          "y": 2333
+        }
+      ],
+      "page_h": 3705,
+      "page_w": 390,
+      "type": {
+        "body": 18,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "Mainnet"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "Signet"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "Testnet3"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet4",
+      "text": "Testnet4"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet4",
+      "text": "Testnet4"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mempool-block-0",
+      "text": "~0 sat/vB 0.10 - 133 sat/vB 0.00 tBTC 27 transactions In ~3 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346560",
+      "text": "5346560"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346560",
+      "text": "~0 sat/vB 1.00 - 25.2 sat/vB 0.00 tBTC 18 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346559",
+      "text": "5346559"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346559",
+      "text": "~0 sat/vB 1.01 - 265 sat/vB 0.002 tBTC 14 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346558",
+      "text": "5346558"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346558",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346557",
+      "text": "5346557"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346557",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346556",
+      "text": "5346556"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346556",
+      "text": "~0 sat/vB 265 - 265 sat/vB 0.00 tBTC 2 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346555",
+      "text": "5346555"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346555",
+      "text": "~0 sat/vB 1.51 - 1.51 sat/vB 0.00 tBTC 2 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346554",
+      "text": "5346554"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346554",
+      "text": "~0 sat/vB 1.01 - 1.01 sat/vB 0.00 tBTC 3 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346553",
+      "text": "5346553"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346553",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346552",
+      "text": "5346552"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346552",
+      "text": "~0 sat/vB 2.00 - 2.00 sat/vB 0.00 tBTC 2 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346551",
+      "text": "5346551"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346551",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346550",
+      "text": "5346550"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346550",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346549",
+      "text": "5346549"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346549",
+      "text": "~0 sat/vB 1.00 - 1.51 sat/vB 0.00 tBTC 6 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346548",
+      "text": "5346548"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346548",
+      "text": "~0 sat/vB 1.00 - 1.00 sat/vB 0.00 tBTC 3 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346547",
+      "text": "5346547"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346547",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346546",
+      "text": "5346546"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346546",
+      "text": "~0 sat/vB 3.43 - 3.85 sat/vB 0.00 tBTC 4 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346545",
+      "text": "5346545"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346545",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346544",
+      "text": "5346544"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346544",
+      "text": "~0 sat/vB 1.00 - 265 sat/vB 0.003 tBTC 9 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346543",
+      "text": "5346543"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346543",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346542",
+      "text": "5346542"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346542",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346541",
+      "text": "5346541"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346541",
+      "text": "~0 sat/vB 1.01 - 1.01 sat/vB 0.00 tBTC 3 transactions Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346540",
+      "text": "5346540"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346540",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346539",
+      "text": "5346539"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346539",
+      "text": "~0 sat/vB 1.01 - 2.01 sat/vB 0.00 tBTC 4 transactions 12 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346538",
+      "text": "5346538"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346538",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346537",
+      "text": "5346537"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346537",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346536",
+      "text": "5346536"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346536",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346535",
+      "text": "5346535"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346535",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346534",
+      "text": "5346534"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346534",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346533",
+      "text": "5346533"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#block-5346533",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#",
+      "text": "difficulty"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#",
+      "text": "halving"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#goggles",
+      "text": "Pool Goggles : All"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#graphs",
+      "text": "Incoming Transactions"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#rbf",
+      "text": "Recent Replacements"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-2afc16eb4d0fa833057a18d7537f13068d4008f3b707fba568f8bfdc522d7aa1",
+      "text": "2afc16eb4d0fa833057a18d7537f13068d4008f3b707fba568f8bfdc522 d7aa1 2afc16eb4d0fa833057a18d7537f13068d"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-25f13e51d6f655454426e8ba6b1432bf94498ef337bcd59574a17ab6a7889ef9",
+      "text": "25f13e51d6f655454426e8ba6b1432bf94498ef337bcd59574a17ab6a78 89ef9 25f13e51d6f655454426e8ba6b1432bf94"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-1736c8f1dd4e6e5f62efbfaa047e01f6a2ed96fcea09b9bd3b25fcec419807b2",
+      "text": "1736c8f1dd4e6e5f62efbfaa047e01f6a2ed96fcea09b9bd3b25fcec419 807b2 1736c8f1dd4e6e5f62efbfaa047e01f6a2"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-af128f797bf500bed60a310e1e2b25cc521ce74052e5b3f24ada63c677492b3b",
+      "text": "af128f797bf500bed60a310e1e2b25cc521ce74052e5b3f24ada63c6774 92b3b af128f797bf500bed60a310e1e2b25cc52"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-0eaa7b703d4e82a7d67d0042d0c250507c6be057b6ebd472adcc9d4f76b5fb01",
+      "text": "0eaa7b703d4e82a7d67d0042d0c250507c6be057b6ebd472adcc9d4f76b 5fb01 0eaa7b703d4e82a7d67d0042d0c250507c"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-25e4da2ff1df4cd0b979adfe31dc31a64ef465ab7c5605ba5993eef2bf2078f4",
+      "text": "25e4da2ff1df4cd0b979adfe31dc31a64ef465ab7c5605ba5993eef2bf2 078f4 25e4da2ff1df4cd0b979adfe31dc31a64e"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#txs",
+      "text": "Recent Transactions"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-2db7a27d88084485de8d596b1504b37fc3b98998475bbec60aeb4ca9a5636277",
+      "text": "2db7a27d88084485de8d596b1504b37fc3b98998475bbec60aeb4ca9a56 36277 2db7a27d88084485de8d596b1504b37fc3"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-4431d0f6dbbba34f782f285036f9d66c0a4d923b67ce17d4c2845cc5df6ffa4a",
+      "text": "4431d0f6dbbba34f782f285036f9d66c0a4d923b67ce17d4c2845cc5df6 ffa4a 4431d0f6dbbba34f782f285036f9d66c0a"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-967fa16ee516999ddd0de85b962a8454d82da87554eb69a75c43690277ee9c8d",
+      "text": "967fa16ee516999ddd0de85b962a8454d82da87554eb69a75c43690277e e9c8d 967fa16ee516999ddd0de85b962a8454d8"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-9b49b5c473509497321fc692ce339c251cf5593d6ef61cdba855fd4700df1654",
+      "text": "9b49b5c473509497321fc692ce339c251cf5593d6ef61cdba855fd4700d f1654 9b49b5c473509497321fc692ce339c251c"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-ac3e82b49f8acaf60e4dea4b8222dc1d3fa4533c910376bae126a93061754a47",
+      "text": "ac3e82b49f8acaf60e4dea4b8222dc1d3fa4533c910376bae126a930617 54a47 ac3e82b49f8acaf60e4dea4b8222dc1d3f"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#tx-21022b1385ead903406fc0c3edcc55566834cb52f5d3f5a196144fca769ac514",
+      "text": "21022b1385ead903406fc0c3edcc55566834cb52f5d3f5a196144fca769 ac514 21022b1385ead903406fc0c3edcc555668"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Mining Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "text": "Lightning Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "text": "Recent Blocks"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#broadcast-transaction",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#test-transaction",
+      "text": "Test Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#preview-transaction",
+      "text": "Preview Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "API Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "What is a mempool?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "What is a block explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#be-your-own-explorer",
+      "text": "Be your own explorer™"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "text": "More FAQs »"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#about",
+      "text": "Research"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "Mainnet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet4",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "Signet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#liquid-testnet",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#liquid",
+      "text": "Liquid Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#terms-of-service",
+      "text": "Terms of Service"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#trademark-policy",
+      "text": "Trademark Policy"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#third-party-licenses",
+      "text": "Third-party Licenses"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#github",
+      "text": "GitHub"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#x",
+      "text": "X"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#nostr",
+      "text": "Nostr"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#primal",
+      "text": "Primal"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#youtube",
+      "text": "YouTube"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#bitcointv",
+      "text": "BitcoinTV"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#matrix",
+      "text": "m"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet#changelog",
+      "text": "[04c299c3]"
+    }
+  ],
+  "meta": {
+    "description": "Explore the full Bitcoin ecosystem with deep pool. See the real-time status of your transactions, get network info, and more.",
+    "icons": [
+      "http://127.0.0.1:52915/favicon.svg"
+    ],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "sticky-header",
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "header"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "navbar",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 45,
+        "w": 140,
+        "x": 32,
+        "y": 10
+      },
+      "class": "brand",
+      "color": "#00ddff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet",
+      "tag": "a",
+      "text": "deep pool"
+    },
+    {
+      "box": {
+        "h": 35,
+        "w": 140,
+        "x": 32,
+        "y": 15
+      },
+      "color": "#00ddff",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 36,
+        "w": 62,
+        "x": 188,
+        "y": 17
+      },
+      "class": "net-toggle",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 202,
+        "y": 25
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 348,
+        "x": 266,
+        "y": 0
+      },
+      "class": "navbar-nav",
+      "color": "#ffffff",
+      "depth": 5,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 276,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 284,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 334,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 342,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 392,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 400,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 450,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#graphs",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 458,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 508,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 516,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 566,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#about",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 574,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 38,
+        "w": 485,
+        "x": 923,
+        "y": 16
+      },
+      "class": "search",
+      "color": "#ffffff",
+      "depth": 6,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "role": "search",
+      "tag": "form"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 38,
+        "w": 415,
+        "x": 923,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "name": "",
+      "placeholder": "Explore the full Bitcoin ecosystem",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 38,
+        "w": 62,
+        "x": 1346,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 20,
+        "x": 1367,
+        "y": 27
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "13.3333px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#b71c1c",
+      "box": {
+        "h": 66,
+        "w": 1420,
+        "x": 10,
+        "y": 71
+      },
+      "class": "net-alert",
+      "color": "#ffffff",
+      "depth": 3,
+      "font": "16px 400",
+      "role": "alert",
+      "tag": "div",
+      "text": "This is a test network. Coins have no value. Testnet3 is deprecated, and will soon be replaced by Testnet4"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 64,
+        "x": 881,
+        "y": 107
+      },
+      "color": "#00ddff",
+      "depth": 4,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet4",
+      "tag": "a",
+      "text": "Testnet4"
+    },
+    {
+      "box": {
+        "h": 56,
+        "w": 48,
+        "x": 1382,
+        "y": 71
+      },
+      "class": "close",
+      "color": "#ffffff",
+      "depth": 4,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 1398,
+        "y": 92
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "13.3333px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 835,
+        "w": 225,
+        "x": -250,
+        "y": 65
+      },
+      "class": "scrollable",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 85
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet",
+      "tag": "a",
+      "text": "Dashboard"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 117
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Mining"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 149
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "tag": "a",
+      "text": "Lightning"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 181
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#graphs",
+      "tag": "a",
+      "text": "Graphs"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 213
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a",
+      "text": "Documentation"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 245
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#about",
+      "tag": "a",
+      "text": "About"
+    },
+    {
+      "box": {
+        "h": 1390,
+        "w": 1440,
+        "x": 0,
+        "y": 161
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "main"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 555,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#mempool-block-0",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 133 sat/vB 0.00 tBTC 27 transactions In ~3 minutes"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 776,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346560",
+      "tag": "a",
+      "text": "5346560"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 760,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346560",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 25.2 sat/vB 0.00 tBTC 18 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 780,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 784,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 931,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346559",
+      "tag": "a",
+      "text": "5346559"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 915,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346559",
+      "tag": "a",
+      "text": "~0 sat/vB 1.01 - 265 sat/vB 0.002 tBTC 14 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 935,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 939,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 1086,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346558",
+      "tag": "a",
+      "text": "5346558"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1070,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346558",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1090,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1094,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 67,
+        "x": 1242,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346557",
+      "tag": "a",
+      "text": "5346557"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1225,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346557",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1245,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1249,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 1396,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346556",
+      "tag": "a",
+      "text": "5346556"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1380,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346556",
+      "tag": "a",
+      "text": "~0 sat/vB 265 - 265 sat/vB 0.00 tBTC 2 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1400,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1404,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 1552,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346555",
+      "tag": "a",
+      "text": "5346555"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1535,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346555",
+      "tag": "a",
+      "text": "~0 sat/vB 1.51 - 1.51 sat/vB 0.00 tBTC 2 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1555,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1559,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 1706,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346554",
+      "tag": "a",
+      "text": "5346554"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1690,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346554",
+      "tag": "a",
+      "text": "~0 sat/vB 1.01 - 1.01 sat/vB 0.00 tBTC 3 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1710,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1714,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 1861,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346553",
+      "tag": "a",
+      "text": "5346553"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1845,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346553",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1865,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1869,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 2017,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346552",
+      "tag": "a",
+      "text": "5346552"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2000,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346552",
+      "tag": "a",
+      "text": "~0 sat/vB 2.00 - 2.00 sat/vB 0.00 tBTC 2 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2020,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2024,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 65,
+        "x": 2173,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346551",
+      "tag": "a",
+      "text": "5346551"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2155,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346551",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2175,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2179,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 2326,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346550",
+      "tag": "a",
+      "text": "5346550"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2310,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346550",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2330,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2334,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 69,
+        "x": 2481,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346549",
+      "tag": "a",
+      "text": "5346549"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2465,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346549",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 1.51 sat/vB 0.00 tBTC 6 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2485,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2489,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 69,
+        "x": 2636,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346548",
+      "tag": "a",
+      "text": "5346548"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2620,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346548",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 1.00 sat/vB 0.00 tBTC 3 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2640,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2644,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 2792,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346547",
+      "tag": "a",
+      "text": "5346547"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2775,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346547",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2795,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2799,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 69,
+        "x": 2946,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346546",
+      "tag": "a",
+      "text": "5346546"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2930,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346546",
+      "tag": "a",
+      "text": "~0 sat/vB 3.43 - 3.85 sat/vB 0.00 tBTC 4 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2950,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2954,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 3101,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346545",
+      "tag": "a",
+      "text": "5346545"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3085,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346545",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3105,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3109,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 69,
+        "x": 3256,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346544",
+      "tag": "a",
+      "text": "5346544"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3240,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346544",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 265 sat/vB 0.003 tBTC 9 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3260,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3264,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 3411,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346543",
+      "tag": "a",
+      "text": "5346543"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3395,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346543",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3415,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3419,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 3566,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346542",
+      "tag": "a",
+      "text": "5346542"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3550,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346542",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3570,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3574,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 66,
+        "x": 3723,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346541",
+      "tag": "a",
+      "text": "5346541"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3705,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346541",
+      "tag": "a",
+      "text": "~0 sat/vB 1.01 - 1.01 sat/vB 0.00 tBTC 3 transactions Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3725,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3729,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 3876,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346540",
+      "tag": "a",
+      "text": "5346540"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3860,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346540",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3880,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3884,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 4031,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346539",
+      "tag": "a",
+      "text": "5346539"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4015,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346539",
+      "tag": "a",
+      "text": "~0 sat/vB 1.01 - 2.01 sat/vB 0.00 tBTC 4 transactions 12 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4035,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4039,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 4186,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346538",
+      "tag": "a",
+      "text": "5346538"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4170,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346538",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4190,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4194,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 67,
+        "x": 4342,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346537",
+      "tag": "a",
+      "text": "5346537"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4325,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346537",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4345,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4349,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 4496,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346536",
+      "tag": "a",
+      "text": "5346536"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4480,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346536",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4500,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4504,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 4651,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346535",
+      "tag": "a",
+      "text": "5346535"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4635,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346535",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4655,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4659,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 4806,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346534",
+      "tag": "a",
+      "text": "5346534"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4790,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346534",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4810,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4814,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 68,
+        "x": 4961,
+        "y": 183
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346533",
+      "tag": "a",
+      "text": "5346533"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4945,
+        "y": 236
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#block-5346533",
+      "tag": "a",
+      "text": "~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4965,
+        "y": 372
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4969,
+        "y": 375
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 200,
+        "w": 2,
+        "x": 720,
+        "y": 186
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 162
+      },
+      "class": "block-display-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 162
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 395
+      },
+      "class": "time-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 395
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 63,
+        "x": 10,
+        "y": 266
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 50,
+        "x": 1174,
+        "y": 416
+      },
+      "class": "inactive",
+      "color": "#ffffffbb",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/testnet#",
+      "tag": "a",
+      "text": "difficulty"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 41,
+        "x": 1231,
+        "y": 416
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/testnet#",
+      "tag": "a",
+      "text": "halving"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 506,
+        "x": 182,
+        "y": 605
+      },
+      "class": "title-link mb-0",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#goggles",
+      "tag": "a",
+      "text": "Pool Goggles : All"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 494,
+        "y": 611
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 220,
+        "x": 325,
+        "y": 637
+      },
+      "class": "btn-group goggles-filter",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "role": "radiogroup",
+      "tag": "div",
+      "text": "All Consolidation Coinjoin Data"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 640
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-0",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 640
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-1",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 640
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-2",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 640
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-3",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 410,
+        "w": 410,
+        "x": 230,
+        "y": 665
+      },
+      "class": "fade-in",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "canvas"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 149,
+        "x": 756,
+        "y": 636
+      },
+      "class": "card-text",
+      "color": "#ffffff",
+      "depth": 13,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "0.10 sat/vB"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 149,
+        "x": 1105,
+        "y": 636
+      },
+      "class": "card-text",
+      "color": "#ffffff",
+      "depth": 13,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "27 TXs"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 163,
+        "x": 923,
+        "y": 671
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#graphs",
+      "tag": "a",
+      "text": "Incoming Transactions"
+    },
+    {
+      "box": {
+        "h": 370,
+        "w": 498,
+        "x": 756,
+        "y": 710
+      },
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 498,
+        "x": 186,
+        "y": 1139
+      },
+      "class": "title-link",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#rbf",
+      "tag": "a",
+      "text": "Recent Replacements"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 509,
+        "y": 1145
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1231
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-2afc16eb4d0fa833057a18d7537f13068d4008f3b707fba568f8bfdc522d7aa1",
+      "tag": "a",
+      "text": "2afc16eb4d0fa833057a18d7537f13068d4008f3b707fba568f8bfdc522 d7aa1 2afc16eb4d0fa833057a18d7537f13068d4008f3b707fba568f8bfdc522d7aa1"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1279
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-25f13e51d6f655454426e8ba6b1432bf94498ef337bcd59574a17ab6a7889ef9",
+      "tag": "a",
+      "text": "25f13e51d6f655454426e8ba6b1432bf94498ef337bcd59574a17ab6a78 89ef9 25f13e51d6f655454426e8ba6b1432bf94498ef337bcd59574a17ab6a7889ef9"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1326
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-1736c8f1dd4e6e5f62efbfaa047e01f6a2ed96fcea09b9bd3b25fcec419807b2",
+      "tag": "a",
+      "text": "1736c8f1dd4e6e5f62efbfaa047e01f6a2ed96fcea09b9bd3b25fcec419 807b2 1736c8f1dd4e6e5f62efbfaa047e01f6a2ed96fcea09b9bd3b25fcec419807b2"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1373
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-af128f797bf500bed60a310e1e2b25cc521ce74052e5b3f24ada63c677492b3b",
+      "tag": "a",
+      "text": "af128f797bf500bed60a310e1e2b25cc521ce74052e5b3f24ada63c6774 92b3b af128f797bf500bed60a310e1e2b25cc521ce74052e5b3f24ada63c677492b3b"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1421
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-0eaa7b703d4e82a7d67d0042d0c250507c6be057b6ebd472adcc9d4f76b5fb01",
+      "tag": "a",
+      "text": "0eaa7b703d4e82a7d67d0042d0c250507c6be057b6ebd472adcc9d4f76b 5fb01 0eaa7b703d4e82a7d67d0042d0c250507c6be057b6ebd472adcc9d4f76b5fb01"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1468
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-25e4da2ff1df4cd0b979adfe31dc31a64ef465ab7c5605ba5993eef2bf2078f4",
+      "tag": "a",
+      "text": "25e4da2ff1df4cd0b979adfe31dc31a64ef465ab7c5605ba5993eef2bf2 078f4 25e4da2ff1df4cd0b979adfe31dc31a64ef465ab7c5605ba5993eef2bf2078f4"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 498,
+        "x": 756,
+        "y": 1139
+      },
+      "class": "title-link",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#txs",
+      "tag": "a",
+      "text": "Recent Transactions"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 1074,
+        "y": 1145
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1231
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-2db7a27d88084485de8d596b1504b37fc3b98998475bbec60aeb4ca9a5636277",
+      "tag": "a",
+      "text": "2db7a27d88084485de8d596b1504b37fc3b98998475bbec60aeb4ca9a56 36277 2db7a27d88084485de8d596b1504b37fc3b98998475bbec60aeb4ca9a5636277"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1279
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-4431d0f6dbbba34f782f285036f9d66c0a4d923b67ce17d4c2845cc5df6ffa4a",
+      "tag": "a",
+      "text": "4431d0f6dbbba34f782f285036f9d66c0a4d923b67ce17d4c2845cc5df6 ffa4a 4431d0f6dbbba34f782f285036f9d66c0a4d923b67ce17d4c2845cc5df6ffa4a"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1326
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-967fa16ee516999ddd0de85b962a8454d82da87554eb69a75c43690277ee9c8d",
+      "tag": "a",
+      "text": "967fa16ee516999ddd0de85b962a8454d82da87554eb69a75c43690277e e9c8d 967fa16ee516999ddd0de85b962a8454d82da87554eb69a75c43690277ee9c8d"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1373
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-9b49b5c473509497321fc692ce339c251cf5593d6ef61cdba855fd4700df1654",
+      "tag": "a",
+      "text": "9b49b5c473509497321fc692ce339c251cf5593d6ef61cdba855fd4700d f1654 9b49b5c473509497321fc692ce339c251cf5593d6ef61cdba855fd4700df1654"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1421
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-ac3e82b49f8acaf60e4dea4b8222dc1d3fa4533c910376bae126a93061754a47",
+      "tag": "a",
+      "text": "ac3e82b49f8acaf60e4dea4b8222dc1d3fa4533c910376bae126a930617 54a47 ac3e82b49f8acaf60e4dea4b8222dc1d3fa4533c910376bae126a93061754a47"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1468
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#tx-21022b1385ead903406fc0c3edcc55566834cb52f5d3f5a196144fca769ac514",
+      "tag": "a",
+      "text": "21022b1385ead903406fc0c3edcc55566834cb52f5d3f5a196144fca769 ac514 21022b1385ead903406fc0c3edcc55566834cb52f5d3f5a196144fca769ac514"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 517,
+        "w": 1440,
+        "x": 0,
+        "y": 1581
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "footer"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 1629
+      },
+      "class": "footer-logo-wrapper",
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 1629
+      },
+      "color": "#ffffff66",
+      "depth": 8,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 120,
+        "x": 649,
+        "y": 1621
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenšči",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 85,
+        "x": 779,
+        "y": 1621
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "AUD CAD CHF EUR GBP JPY USD",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 110,
+        "x": 874,
+        "y": 1621
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - ",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 75,
+        "x": 994,
+        "y": 1621
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "BTC sats Fiat",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 108,
+        "x": 1079,
+        "y": 1621
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "wiz BlueMatt softsimon nymkappa contrast",
+      "type": "select-one"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 31,
+        "w": 73,
+        "x": 1197,
+        "y": 1621
+      },
+      "class": "sponsor",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "Sign In"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 1110,
+        "x": 165,
+        "y": 1684
+      },
+      "class": "explore-tagline-desktop",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Explore the full Bitcoin ecosystem®"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1748
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Explore"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1776
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1779
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1804
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1807
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "tag": "a",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1832
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 103,
+        "x": 165,
+        "y": 1835
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#mining",
+      "tag": "a",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1860
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 162,
+        "x": 165,
+        "y": 1863
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#broadcast-transaction",
+      "tag": "a",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1888
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 119,
+        "x": 165,
+        "y": 1891
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#test-transaction",
+      "tag": "a",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1916
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 165,
+        "y": 1919
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#preview-transaction",
+      "tag": "a",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1944
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 160,
+        "x": 165,
+        "y": 1947
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#lightning",
+      "tag": "a",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1972
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 139,
+        "x": 165,
+        "y": 1975
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1748
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Learn"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1776
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 442,
+        "y": 1779
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1804
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 182,
+        "x": 442,
+        "y": 1807
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1832
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 210,
+        "x": 442,
+        "y": 1835
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1860
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 268,
+        "x": 442,
+        "y": 1863
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1888
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 442,
+        "y": 1891
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#be-your-own-explorer",
+      "tag": "a",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1916
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 94,
+        "x": 442,
+        "y": 1919
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#docs",
+      "tag": "a",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1944
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 67,
+        "x": 442,
+        "y": 1947
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#about",
+      "tag": "a",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1748
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Networks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1776
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Mainnet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 122,
+        "x": 839,
+        "y": 1779
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/",
+      "tag": "a",
+      "text": "Mainnet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1804
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 839,
+        "y": 1807
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet4",
+      "tag": "a",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1832
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 110,
+        "x": 839,
+        "y": 1835
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet",
+      "tag": "a",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1860
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 839,
+        "y": 1863
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#liquid-testnet",
+      "tag": "a",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1888
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 108,
+        "x": 839,
+        "y": 1891
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#liquid",
+      "tag": "a",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1748
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Legal"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1776
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 122,
+        "x": 1119,
+        "y": 1779
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#terms-of-service",
+      "tag": "a",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1804
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 100,
+        "x": 1119,
+        "y": 1807
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#privacy-policy",
+      "tag": "a",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1832
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 125,
+        "x": 1119,
+        "y": 1835
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#trademark-policy",
+      "tag": "a",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1860
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 151,
+        "x": 1119,
+        "y": 1863
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#third-party-licenses",
+      "tag": "a",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 566,
+        "y": 2000
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#github",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 566,
+        "y": 2010
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 614,
+        "y": 2000
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#x",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 614,
+        "y": 2010
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 662,
+        "y": 2000
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#nostr",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 662,
+        "y": 2010
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 710,
+        "y": 2000
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#primal",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 710,
+        "y": 2010
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 758,
+        "y": 2000
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#youtube",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 758,
+        "y": 2010
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 806,
+        "y": 2000
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#bitcointv",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 806,
+        "y": 2010
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 854,
+        "y": 2000
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet#matrix",
+      "tag": "a",
+      "text": "m"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 854,
+        "y": 2010
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 1410,
+        "x": 15,
+        "y": 2060
+      },
+      "color": "#ffffff66",
+      "depth": 5,
+      "font": "12px 400",
+      "tag": "p",
+      "text": "node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 68,
+        "x": 753,
+        "y": 2061
+      },
+      "color": "#3fb8d6",
+      "depth": 6,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/testnet#changelog",
+      "tag": "a",
+      "text": "[04c299c3]"
+    }
+  ],
+  "page": {
+    "h": 2098,
+    "w": 1440
+  },
+  "text": "deep pool This is a test network. Coins have no value. Testnet3 is deprecated, and will soon be replaced by Testnet4 Dashboard Mining Lightning Graphs Documentation About ~0 sat/vB 0.10 - 133 sat/vB 0.00 tBTC 27 transactions In ~3 minutes 5346560 ~0 sat/vB 1.00 - 25.2 sat/vB 0.00 tBTC 18 transactions Just now Unknown 5346559 ~0 sat/vB 1.01 - 265 sat/vB 0.002 tBTC 14 transactions Just now Unknown 5346558 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346557 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346556 ~0 sat/vB 265 - 265 sat/vB 0.00 tBTC 2 transactions Just now Unknown 5346555 ~0 sat/vB 1.51 - 1.51 sat/vB 0.00 tBTC 2 transactions Just now Unknown 5346554 ~0 sat/vB 1.01 - 1.01 sat/vB 0.00 tBTC 3 transactions Just now Unknown 5346553 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346552 ~0 sat/vB 2.00 - 2.00 sat/vB 0.00 tBTC 2 transactions Just now Unknown 5346551 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346550 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346549 ~0 sat/vB 1.00 - 1.51 sat/vB 0.00 tBTC 6 transactions Just now Unknown 5346548 ~0 sat/vB 1.00 - 1.00 sat/vB 0.00 tBTC 3 transactions Just now Unknown 5346547 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346546 ~0 sat/vB 3.43 - 3.85 sat/vB 0.00 tBTC 4 transactions Just now Unknown 5346545 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346544 ~0 sat/vB 1.00 - 265 sat/vB 0.003 tBTC 9 transactions Just now Unknown 5346543 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346542 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346541 ~0 sat/vB 1.01 - 1.01 sat/vB 0.00 tBTC 3 transactions Just now Unknown 5346540 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346539 ~0 sat/vB 1.01 - 2.01 sat/vB 0.00 tBTC 4 transactions 12 minutes ago Unknown 5346538 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346537 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago Unknown 5346536 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346535 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago Unknown 5346534 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction Just now Unknown 5346533 ~0 sat/vB 0.00 - 0.00 sat/vB 0.00 tBTC 1 transaction 12 minutes ago Unknown TRANSACTION FEES No Priority Low Priority Medium Priority High Priority 0.1 sat/vB $0.00 0.1 sat/vB $0.00 0.5 sat/vB $0.00 1 sat/vB $0.00 DIFFICULTY ADJUSTMENT difficulty|halving ~2.3 minutes Average block time ▲172.83 % Previous: ▲300.00 % In ~4 days November 18 Pool Goggles : All All Consolidation Coinjoin Data Minimum fee 0.10 sat/vB Memory Usage 35.8 kB / 300 MB Unconfirmed 27 TXs Incoming Transactions 0 300 600 900 1200 1500 1800 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 Recent Replacements TXID Previous fee New fee Status 2afc16eb4d0fa833057a18d7537f13068d4008f3b707fba568f8bfdc522 d7aa1 2afc16eb4d0fa833057a18d7537f13068d4008f3b707fba568f8bfdc522d7aa1 1.43 sat/vB 302 sat/vB RBF 25f13e51d6f655454426e8ba6b1432bf94498ef337bcd59574a17ab6a78 89ef9 25f13e51d6f655454426e8ba6b1432bf94498ef337bcd59574a17ab6a7889ef9 1.01 sat/vB 2.53 sat/vB RBF 1736c8f1dd4e6e5f62efbfaa047e01f6a2ed96fcea09b9bd3b25fcec419 807b2 1736c8f1dd4e6e5f62efbfaa047e01f6a2ed96fcea09b9bd3b25fcec419807b2 37.0 sat/vB 37.1 sat/vB RBF af128f797bf500bed60a310e1e2b25cc521ce74052e5b3f24ada63c6774 92b3b af128f797bf500bed60a310e1e2b25cc521ce74052e5b3f24ada63c677492b3b 1.00 sat/vB 5.03 sat/vB RBF 0eaa7b703d4e82a7d67d0042d0c250507c6be057b6ebd472adcc9d4f76b 5fb01 0eaa7b703d4e82a7d67d0042d0c250507c6be057b6ebd472adcc9d4f76b5fb01 6.13 sat/vB 9.19 sat/vB MinedRBF 25e4da2ff1df4cd0b979adfe31dc31a64ef465ab7c5605ba5993eef2bf2 078f4 25e4da2ff1df4cd0b979adfe31dc31a64ef465ab7c5605ba5993eef2bf2078f4 2.01 sat/vB 3.27 sat/vB Full RBF Recent Transactions TXID Amount Fee 2db7a27d88084485de8d596b1504b37fc3b98998475bbec60aeb4ca9a56 36277 2db7a27d88084485de8d596b1504b37fc3b98998475bbec60aeb4ca9a5636277 7.6016 tBTC 2.01 sat/vB 4431d0f6dbbba34f782f285036f9d66c0a4d923b67ce17d4c2845cc5df6 ffa4a 4431d0f6dbbba34f782f285036f9d66c0a4d923b67ce17d4c2845cc5df6ffa4a 0.0028 tBTC 1.00 sat/vB 967fa16ee516999ddd0de85b962a8454d82da87554eb69a75c43690277e e9c8d 967fa16ee516999ddd0de85b962a8454d82da87554eb69a75c43690277ee9c8d 0.8468 tBTC 1.01 sat/vB 9b49b5c473509497321fc692ce339c251cf5593d6ef61cdba855fd4700d f1654 9b49b5c473509497321fc692ce339c251cf5593d6ef61cdba855fd4700df1654 0.8469 tBTC 1.00 sat/vB ac3e82b49f8acaf60e4dea4b8222dc1d3fa4533c910376bae126a930617 54a47 ac3e82b49f8acaf60e4dea4b8222dc1d3fa4533c910376bae126a93061754a47 0.0002 tBTC 1.20 sat/vB 21022b1385ead903406fc0c3edcc55566834cb52f5d3f5a196144fca769 ac514 21022b1385ead903406fc0c3edcc55566834cb52f5d3f5a196144fca769ac514 0.847 tBTC 1.01 sat/vB العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenščina Suomi Svenska ไทย Türkçe Українська Tiếng Việt 中文 AUD CAD CHF EUR GBP JPY USD UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - Pacific Standard Time (PST) UTC-7 - Mountain Standard Time (MST) UTC-6 - Central Standard Time (CST) UTC-5 - Eastern Standard Time (EST) UTC-4 - Atlantic Standard Time (AST) UTC-3 - Argentina Time (ART) UTC-2 - Fernando de Noronha Time (FNT) UTC-1 - Azores Time (AZOT) UTC+1 - Central European Time (CET) UTC+2 - Eastern European Time (EET) UTC+3 - Moscow Standard Time (MSK) UTC+4 - Armenia Time (AMT) UTC+5 - Pakistan Standard Time (PKT) UTC+6 - Xinjiang Time (XJT) UTC+7 - Indochina Time (ICT) UTC+8 - Hong Kong Time (HKT) UTC+9 - Japan Standard Time (JST) UTC+10 - Australian Eastern Standard Time (AEST) UTC+11 - Norfolk Time (NFT) UTC+12 - New Zealand Standard Time (NZST) UTC+13 - Tonga Time (TOT) UTC+14 - Line Islands Time (LINT) BTC sats Fiat wiz BlueMatt softsimon nymkappa contrast Sign In Explore the full Bitcoin ecosystem® Explore Mining Dashboard Lightning Explorer Recent Blocks Broadcast Transaction Test Transaction Preview Transaction Connect to our Nodes API Documentation Learn What is a mempool? What is a block explorer? What is a mempool explorer? Why isn't my transaction confirming? Be your own explorer™ More FAQs » Research Networks Mainnet Explorer Testnet4 Explorer Signet Explorer Liquid Testnet Explorer Liquid Explorer Legal Terms of Service Privacy Policy Trademark Policy Third-party Licenses m node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]",
+  "title": "deep pool - Testnet3 Explorer",
+  "unreadable_stylesheets": 0,
+  "url": "http://127.0.0.1:52915/testnet",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

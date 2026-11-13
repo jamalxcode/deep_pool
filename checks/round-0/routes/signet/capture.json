@@ -1,0 +1,5298 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "contentinfo": 1,
+      "main": 1,
+      "navigation": 2,
+      "search": 1
+    },
+    "lang": "en-US",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [],
+    "images": [
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Unknown mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+        "w": 150
+      }
+    ],
+    "inline_scripts": 0,
+    "requests": [
+      {
+        "bytes": 40510,
+        "type": "link",
+        "url": "http://127.0.0.1:52915/style.css"
+      },
+      {
+        "bytes": 135863,
+        "type": "script",
+        "url": "http://127.0.0.1:52915/app.js"
+      }
+    ],
+    "scripts": [
+      "http://127.0.0.1:52915/app.js"
+    ],
+    "stylesheets": [
+      "http://127.0.0.1:52915/style.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 369,
+      "query": "max-width 369px"
+    },
+    {
+      "count": 1,
+      "px": 429,
+      "query": "max-width 429px"
+    },
+    {
+      "count": 2,
+      "px": 450,
+      "query": "max-width 450px"
+    },
+    {
+      "count": 2,
+      "px": 484,
+      "query": "max-width 484px"
+    },
+    {
+      "count": 3,
+      "px": 575,
+      "query": "max-width 575px"
+    },
+    {
+      "count": 2,
+      "px": 613,
+      "query": "max-width 613px"
+    },
+    {
+      "count": 8,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 6,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 12,
+      "px": 991,
+      "query": "max-width 991px"
+    },
+    {
+      "count": 1,
+      "px": 992,
+      "query": "min-width 992px"
+    },
+    {
+      "count": 1,
+      "px": 1019,
+      "query": "max-width 1019px"
+    },
+    {
+      "count": 1,
+      "px": 1080,
+      "query": "max-width 1080px"
+    },
+    {
+      "count": 1,
+      "px": 1199,
+      "query": "max-width 1199px"
+    },
+    {
+      "count": 1,
+      "px": 1200,
+      "query": "max-width 1200px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 10,
+        "value": "#11131f"
+      },
+      {
+        "count": 9,
+        "value": "#272f4e"
+      },
+      {
+        "count": 9,
+        "value": "#0aab2f"
+      },
+      {
+        "count": 3,
+        "value": "#007cfa"
+      },
+      {
+        "count": 2,
+        "value": "#6225b2"
+      },
+      {
+        "count": 1,
+        "value": "#000000"
+      },
+      {
+        "count": 1,
+        "value": "#6f1d5d"
+      },
+      {
+        "count": 1,
+        "value": "#b71c1c"
+      },
+      {
+        "count": 1,
+        "value": "#007d3d"
+      },
+      {
+        "count": 1,
+        "value": "#0162c8"
+      }
+    ],
+    "css_variables": {
+      "--active-bg": "#000000",
+      "--active-nav": "#6225b2",
+      "--alert": "#b71c1c",
+      "--behind": "#ff3d00",
+      "--bg": "#11131f",
+      "--block-side": "#191c27",
+      "--block-top": "#232838",
+      "--border-subtle": "rgba(255, 255, 255, .11)",
+      "--button": "#6225b2",
+      "--chart-high": "#fdd835",
+      "--chart-low": "#83c341",
+      "--down": "#ff3d00",
+      "--fee-span": "#fff000",
+      "--fg": "#ffffff",
+      "--fiat": "#83fd00",
+      "--font": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Appl",
+      "--footer-fg": "rgba(255, 255, 255, .4)",
+      "--icon": "#f1f1f1",
+      "--link": "#00ddff",
+      "--mempool-block-empty": "#554b45",
+      "--mempool-block-side": "#2d2825",
+      "--mempool-block-top": "#403834",
+      "--mined-bottom": "#105fb0",
+      "--mined-empty": "#2b3456",
+      "--mined-top": "#9339f4",
+      "--nav-bg": "#11131f",
+      "--opacity": ".57",
+      "--primary": "#007cfa",
+      "--primary-dark": "#0162c8",
+      "--secondary": "#272f4e",
+      "--success": "#0aab2f",
+      "--title-fg": "#2055e3",
+      "--transparent-fg": "#ffffffbb",
+      "--up": "#83fd00",
+      "--warning": "#b58800"
+    },
+    "font_faces": [],
+    "font_sizes": [
+      {
+        "count": 168,
+        "value": "16px"
+      },
+      {
+        "count": 81,
+        "value": "12px"
+      },
+      {
+        "count": 58,
+        "value": "13px"
+      },
+      {
+        "count": 44,
+        "value": "11px"
+      },
+      {
+        "count": 32,
+        "value": "10px"
+      },
+      {
+        "count": 8,
+        "value": "10.5px"
+      },
+      {
+        "count": 7,
+        "value": "20px"
+      },
+      {
+        "count": 3,
+        "value": "9px"
+      },
+      {
+        "count": 2,
+        "value": "18px"
+      },
+      {
+        "count": 1,
+        "value": "20.5px"
+      },
+      {
+        "count": 1,
+        "value": "19px"
+      },
+      {
+        "count": 1,
+        "value": "14px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 322,
+        "value": "400"
+      },
+      {
+        "count": 79,
+        "value": "700"
+      },
+      {
+        "count": 5,
+        "value": "500"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 388,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+      },
+      {
+        "count": 15,
+        "value": "sans-serif"
+      },
+      {
+        "count": 2,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif"
+      },
+      {
+        "count": 1,
+        "value": "Arial"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 28,
+        "value": "145px"
+      },
+      {
+        "count": 3,
+        "value": "1140px"
+      },
+      {
+        "count": 1,
+        "value": "500px"
+      },
+      {
+        "count": 1,
+        "value": "1440px"
+      },
+      {
+        "count": 1,
+        "value": "180px"
+      },
+      {
+        "count": 1,
+        "value": "160px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 53,
+        "value": "4px"
+      },
+      {
+        "count": 1,
+        "value": "0px 10px 10px 0px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 0px 0px 15px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 5px 0px 30px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 142,
+        "value": "12px"
+      },
+      {
+        "count": 99,
+        "value": "3px"
+      },
+      {
+        "count": 82,
+        "value": "5px"
+      },
+      {
+        "count": 81,
+        "value": "10px"
+      },
+      {
+        "count": 69,
+        "value": "4px"
+      },
+      {
+        "count": 56,
+        "value": "4.8px"
+      },
+      {
+        "count": 49,
+        "value": "11.36px"
+      },
+      {
+        "count": 41,
+        "value": "2px"
+      },
+      {
+        "count": 40,
+        "value": "8px"
+      },
+      {
+        "count": 25,
+        "value": "15px"
+      },
+      {
+        "count": 19,
+        "value": "20px"
+      },
+      {
+        "count": 16,
+        "value": "5.6px"
+      },
+      {
+        "count": 9,
+        "value": "1px"
+      },
+      {
+        "count": 9,
+        "value": "7px"
+      },
+      {
+        "count": 8,
+        "value": "24px"
+      },
+      {
+        "count": 8,
+        "value": "18px"
+      },
+      {
+        "count": 8,
+        "value": "3.2px"
+      },
+      {
+        "count": 6,
+        "value": "6px"
+      },
+      {
+        "count": 5,
+        "value": "36px"
+      },
+      {
+        "count": 3,
+        "value": "16px"
+      },
+      {
+        "count": 2,
+        "value": "32px"
+      },
+      {
+        "count": 2,
+        "value": "9px"
+      },
+      {
+        "count": 2,
+        "value": "48px"
+      },
+      {
+        "count": 2,
+        "value": "-13px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 229,
+        "value": "#ffffff"
+      },
+      {
+        "count": 55,
+        "value": "#00ddff"
+      },
+      {
+        "count": 35,
+        "value": "#ffffffbb"
+      },
+      {
+        "count": 29,
+        "value": "#fff000"
+      },
+      {
+        "count": 25,
+        "value": "#ffffff66"
+      },
+      {
+        "count": 12,
+        "value": "#00000000"
+      },
+      {
+        "count": 11,
+        "value": "#2055e3"
+      },
+      {
+        "count": 6,
+        "value": "#83fd00"
+      },
+      {
+        "count": 2,
+        "value": "#ff3d00"
+      },
+      {
+        "count": 1,
+        "value": "#ffffffdd"
+      },
+      {
+        "count": 1,
+        "value": "#3fb8d6"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "Explore the full Bitcoin ecosystem",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    }
+  ],
+  "headings": [],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en-US",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "column": {
+            "max_w": 500,
+            "pad": [
+              15,
+              0
+            ],
+            "w": 500,
+            "x": 908
+          },
+          "h": 64,
+          "pad": [
+            0,
+            32,
+            0,
+            32
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 65
+        },
+        {
+          "column": {
+            "max_w": 1440,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1440,
+            "x": 0
+          },
+          "h": 1390,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "main",
+          "w": 1440,
+          "y": 137
+        },
+        {
+          "background": "#11131f",
+          "column": {
+            "max_w": 1140,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1140,
+            "x": 150
+          },
+          "h": 517,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 1440,
+          "y": 1557
+        }
+      ],
+      "page_h": 2074,
+      "page_w": 1440,
+      "type": {
+        "body": 18,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 6,
+          "tag": "header",
+          "w": 768,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 6,
+          "tag": "nav",
+          "w": 768,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 65
+        },
+        {
+          "column": {
+            "max_w": 768,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 768,
+            "x": 0
+          },
+          "h": 1295,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 28,
+          "tag": "main",
+          "w": 768,
+          "y": 137
+        },
+        {
+          "background": "#11131f",
+          "h": 1193,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 768,
+          "y": 1462
+        }
+      ],
+      "page_h": 2704,
+      "page_w": 768,
+      "type": {
+        "body": 18,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 6,
+          "tag": "header",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 6,
+          "tag": "nav",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 105
+        },
+        {
+          "column": {
+            "max_w": 390,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 390,
+            "x": 0
+          },
+          "h": 2054,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 28,
+          "tag": "main",
+          "w": 390,
+          "y": 201
+        },
+        {
+          "background": "#11131f",
+          "h": 1323,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "footer",
+          "w": 390,
+          "y": 2285
+        }
+      ],
+      "page_h": 3657,
+      "page_w": 390,
+      "type": {
+        "body": 18,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "Mainnet"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "Signet"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "Testnet3"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet4",
+      "text": "Testnet4"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mempool-block-0",
+      "text": "~0 sat/vB 0.97 - 30.2 sat/vB 0.005 sBTC 317 transactions In ~9 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330637",
+      "text": "330637"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330637",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.003 sBTC 119 transactions 12 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330636",
+      "text": "330636"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330636",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.03 sBTC 514 transactions 15 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330635",
+      "text": "330635"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330635",
+      "text": "~0 sat/vB 0.15 - 3,900 sat/vB 0.017 sBTC 98 transactions 36 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330634",
+      "text": "330634"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330634",
+      "text": "~0 sat/vB 0.78 - 3,900 sat/vB 0.043 sBTC 296 transactions 39 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330633",
+      "text": "330633"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330633",
+      "text": "~0 sat/vB 0.14 - 3,900 sat/vB 0.016 sBTC 70 transactions 50 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330632",
+      "text": "330632"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330632",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 22 transactions 51 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330631",
+      "text": "330631"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330631",
+      "text": "~0 sat/vB 0.20 - 3,900 sat/vB 0.011 sBTC 108 transactions 52 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330630",
+      "text": "330630"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330630",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 34 transactions 55 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330629",
+      "text": "330629"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330629",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.035 sBTC 389 transactions 56 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330628",
+      "text": "330628"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330628",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.035 sBTC 220 transactions 74 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330627",
+      "text": "330627"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330627",
+      "text": "~0 sat/vB 0.79 - 3,900 sat/vB 0.036 sBTC 259 transactions 80 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330626",
+      "text": "330626"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330626",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.016 sBTC 115 transactions 90 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330625",
+      "text": "330625"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330625",
+      "text": "~0 sat/vB 0.10 - 3,900 sat/vB 0.02 sBTC 147 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330624",
+      "text": "330624"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330624",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 61 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330623",
+      "text": "330623"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330623",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.018 sBTC 425 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330622",
+      "text": "330622"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330622",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.021 sBTC 213 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330621",
+      "text": "330621"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330621",
+      "text": "~0 sat/vB 0.75 - 149 sat/vB 0.003 sBTC 127 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330620",
+      "text": "330620"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330620",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.033 sBTC 166 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330619",
+      "text": "330619"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330619",
+      "text": "~0 sat/vB 0.10 - 4.01 sat/vB 0.00 sBTC 18 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330618",
+      "text": "330618"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330618",
+      "text": "~0 sat/vB 0.94 - 246 sat/vB 0.004 sBTC 194 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330617",
+      "text": "330617"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330617",
+      "text": "~0 sat/vB 0.10 - 3,900 sat/vB 0.017 sBTC 175 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330616",
+      "text": "330616"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330616",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.001 sBTC 34 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330615",
+      "text": "330615"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330615",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.02 sBTC 400 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330614",
+      "text": "330614"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330614",
+      "text": "~0 sat/vB 0.83 - 3,900 sat/vB 0.012 sBTC 188 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330613",
+      "text": "330613"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330613",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.013 sBTC 282 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330612",
+      "text": "330612"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330612",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.019 sBTC 473 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330611",
+      "text": "330611"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330611",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.019 sBTC 225 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330610",
+      "text": "330610"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#block-330610",
+      "text": "~0 sat/vB 0.11 - 17.2 sat/vB 0.001 sBTC 101 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Unknown"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#",
+      "text": "difficulty"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#",
+      "text": "halving"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#goggles",
+      "text": "Pool Goggles : All"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#graphs",
+      "text": "Incoming Transactions"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#rbf",
+      "text": "Recent Replacements"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-c1ec0aaa18ef5ef0e47061db15f5cf580fcd7c51120e14dcd714257a6233535e",
+      "text": "c1ec0aaa18ef5ef0e47061db15f5cf580fcd7c51120e14dcd714257a623 3535e c1ec0aaa18ef5ef0e47061db15f5cf580f"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-7c5896a5b9ecae1ef2ce2d5255aaaca1d99b512473f40b40086781b07ff5a80a",
+      "text": "7c5896a5b9ecae1ef2ce2d5255aaaca1d99b512473f40b40086781b07ff 5a80a 7c5896a5b9ecae1ef2ce2d5255aaaca1d9"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-c41986d3ceba76bb64e43989569ab83af01c7f2297121e9a3ad089db6e5e23fe",
+      "text": "c41986d3ceba76bb64e43989569ab83af01c7f2297121e9a3ad089db6e5 e23fe c41986d3ceba76bb64e43989569ab83af0"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-e9606f91503d62f57e5a9875c208f8ce21ed02590785185721121fa1bfab980a",
+      "text": "e9606f91503d62f57e5a9875c208f8ce21ed02590785185721121fa1bfa b980a e9606f91503d62f57e5a9875c208f8ce21"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-0ee75db919220d578ab0c33f5ab2cee714012adb160e38bbe2cac52a3f4343c8",
+      "text": "0ee75db919220d578ab0c33f5ab2cee714012adb160e38bbe2cac52a3f4 343c8 0ee75db919220d578ab0c33f5ab2cee714"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-006f387d06f95ece4542930075cc49e8a43f0eb53de4ee6f2ecb3f7189b96c27",
+      "text": "006f387d06f95ece4542930075cc49e8a43f0eb53de4ee6f2ecb3f7189b 96c27 006f387d06f95ece4542930075cc49e8a4"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#txs",
+      "text": "Recent Transactions"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-7dfe68cc9d0d988d3f3fd5476f0674996378a7e3d095e5cdc1ae05a0577e8324",
+      "text": "7dfe68cc9d0d988d3f3fd5476f0674996378a7e3d095e5cdc1ae05a0577 e8324 7dfe68cc9d0d988d3f3fd5476f06749963"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-717e7c5cbabe709f7c4cad185dea7f2c57b23b5206107c9c777af53a475c83f0",
+      "text": "717e7c5cbabe709f7c4cad185dea7f2c57b23b5206107c9c777af53a475 c83f0 717e7c5cbabe709f7c4cad185dea7f2c57"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-000b71c880795f2dcd624024f9aa30532db40f0bc06bd6a2dc5328b07a6a253a",
+      "text": "000b71c880795f2dcd624024f9aa30532db40f0bc06bd6a2dc5328b07a6 a253a 000b71c880795f2dcd624024f9aa30532d"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d3c44336d80b3bdc6d6196122e80301",
+      "text": "42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d3c44336d80b3bdc6d6196122e 80301 42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-606e167c4b87025ea8ece23775d9169b29ef5c571315ff820c5e6a3adcfb542b",
+      "text": "606e167c4b87025ea8ece23775d9169b29ef5c571315ff820c5e6a3adcf b542b 606e167c4b87025ea8ece23775d9169b29"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#tx-337297fdbc370054112401afb066d47adf19e3a0c11d608907b7f01b6435a3cf",
+      "text": "337297fdbc370054112401afb066d47adf19e3a0c11d608907b7f01b643 5a3cf 337297fdbc370054112401afb066d47adf"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Mining Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "text": "Lightning Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "text": "Recent Blocks"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#broadcast-transaction",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#test-transaction",
+      "text": "Test Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#preview-transaction",
+      "text": "Preview Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "API Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "What is a mempool?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "What is a block explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#be-your-own-explorer",
+      "text": "Be your own explorer™"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "text": "More FAQs »"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#about",
+      "text": "Research"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "Mainnet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet4",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#liquid-testnet",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#liquid",
+      "text": "Liquid Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#terms-of-service",
+      "text": "Terms of Service"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#trademark-policy",
+      "text": "Trademark Policy"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#third-party-licenses",
+      "text": "Third-party Licenses"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#github",
+      "text": "GitHub"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#x",
+      "text": "X"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#nostr",
+      "text": "Nostr"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#primal",
+      "text": "Primal"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#youtube",
+      "text": "YouTube"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#bitcointv",
+      "text": "BitcoinTV"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#matrix",
+      "text": "m"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet#changelog",
+      "text": "[04c299c3]"
+    }
+  ],
+  "meta": {
+    "description": "Explore the full Bitcoin ecosystem with deep pool. See the real-time status of your transactions, get network info, and more.",
+    "icons": [
+      "http://127.0.0.1:52915/favicon.svg"
+    ],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "sticky-header",
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "header"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "navbar",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 45,
+        "w": 140,
+        "x": 32,
+        "y": 10
+      },
+      "class": "brand",
+      "color": "#00ddff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet",
+      "tag": "a",
+      "text": "deep pool"
+    },
+    {
+      "box": {
+        "h": 35,
+        "w": 140,
+        "x": 32,
+        "y": 15
+      },
+      "color": "#00ddff",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 36,
+        "w": 62,
+        "x": 188,
+        "y": 17
+      },
+      "class": "net-toggle",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 202,
+        "y": 25
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 348,
+        "x": 266,
+        "y": 0
+      },
+      "class": "navbar-nav",
+      "color": "#ffffff",
+      "depth": 5,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 276,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 284,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 334,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 342,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 392,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 400,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 450,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#graphs",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 458,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 508,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 516,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 566,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#about",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 574,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 38,
+        "w": 485,
+        "x": 923,
+        "y": 16
+      },
+      "class": "search",
+      "color": "#ffffff",
+      "depth": 6,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "role": "search",
+      "tag": "form"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 38,
+        "w": 415,
+        "x": 923,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "name": "",
+      "placeholder": "Explore the full Bitcoin ecosystem",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 38,
+        "w": 62,
+        "x": 1346,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 20,
+        "x": 1367,
+        "y": 27
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "13.3333px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#b71c1c",
+      "box": {
+        "h": 42,
+        "w": 1420,
+        "x": 10,
+        "y": 71
+      },
+      "class": "net-alert",
+      "color": "#ffffff",
+      "depth": 3,
+      "font": "16px 400",
+      "role": "alert",
+      "tag": "div",
+      "text": "This is a test network. Coins have no value."
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 48,
+        "x": 1382,
+        "y": 71
+      },
+      "class": "close",
+      "color": "#ffffff",
+      "depth": 4,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 1398,
+        "y": 85
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "13.3333px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 835,
+        "w": 225,
+        "x": -250,
+        "y": 65
+      },
+      "class": "scrollable",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 85
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet",
+      "tag": "a",
+      "text": "Dashboard"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 117
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Mining"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 149
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "tag": "a",
+      "text": "Lightning"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 181
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#graphs",
+      "tag": "a",
+      "text": "Graphs"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 213
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a",
+      "text": "Documentation"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 245
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#about",
+      "tag": "a",
+      "text": "About"
+    },
+    {
+      "box": {
+        "h": 1390,
+        "w": 1440,
+        "x": 0,
+        "y": 137
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "main"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 555,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#mempool-block-0",
+      "tag": "a",
+      "text": "~0 sat/vB 0.97 - 30.2 sat/vB 0.005 sBTC 317 transactions In ~9 minutes"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 782,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330637",
+      "tag": "a",
+      "text": "330637"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 760,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330637",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.003 sBTC 119 transactions 12 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 780,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 784,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 59,
+        "x": 936,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330636",
+      "tag": "a",
+      "text": "330636"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 915,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330636",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.03 sBTC 514 transactions 15 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 935,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 939,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 1091,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330635",
+      "tag": "a",
+      "text": "330635"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1070,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330635",
+      "tag": "a",
+      "text": "~0 sat/vB 0.15 - 3,900 sat/vB 0.017 sBTC 98 transactions 36 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1090,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1094,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 59,
+        "x": 1246,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330634",
+      "tag": "a",
+      "text": "330634"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1225,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330634",
+      "tag": "a",
+      "text": "~0 sat/vB 0.78 - 3,900 sat/vB 0.043 sBTC 296 transactions 39 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1245,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1249,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 59,
+        "x": 1401,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330633",
+      "tag": "a",
+      "text": "330633"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1380,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330633",
+      "tag": "a",
+      "text": "~0 sat/vB 0.14 - 3,900 sat/vB 0.016 sBTC 70 transactions 50 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1400,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1404,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 1556,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330632",
+      "tag": "a",
+      "text": "330632"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1535,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330632",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 22 transactions 51 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1555,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1559,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 1713,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330631",
+      "tag": "a",
+      "text": "330631"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1690,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330631",
+      "tag": "a",
+      "text": "~0 sat/vB 0.20 - 3,900 sat/vB 0.011 sBTC 108 transactions 52 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1710,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1714,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 59,
+        "x": 1866,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330630",
+      "tag": "a",
+      "text": "330630"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1845,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330630",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 34 transactions 55 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 1865,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1869,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 2021,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330629",
+      "tag": "a",
+      "text": "330629"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2000,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330629",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.035 sBTC 389 transactions 56 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2020,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2024,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 2176,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330628",
+      "tag": "a",
+      "text": "330628"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2155,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330628",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.035 sBTC 220 transactions 74 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2175,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2179,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2332,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330627",
+      "tag": "a",
+      "text": "330627"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2310,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330627",
+      "tag": "a",
+      "text": "~0 sat/vB 0.79 - 3,900 sat/vB 0.036 sBTC 259 transactions 80 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2330,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2334,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 2486,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330626",
+      "tag": "a",
+      "text": "330626"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2465,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330626",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.016 sBTC 115 transactions 90 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2485,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2489,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 2642,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330625",
+      "tag": "a",
+      "text": "330625"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2620,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330625",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 3,900 sat/vB 0.02 sBTC 147 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2640,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2644,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 2796,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330624",
+      "tag": "a",
+      "text": "330624"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2775,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330624",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 61 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2795,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2799,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 2951,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330623",
+      "tag": "a",
+      "text": "330623"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2930,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330623",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.018 sBTC 425 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 2950,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2954,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 3107,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330622",
+      "tag": "a",
+      "text": "330622"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3085,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330622",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.021 sBTC 213 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3105,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3109,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 3263,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330621",
+      "tag": "a",
+      "text": "330621"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3240,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330621",
+      "tag": "a",
+      "text": "~0 sat/vB 0.75 - 149 sat/vB 0.003 sBTC 127 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3260,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3264,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 58,
+        "x": 3416,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330620",
+      "tag": "a",
+      "text": "330620"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3395,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330620",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.033 sBTC 166 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3415,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3419,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 3572,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330619",
+      "tag": "a",
+      "text": "330619"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3550,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330619",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 4.01 sat/vB 0.00 sBTC 18 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3570,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3574,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 3727,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330618",
+      "tag": "a",
+      "text": "330618"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3705,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330618",
+      "tag": "a",
+      "text": "~0 sat/vB 0.94 - 246 sat/vB 0.004 sBTC 194 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3725,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3729,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 3883,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330617",
+      "tag": "a",
+      "text": "330617"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3860,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330617",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 3,900 sat/vB 0.017 sBTC 175 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 3880,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3884,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 4037,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330616",
+      "tag": "a",
+      "text": "330616"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4015,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330616",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 149 sat/vB 0.001 sBTC 34 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4035,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4039,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 4193,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330615",
+      "tag": "a",
+      "text": "330615"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4170,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330615",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.02 sBTC 400 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4190,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4194,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 4347,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330614",
+      "tag": "a",
+      "text": "330614"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4325,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330614",
+      "tag": "a",
+      "text": "~0 sat/vB 0.83 - 3,900 sat/vB 0.012 sBTC 188 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4345,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4349,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 4503,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330613",
+      "tag": "a",
+      "text": "330613"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4480,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330613",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.013 sBTC 282 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4500,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4504,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 4658,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330612",
+      "tag": "a",
+      "text": "330612"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4635,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330612",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.019 sBTC 473 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4655,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4659,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 53,
+        "x": 4814,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330611",
+      "tag": "a",
+      "text": "330611"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4790,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330611",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 3,900 sat/vB 0.019 sBTC 225 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4810,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4814,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 4968,
+        "y": 159
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330610",
+      "tag": "a",
+      "text": "330610"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4945,
+        "y": 212
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#block-330610",
+      "tag": "a",
+      "text": "~0 sat/vB 0.11 - 17.2 sat/vB 0.001 sBTC 101 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 86,
+        "x": 4965,
+        "y": 348
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Unknown"
+    },
+    {
+      "alt": "Unknown mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4969,
+        "y": 351
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%225%22%20r%3D%223.2%22%20fill%3D%22%23d8d8d8%22%2F%3E%3Cpath%20d%3D%22M2.2%2015c.4-3.4%202.8-5.4%205.8-5.4s5.4%202%205.8%205.4z%22%20fill%3D%22%23d8d8d8%22%2F%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 200,
+        "w": 2,
+        "x": 720,
+        "y": 162
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 138
+      },
+      "class": "block-display-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 138
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 371
+      },
+      "class": "time-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 371
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 63,
+        "x": 10,
+        "y": 242
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 50,
+        "x": 1174,
+        "y": 392
+      },
+      "class": "inactive",
+      "color": "#ffffffbb",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/signet#",
+      "tag": "a",
+      "text": "difficulty"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 41,
+        "x": 1231,
+        "y": 392
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/signet#",
+      "tag": "a",
+      "text": "halving"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 506,
+        "x": 182,
+        "y": 581
+      },
+      "class": "title-link mb-0",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#goggles",
+      "tag": "a",
+      "text": "Pool Goggles : All"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 494,
+        "y": 587
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 220,
+        "x": 325,
+        "y": 613
+      },
+      "class": "btn-group goggles-filter",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "role": "radiogroup",
+      "tag": "div",
+      "text": "All Consolidation Coinjoin Data"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 616
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-0",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 616
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-1",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 616
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-2",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 330,
+        "y": 616
+      },
+      "color": "#000000",
+      "depth": 12,
+      "font": "13.3333px 400",
+      "id": "goggles-3",
+      "name": "goggles",
+      "placeholder": "",
+      "tag": "input",
+      "type": "radio"
+    },
+    {
+      "box": {
+        "h": 410,
+        "w": 410,
+        "x": 230,
+        "y": 641
+      },
+      "class": "fade-in",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "canvas"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 149,
+        "x": 756,
+        "y": 612
+      },
+      "class": "card-text",
+      "color": "#ffffff",
+      "depth": 13,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "0.10 sat/vB"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 149,
+        "x": 1105,
+        "y": 612
+      },
+      "class": "card-text",
+      "color": "#ffffff",
+      "depth": 13,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "317 TXs"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 163,
+        "x": 923,
+        "y": 647
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#graphs",
+      "tag": "a",
+      "text": "Incoming Transactions"
+    },
+    {
+      "box": {
+        "h": 370,
+        "w": 498,
+        "x": 756,
+        "y": 686
+      },
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 498,
+        "x": 186,
+        "y": 1115
+      },
+      "class": "title-link",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#rbf",
+      "tag": "a",
+      "text": "Recent Replacements"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 509,
+        "y": 1121
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1207
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-c1ec0aaa18ef5ef0e47061db15f5cf580fcd7c51120e14dcd714257a6233535e",
+      "tag": "a",
+      "text": "c1ec0aaa18ef5ef0e47061db15f5cf580fcd7c51120e14dcd714257a623 3535e c1ec0aaa18ef5ef0e47061db15f5cf580fcd7c51120e14dcd714257a6233535e"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1255
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-7c5896a5b9ecae1ef2ce2d5255aaaca1d99b512473f40b40086781b07ff5a80a",
+      "tag": "a",
+      "text": "7c5896a5b9ecae1ef2ce2d5255aaaca1d99b512473f40b40086781b07ff 5a80a 7c5896a5b9ecae1ef2ce2d5255aaaca1d99b512473f40b40086781b07ff5a80a"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1302
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-c41986d3ceba76bb64e43989569ab83af01c7f2297121e9a3ad089db6e5e23fe",
+      "tag": "a",
+      "text": "c41986d3ceba76bb64e43989569ab83af01c7f2297121e9a3ad089db6e5 e23fe c41986d3ceba76bb64e43989569ab83af01c7f2297121e9a3ad089db6e5e23fe"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1349
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-e9606f91503d62f57e5a9875c208f8ce21ed02590785185721121fa1bfab980a",
+      "tag": "a",
+      "text": "e9606f91503d62f57e5a9875c208f8ce21ed02590785185721121fa1bfa b980a e9606f91503d62f57e5a9875c208f8ce21ed02590785185721121fa1bfab980a"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1397
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-0ee75db919220d578ab0c33f5ab2cee714012adb160e38bbe2cac52a3f4343c8",
+      "tag": "a",
+      "text": "0ee75db919220d578ab0c33f5ab2cee714012adb160e38bbe2cac52a3f4 343c8 0ee75db919220d578ab0c33f5ab2cee714012adb160e38bbe2cac52a3f4343c8"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 110,
+        "x": 198,
+        "y": 1444
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-006f387d06f95ece4542930075cc49e8a43f0eb53de4ee6f2ecb3f7189b96c27",
+      "tag": "a",
+      "text": "006f387d06f95ece4542930075cc49e8a43f0eb53de4ee6f2ecb3f7189b 96c27 006f387d06f95ece4542930075cc49e8a43f0eb53de4ee6f2ecb3f7189b96c27"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 498,
+        "x": 756,
+        "y": 1115
+      },
+      "class": "title-link",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#txs",
+      "tag": "a",
+      "text": "Recent Transactions"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 1074,
+        "y": 1121
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1207
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-7dfe68cc9d0d988d3f3fd5476f0674996378a7e3d095e5cdc1ae05a0577e8324",
+      "tag": "a",
+      "text": "7dfe68cc9d0d988d3f3fd5476f0674996378a7e3d095e5cdc1ae05a0577 e8324 7dfe68cc9d0d988d3f3fd5476f0674996378a7e3d095e5cdc1ae05a0577e8324"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1255
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-717e7c5cbabe709f7c4cad185dea7f2c57b23b5206107c9c777af53a475c83f0",
+      "tag": "a",
+      "text": "717e7c5cbabe709f7c4cad185dea7f2c57b23b5206107c9c777af53a475 c83f0 717e7c5cbabe709f7c4cad185dea7f2c57b23b5206107c9c777af53a475c83f0"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1302
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-000b71c880795f2dcd624024f9aa30532db40f0bc06bd6a2dc5328b07a6a253a",
+      "tag": "a",
+      "text": "000b71c880795f2dcd624024f9aa30532db40f0bc06bd6a2dc5328b07a6 a253a 000b71c880795f2dcd624024f9aa30532db40f0bc06bd6a2dc5328b07a6a253a"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1349
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d3c44336d80b3bdc6d6196122e80301",
+      "tag": "a",
+      "text": "42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d3c44336d80b3bdc6d6196122e 80301 42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d3c44336d80b3bdc6d6196122e80301"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1397
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-606e167c4b87025ea8ece23775d9169b29ef5c571315ff820c5e6a3adcfb542b",
+      "tag": "a",
+      "text": "606e167c4b87025ea8ece23775d9169b29ef5c571315ff820c5e6a3adcf b542b 606e167c4b87025ea8ece23775d9169b29ef5c571315ff820c5e6a3adcfb542b"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 142,
+        "x": 768,
+        "y": 1444
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#tx-337297fdbc370054112401afb066d47adf19e3a0c11d608907b7f01b6435a3cf",
+      "tag": "a",
+      "text": "337297fdbc370054112401afb066d47adf19e3a0c11d608907b7f01b643 5a3cf 337297fdbc370054112401afb066d47adf19e3a0c11d608907b7f01b6435a3cf"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 517,
+        "w": 1440,
+        "x": 0,
+        "y": 1557
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "footer"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 1605
+      },
+      "class": "footer-logo-wrapper",
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 1605
+      },
+      "color": "#ffffff66",
+      "depth": 8,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 120,
+        "x": 649,
+        "y": 1597
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenšči",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 85,
+        "x": 779,
+        "y": 1597
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "AUD CAD CHF EUR GBP JPY USD",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 110,
+        "x": 874,
+        "y": 1597
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - ",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 75,
+        "x": 994,
+        "y": 1597
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "BTC sats Fiat",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 108,
+        "x": 1079,
+        "y": 1597
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "wiz BlueMatt softsimon nymkappa contrast",
+      "type": "select-one"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 31,
+        "w": 73,
+        "x": 1197,
+        "y": 1597
+      },
+      "class": "sponsor",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "Sign In"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 1110,
+        "x": 165,
+        "y": 1660
+      },
+      "class": "explore-tagline-desktop",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Explore the full Bitcoin ecosystem®"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1724
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Explore"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1752
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1755
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1780
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1783
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "tag": "a",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1808
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 103,
+        "x": 165,
+        "y": 1811
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#mining",
+      "tag": "a",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1836
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 162,
+        "x": 165,
+        "y": 1839
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#broadcast-transaction",
+      "tag": "a",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1864
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 119,
+        "x": 165,
+        "y": 1867
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#test-transaction",
+      "tag": "a",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1892
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 165,
+        "y": 1895
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#preview-transaction",
+      "tag": "a",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1920
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 160,
+        "x": 165,
+        "y": 1923
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#lightning",
+      "tag": "a",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1948
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 139,
+        "x": 165,
+        "y": 1951
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1724
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Learn"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1752
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 442,
+        "y": 1755
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1780
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 182,
+        "x": 442,
+        "y": 1783
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1808
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 210,
+        "x": 442,
+        "y": 1811
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1836
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 268,
+        "x": 442,
+        "y": 1839
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1864
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 442,
+        "y": 1867
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#be-your-own-explorer",
+      "tag": "a",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1892
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 94,
+        "x": 442,
+        "y": 1895
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#docs",
+      "tag": "a",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1920
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 67,
+        "x": 442,
+        "y": 1923
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#about",
+      "tag": "a",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1724
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Networks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1752
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Mainnet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 122,
+        "x": 839,
+        "y": 1755
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/",
+      "tag": "a",
+      "text": "Mainnet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1780
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 839,
+        "y": 1783
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet",
+      "tag": "a",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1808
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 839,
+        "y": 1811
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet4",
+      "tag": "a",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1836
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 839,
+        "y": 1839
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#liquid-testnet",
+      "tag": "a",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1864
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 108,
+        "x": 839,
+        "y": 1867
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#liquid",
+      "tag": "a",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1724
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Legal"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1752
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 122,
+        "x": 1119,
+        "y": 1755
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#terms-of-service",
+      "tag": "a",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1780
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 100,
+        "x": 1119,
+        "y": 1783
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#privacy-policy",
+      "tag": "a",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1808
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 125,
+        "x": 1119,
+        "y": 1811
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#trademark-policy",
+      "tag": "a",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1836
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 151,
+        "x": 1119,
+        "y": 1839
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#third-party-licenses",
+      "tag": "a",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 566,
+        "y": 1976
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#github",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 566,
+        "y": 1986
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 614,
+        "y": 1976
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#x",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 614,
+        "y": 1986
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 662,
+        "y": 1976
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#nostr",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 662,
+        "y": 1986
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 710,
+        "y": 1976
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#primal",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 710,
+        "y": 1986
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 758,
+        "y": 1976
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#youtube",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 758,
+        "y": 1986
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 806,
+        "y": 1976
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#bitcointv",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 806,
+        "y": 1986
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 854,
+        "y": 1976
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet#matrix",
+      "tag": "a",
+      "text": "m"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 854,
+        "y": 1986
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 1410,
+        "x": 15,
+        "y": 2036
+      },
+      "color": "#ffffff66",
+      "depth": 5,
+      "font": "12px 400",
+      "tag": "p",
+      "text": "node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 68,
+        "x": 753,
+        "y": 2037
+      },
+      "color": "#3fb8d6",
+      "depth": 6,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/signet#changelog",
+      "tag": "a",
+      "text": "[04c299c3]"
+    }
+  ],
+  "page": {
+    "h": 2074,
+    "w": 1440
+  },
+  "text": "deep pool This is a test network. Coins have no value. Dashboard Mining Lightning Graphs Documentation About ~0 sat/vB 0.97 - 30.2 sat/vB 0.005 sBTC 317 transactions In ~9 minutes 330637 ~0 sat/vB 0.10 - 149 sat/vB 0.003 sBTC 119 transactions 12 minutes ago Unknown 330636 ~0 sat/vB 1.00 - 3,900 sat/vB 0.03 sBTC 514 transactions 15 minutes ago Unknown 330635 ~0 sat/vB 0.15 - 3,900 sat/vB 0.017 sBTC 98 transactions 36 minutes ago Unknown 330634 ~0 sat/vB 0.78 - 3,900 sat/vB 0.043 sBTC 296 transactions 39 minutes ago Unknown 330633 ~0 sat/vB 0.14 - 3,900 sat/vB 0.016 sBTC 70 transactions 50 minutes ago Unknown 330632 ~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 22 transactions 51 minutes ago Unknown 330631 ~0 sat/vB 0.20 - 3,900 sat/vB 0.011 sBTC 108 transactions 52 minutes ago Unknown 330630 ~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 34 transactions 55 minutes ago Unknown 330629 ~0 sat/vB 1.00 - 3,900 sat/vB 0.035 sBTC 389 transactions 56 minutes ago Unknown 330628 ~0 sat/vB 1.00 - 3,900 sat/vB 0.035 sBTC 220 transactions 74 minutes ago Unknown 330627 ~0 sat/vB 0.79 - 3,900 sat/vB 0.036 sBTC 259 transactions 80 minutes ago Unknown 330626 ~0 sat/vB 0.10 - 149 sat/vB 0.016 sBTC 115 transactions 90 minutes ago Unknown 330625 ~0 sat/vB 0.10 - 3,900 sat/vB 0.02 sBTC 147 transactions 2 hours ago Unknown 330624 ~0 sat/vB 0.10 - 149 sat/vB 0.002 sBTC 61 transactions 2 hours ago Unknown 330623 ~0 sat/vB 1.00 - 3,900 sat/vB 0.018 sBTC 425 transactions 2 hours ago Unknown 330622 ~0 sat/vB 1.00 - 3,900 sat/vB 0.021 sBTC 213 transactions 2 hours ago Unknown 330621 ~0 sat/vB 0.75 - 149 sat/vB 0.003 sBTC 127 transactions 2 hours ago Unknown 330620 ~0 sat/vB 1.00 - 3,900 sat/vB 0.033 sBTC 166 transactions 2 hours ago Unknown 330619 ~0 sat/vB 0.10 - 4.01 sat/vB 0.00 sBTC 18 transactions 2 hours ago Unknown 330618 ~0 sat/vB 0.94 - 246 sat/vB 0.004 sBTC 194 transactions 2 hours ago Unknown 330617 ~0 sat/vB 0.10 - 3,900 sat/vB 0.017 sBTC 175 transactions 2 hours ago Unknown 330616 ~0 sat/vB 0.10 - 149 sat/vB 0.001 sBTC 34 transactions 2 hours ago Unknown 330615 ~0 sat/vB 1.00 - 3,900 sat/vB 0.02 sBTC 400 transactions 2 hours ago Unknown 330614 ~0 sat/vB 0.83 - 3,900 sat/vB 0.012 sBTC 188 transactions 3 hours ago Unknown 330613 ~0 sat/vB 1.00 - 3,900 sat/vB 0.013 sBTC 282 transactions 3 hours ago Unknown 330612 ~0 sat/vB 1.00 - 3,900 sat/vB 0.019 sBTC 473 transactions 3 hours ago Unknown 330611 ~0 sat/vB 1.00 - 3,900 sat/vB 0.019 sBTC 225 transactions 3 hours ago Unknown 330610 ~0 sat/vB 0.11 - 17.2 sat/vB 0.001 sBTC 101 transactions 3 hours ago Unknown TRANSACTION FEES No Priority Low Priority Medium Priority High Priority 0.1 sat/vB $0.00 0.1 sat/vB $0.00 0.5 sat/vB $0.00 1 sat/vB $0.00 DIFFICULTY ADJUSTMENT difficulty|halving ~7.7 minutes Average block time ▲1.73 % Previous: ▼0.88 % In ~13 days November 27 Pool Goggles : All All Consolidation Coinjoin Data Minimum fee 0.10 sat/vB Memory Usage 899 kB / 300 MB Unconfirmed 317 TXs Incoming Transactions 0 300 600 900 1200 1500 1800 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 Recent Replacements TXID Previous fee New fee Status c1ec0aaa18ef5ef0e47061db15f5cf580fcd7c51120e14dcd714257a623 3535e c1ec0aaa18ef5ef0e47061db15f5cf580fcd7c51120e14dcd714257a6233535e 1.35 sat/vB 1.44 sat/vB RBF 7c5896a5b9ecae1ef2ce2d5255aaaca1d99b512473f40b40086781b07ff 5a80a 7c5896a5b9ecae1ef2ce2d5255aaaca1d99b512473f40b40086781b07ff5a80a 0.44 sat/vB 0.51 sat/vB RBF c41986d3ceba76bb64e43989569ab83af01c7f2297121e9a3ad089db6e5 e23fe c41986d3ceba76bb64e43989569ab83af01c7f2297121e9a3ad089db6e5e23fe 32.0 sat/vB 32.1 sat/vB MinedRBF e9606f91503d62f57e5a9875c208f8ce21ed02590785185721121fa1bfa b980a e9606f91503d62f57e5a9875c208f8ce21ed02590785185721121fa1bfab980a 0.11 sat/vB 0.20 sat/vB MinedRBF 0ee75db919220d578ab0c33f5ab2cee714012adb160e38bbe2cac52a3f4 343c8 0ee75db919220d578ab0c33f5ab2cee714012adb160e38bbe2cac52a3f4343c8 1.17 sat/vB 27.8 sat/vB RBF 006f387d06f95ece4542930075cc49e8a43f0eb53de4ee6f2ecb3f7189b 96c27 006f387d06f95ece4542930075cc49e8a43f0eb53de4ee6f2ecb3f7189b96c27 0.20 sat/vB 0.28 sat/vB RBF Recent Transactions TXID Amount Fee 7dfe68cc9d0d988d3f3fd5476f0674996378a7e3d095e5cdc1ae05a0577 e8324 7dfe68cc9d0d988d3f3fd5476f0674996378a7e3d095e5cdc1ae05a0577e8324 0.0011 sBTC 2.00 sat/vB 717e7c5cbabe709f7c4cad185dea7f2c57b23b5206107c9c777af53a475 c83f0 717e7c5cbabe709f7c4cad185dea7f2c57b23b5206107c9c777af53a475c83f0 0.001 sBTC 2.00 sat/vB 000b71c880795f2dcd624024f9aa30532db40f0bc06bd6a2dc5328b07a6 a253a 000b71c880795f2dcd624024f9aa30532db40f0bc06bd6a2dc5328b07a6a253a 0.00 sBTC 4.01 sat/vB 42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d3c44336d80b3bdc6d6196122e 80301 42727f3e2aa1a2cd0aa2cc7ccdd5aaab3d3c44336d80b3bdc6d6196122e80301 0.0682 sBTC 2.00 sat/vB 606e167c4b87025ea8ece23775d9169b29ef5c571315ff820c5e6a3adcf b542b 606e167c4b87025ea8ece23775d9169b29ef5c571315ff820c5e6a3adcfb542b 0.0683 sBTC 2.00 sat/vB 337297fdbc370054112401afb066d47adf19e3a0c11d608907b7f01b643 5a3cf 337297fdbc370054112401afb066d47adf19e3a0c11d608907b7f01b6435a3cf 1.00 sBTC 3.63 sat/vB العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenščina Suomi Svenska ไทย Türkçe Українська Tiếng Việt 中文 AUD CAD CHF EUR GBP JPY USD UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - Pacific Standard Time (PST) UTC-7 - Mountain Standard Time (MST) UTC-6 - Central Standard Time (CST) UTC-5 - Eastern Standard Time (EST) UTC-4 - Atlantic Standard Time (AST) UTC-3 - Argentina Time (ART) UTC-2 - Fernando de Noronha Time (FNT) UTC-1 - Azores Time (AZOT) UTC+1 - Central European Time (CET) UTC+2 - Eastern European Time (EET) UTC+3 - Moscow Standard Time (MSK) UTC+4 - Armenia Time (AMT) UTC+5 - Pakistan Standard Time (PKT) UTC+6 - Xinjiang Time (XJT) UTC+7 - Indochina Time (ICT) UTC+8 - Hong Kong Time (HKT) UTC+9 - Japan Standard Time (JST) UTC+10 - Australian Eastern Standard Time (AEST) UTC+11 - Norfolk Time (NFT) UTC+12 - New Zealand Standard Time (NZST) UTC+13 - Tonga Time (TOT) UTC+14 - Line Islands Time (LINT) BTC sats Fiat wiz BlueMatt softsimon nymkappa contrast Sign In Explore the full Bitcoin ecosystem® Explore Mining Dashboard Lightning Explorer Recent Blocks Broadcast Transaction Test Transaction Preview Transaction Connect to our Nodes API Documentation Learn What is a mempool? What is a block explorer? What is a mempool explorer? Why isn't my transaction confirming? Be your own explorer™ More FAQs » Research Networks Mainnet Explorer Testnet3 Explorer Testnet4 Explorer Liquid Testnet Explorer Liquid Explorer Legal Terms of Service Privacy Policy Trademark Policy Third-party Licenses m node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]",
+  "title": "deep pool - Signet Explorer",
+  "unreadable_stylesheets": 0,
+  "url": "http://127.0.0.1:52915/signet",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/signet",
+    "slug": "signet",
+    "url": "https://mempool.space/signet"
+  },
+  {
+    "path": "/testnet",
+    "slug": "testnet",
+    "url": "https://mempool.space/testnet"
+  },
+  {
+    "path": "/testnet4",
+    "slug": "testnet4",
+    "url": "https://mempool.space/testnet4"
+  },
+  {
+    "path": "/acceleration",
+    "slug": "acceleration",
+    "url": "https://mempool.space/acceleration"
+  }
+]

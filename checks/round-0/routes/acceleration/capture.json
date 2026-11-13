@@ -1,0 +1,5285 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "contentinfo": 1,
+      "main": 1,
+      "navigation": 2,
+      "search": 1
+    },
+    "lang": "en-US",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [],
+    "images": [
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Sympatheia mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2300bcd4%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Braiins Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23e53935%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EB%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Luxor mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23bdbdbd%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EL%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of MARA Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of MARA Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      }
+    ],
+    "inline_scripts": 0,
+    "requests": [
+      {
+        "bytes": 40510,
+        "type": "link",
+        "url": "http://127.0.0.1:52915/style.css"
+      },
+      {
+        "bytes": 135863,
+        "type": "script",
+        "url": "http://127.0.0.1:52915/app.js"
+      }
+    ],
+    "scripts": [
+      "http://127.0.0.1:52915/app.js"
+    ],
+    "stylesheets": [
+      "http://127.0.0.1:52915/style.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 369,
+      "query": "max-width 369px"
+    },
+    {
+      "count": 1,
+      "px": 429,
+      "query": "max-width 429px"
+    },
+    {
+      "count": 2,
+      "px": 450,
+      "query": "max-width 450px"
+    },
+    {
+      "count": 2,
+      "px": 484,
+      "query": "max-width 484px"
+    },
+    {
+      "count": 3,
+      "px": 575,
+      "query": "max-width 575px"
+    },
+    {
+      "count": 2,
+      "px": 613,
+      "query": "max-width 613px"
+    },
+    {
+      "count": 8,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 6,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 12,
+      "px": 991,
+      "query": "max-width 991px"
+    },
+    {
+      "count": 1,
+      "px": 992,
+      "query": "min-width 992px"
+    },
+    {
+      "count": 1,
+      "px": 1019,
+      "query": "max-width 1019px"
+    },
+    {
+      "count": 1,
+      "px": 1080,
+      "query": "max-width 1080px"
+    },
+    {
+      "count": 1,
+      "px": 1199,
+      "query": "max-width 1199px"
+    },
+    {
+      "count": 1,
+      "px": 1200,
+      "query": "max-width 1200px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 10,
+        "value": "#11131f"
+      },
+      {
+        "count": 7,
+        "value": "#272f4e"
+      },
+      {
+        "count": 6,
+        "value": "#0aab2f"
+      },
+      {
+        "count": 3,
+        "value": "#6225b2"
+      },
+      {
+        "count": 1,
+        "value": "#000000"
+      }
+    ],
+    "css_variables": {
+      "--active-bg": "#000000",
+      "--active-nav": "#6225b2",
+      "--alert": "#b71c1c",
+      "--behind": "#ff3d00",
+      "--bg": "#11131f",
+      "--block-side": "#191c27",
+      "--block-top": "#232838",
+      "--border-subtle": "rgba(255, 255, 255, .11)",
+      "--button": "#6225b2",
+      "--chart-high": "#fdd835",
+      "--chart-low": "#83c341",
+      "--down": "#ff3d00",
+      "--fee-span": "#fff000",
+      "--fg": "#ffffff",
+      "--fiat": "#83fd00",
+      "--font": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Appl",
+      "--footer-fg": "rgba(255, 255, 255, .4)",
+      "--icon": "#f1f1f1",
+      "--link": "#00ddff",
+      "--mempool-block-empty": "#554b45",
+      "--mempool-block-side": "#2d2825",
+      "--mempool-block-top": "#403834",
+      "--mined-bottom": "#105fb0",
+      "--mined-empty": "#2b3456",
+      "--mined-top": "#9339f4",
+      "--nav-bg": "#11131f",
+      "--opacity": ".57",
+      "--primary": "#007cfa",
+      "--primary-dark": "#0162c8",
+      "--secondary": "#272f4e",
+      "--success": "#0aab2f",
+      "--title-fg": "#2055e3",
+      "--transparent-fg": "#ffffffbb",
+      "--up": "#83fd00",
+      "--warning": "#b58800"
+    },
+    "font_faces": [],
+    "font_sizes": [
+      {
+        "count": 147,
+        "value": "16px"
+      },
+      {
+        "count": 78,
+        "value": "12px"
+      },
+      {
+        "count": 57,
+        "value": "11px"
+      },
+      {
+        "count": 44,
+        "value": "13px"
+      },
+      {
+        "count": 38,
+        "value": "10px"
+      },
+      {
+        "count": 6,
+        "value": "22px"
+      },
+      {
+        "count": 6,
+        "value": "10.5px"
+      },
+      {
+        "count": 5,
+        "value": "9px"
+      },
+      {
+        "count": 1,
+        "value": "20.5px"
+      },
+      {
+        "count": 1,
+        "value": "19px"
+      },
+      {
+        "count": 1,
+        "value": "8px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 300,
+        "value": "400"
+      },
+      {
+        "count": 79,
+        "value": "700"
+      },
+      {
+        "count": 5,
+        "value": "500"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 360,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+      },
+      {
+        "count": 21,
+        "value": "sans-serif"
+      },
+      {
+        "count": 2,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif"
+      },
+      {
+        "count": 1,
+        "value": "Arial"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 28,
+        "value": "145px"
+      },
+      {
+        "count": 3,
+        "value": "1140px"
+      },
+      {
+        "count": 1,
+        "value": "500px"
+      },
+      {
+        "count": 1,
+        "value": "1440px"
+      },
+      {
+        "count": 1,
+        "value": "160px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 49,
+        "value": "4px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 0px 0px 15px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 5px 0px 30px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 100,
+        "value": "3px"
+      },
+      {
+        "count": 95,
+        "value": "4px"
+      },
+      {
+        "count": 92,
+        "value": "10px"
+      },
+      {
+        "count": 81,
+        "value": "12px"
+      },
+      {
+        "count": 68,
+        "value": "5px"
+      },
+      {
+        "count": 56,
+        "value": "4.8px"
+      },
+      {
+        "count": 44,
+        "value": "2px"
+      },
+      {
+        "count": 44,
+        "value": "8px"
+      },
+      {
+        "count": 28,
+        "value": "11.36px"
+      },
+      {
+        "count": 25,
+        "value": "15px"
+      },
+      {
+        "count": 21,
+        "value": "20px"
+      },
+      {
+        "count": 12,
+        "value": "5.6px"
+      },
+      {
+        "count": 8,
+        "value": "24px"
+      },
+      {
+        "count": 8,
+        "value": "18px"
+      },
+      {
+        "count": 6,
+        "value": "3.2px"
+      },
+      {
+        "count": 5,
+        "value": "36px"
+      },
+      {
+        "count": 4,
+        "value": "6px"
+      },
+      {
+        "count": 3,
+        "value": "1px"
+      },
+      {
+        "count": 3,
+        "value": "16px"
+      },
+      {
+        "count": 2,
+        "value": "32px"
+      },
+      {
+        "count": 2,
+        "value": "-13px"
+      },
+      {
+        "count": 2,
+        "value": "30px"
+      },
+      {
+        "count": 1,
+        "value": "40px"
+      },
+      {
+        "count": 1,
+        "value": "-10px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 232,
+        "value": "#ffffff"
+      },
+      {
+        "count": 52,
+        "value": "#00ddff"
+      },
+      {
+        "count": 36,
+        "value": "#fff000"
+      },
+      {
+        "count": 25,
+        "value": "#ffffff66"
+      },
+      {
+        "count": 15,
+        "value": "#ffffffbb"
+      },
+      {
+        "count": 14,
+        "value": "#2055e3"
+      },
+      {
+        "count": 6,
+        "value": "#00000000"
+      },
+      {
+        "count": 2,
+        "value": "#83fd00"
+      },
+      {
+        "count": 1,
+        "value": "#ffffffdd"
+      },
+      {
+        "count": 1,
+        "value": "#3fb8d6"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "Explore the full Bitcoin ecosystem",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    }
+  ],
+  "headings": [],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en-US",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            32,
+            0,
+            32
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 65
+        },
+        {
+          "column": {
+            "max_w": 1440,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1440,
+            "x": 0
+          },
+          "h": 1390,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "main",
+          "w": 1440,
+          "y": 88
+        },
+        {
+          "background": "#11131f",
+          "column": {
+            "max_w": 1140,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1140,
+            "x": 150
+          },
+          "h": 517,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 1440,
+          "y": 1508
+        }
+      ],
+      "page_h": 2025,
+      "page_w": 1440,
+      "type": {
+        "body": 16,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "header",
+          "w": 768,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 2,
+          "tag": "nav",
+          "w": 768,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 65
+        },
+        {
+          "column": {
+            "max_w": 768,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 768,
+            "x": 0
+          },
+          "h": 1295,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 28,
+          "tag": "main",
+          "w": 768,
+          "y": 88
+        },
+        {
+          "background": "#11131f",
+          "h": 1193,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 768,
+          "y": 1413
+        }
+      ],
+      "page_h": 2655,
+      "page_w": 768,
+      "type": {
+        "body": 16,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "header",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 2,
+          "tag": "nav",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 105
+        },
+        {
+          "column": {
+            "max_w": 390,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 390,
+            "x": 0
+          },
+          "h": 1713,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 28,
+          "tag": "main",
+          "w": 390,
+          "y": 128
+        },
+        {
+          "background": "#11131f",
+          "h": 1323,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "footer",
+          "w": 390,
+          "y": 1871
+        }
+      ],
+      "page_h": 3243,
+      "page_w": 390,
+      "type": {
+        "body": 16,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "Mainnet"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "Signet"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "Testnet3"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet4",
+      "text": "Testnet4"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration",
+      "text": "Accelerator"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#enterprise",
+      "text": "Services"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration",
+      "text": "Accelerator"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#enterprise",
+      "text": "Services"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-0",
+      "text": "~4 sat/vB 3.02 - 505 sat/vB 0.059 BTC 3,365 transactions In ~10 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-1",
+      "text": "~2 sat/vB 1.69 - 3.02 sat/vB 0.022 BTC 2,381 transactions In ~21 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-2",
+      "text": "~1 sat/vB 1.01 - 1.85 sat/vB 0.013 BTC 1,378 transactions In ~32 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-3",
+      "text": "~1 sat/vB 0.12 - 1.01 sat/vB 0.006 BTC 2,473 transactions In ~43 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-4",
+      "text": "~0 sat/vB 0.12 - 0.13 sat/vB 0.001 BTC 7,922 transactions In ~54 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-5",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 7,984 transactions In ~65 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-6",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 5,346 transactions In ~76 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-7",
+      "text": "~0 sat/vB 0.10 - 0.12 sat/vB 0.031 BTC 40,209 transactions (27 blocks)"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975639",
+      "text": "975639"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975639",
+      "text": "~3 sat/vB 2.03 - 405 sat/vB 0.04 BTC 3,140 transactions 32 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975638",
+      "text": "975638"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975638",
+      "text": "~4 sat/vB 2.51 - 300 sat/vB 0.047 BTC 3,765 transactions 50 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975637",
+      "text": "975637"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975637",
+      "text": "~2 sat/vB 1.85 - 101 sat/vB 0.033 BTC 2,474 transactions 86 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975636",
+      "text": "975636"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975636",
+      "text": "~3 sat/vB 2.00 - 151 sat/vB 0.038 BTC 3,493 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975635",
+      "text": "975635"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975635",
+      "text": "~0 sat/vB 0.12 - 200 sat/vB 0.005 BTC 7,161 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975634",
+      "text": "975634"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975634",
+      "text": "~0 sat/vB 1.00 - 202 sat/vB 0.013 BTC 1,536 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Sympatheia"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975633",
+      "text": "975633"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975633",
+      "text": "~1 sat/vB 1.00 - 68.3 sat/vB 0.011 BTC 1,503 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975632",
+      "text": "975632"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975632",
+      "text": "~4 sat/vB 1.51 - 213 sat/vB 0.043 BTC 2,610 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975631",
+      "text": "975631"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975631",
+      "text": "~1 sat/vB 0.12 - 101 sat/vB 0.017 BTC 4,496 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975630",
+      "text": "975630"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975630",
+      "text": "~1 sat/vB 0.12 - 30.4 sat/vB 0.013 BTC 3,548 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Braiins Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975629",
+      "text": "975629"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975629",
+      "text": "~2 sat/vB 1.47 - 60.0 sat/vB 0.027 BTC 3,436 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Luxor"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "text": "975628"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "text": "~5 sat/vB 3.49 - 521 sat/vB 0.058 BTC 2,939 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975627",
+      "text": "975627"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975627",
+      "text": "~0 sat/vB 0.12 - 60.1 sat/vB 0.004 BTC 7,326 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975626",
+      "text": "975626"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975626",
+      "text": "~0 sat/vB 0.12 - 60.0 sat/vB 0.008 BTC 6,354 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "MARA Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975625",
+      "text": "975625"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975625",
+      "text": "~1 sat/vB 0.12 - 149 sat/vB 0.025 BTC 4,347 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "MARA Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975624",
+      "text": "975624"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975624",
+      "text": "~2 sat/vB 0.13 - 312 sat/vB 0.028 BTC 3,508 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975623",
+      "text": "975623"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975623",
+      "text": "~0 sat/vB 0.12 - 100 sat/vB 0.006 BTC 6,397 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975622",
+      "text": "975622"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975622",
+      "text": "~0 sat/vB 1.00 - 50.6 sat/vB 0.008 BTC 909 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975621",
+      "text": "975621"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975621",
+      "text": "~1 sat/vB 0.13 - 476 sat/vB 0.018 BTC 3,634 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975620",
+      "text": "975620"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975620",
+      "text": "~2 sat/vB 1.00 - 60.2 sat/vB 0.018 BTC 2,421 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975619",
+      "text": "975619"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975619",
+      "text": "~3 sat/vB 2.01 - 241 sat/vB 0.031 BTC 3,730 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975618",
+      "text": "975618"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975618",
+      "text": "~4 sat/vB 3.02 - 2,010 sat/vB 0.054 BTC 3,723 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975617",
+      "text": "975617"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975617",
+      "text": "~4 sat/vB 3.01 - 265 sat/vB 0.056 BTC 3,535 transactions 6 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975616",
+      "text": "975616"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975616",
+      "text": "~1 sat/vB 0.92 - 140 sat/vB 0.024 BTC 3,592 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975615",
+      "text": "975615"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975615",
+      "text": "~2 sat/vB 1.03 - 265 sat/vB 0.033 BTC 3,451 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975614",
+      "text": "975614"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975614",
+      "text": "~2 sat/vB 1.20 - 101 sat/vB 0.027 BTC 3,213 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975613",
+      "text": "975613"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975613",
+      "text": "~4 sat/vB 2.33 - 302 sat/vB 0.066 BTC 3,529 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975612",
+      "text": "975612"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975612",
+      "text": "~1 sat/vB 0.12 - 302 sat/vB 0.018 BTC 5,145 transactions 8 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "text": "24h"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "text": "1m"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "text": "1y"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "text": "all"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#goggles",
+      "text": "Pool Goggles : Accelerations"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#accelerator",
+      "text": "View more »"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#accelerations",
+      "text": "Recent Accelerations"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#tx-8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016",
+      "text": "8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a 5d016 8bac623118c14db766b675c1616589911e"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975639",
+      "text": "975639"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#tx-e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f",
+      "text": "e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44 e280f e8567d15f4cc3bdbb926993ce09392d7c1"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "text": "975628"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#tx-b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade",
+      "text": "b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62 f6ade b650d677df68a88c6eaa51fe683b0edc2a"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "text": "975628"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#tx-e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217",
+      "text": "e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b8512 7f217 e0d8ecdc18a573f5a30be617d7d8a8881a"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "text": "975628"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#tx-01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc",
+      "text": "01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d 93afc 01ff48269aa6c925cb35e3ab7a0f26c940"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975617",
+      "text": "975617"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#tx-6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed",
+      "text": "6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f83 23bed 6cd4f28b7ef2976dd589190276a3d0bcb0"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#block-975614",
+      "text": "975614"
+    },
+    {
+      "href": "http://127.0.0.1:52915/",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Mining Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "text": "Lightning Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "text": "Recent Blocks"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#broadcast-transaction",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#test-transaction",
+      "text": "Test Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#preview-transaction",
+      "text": "Preview Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "text": "API Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "text": "What is a mempool?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "text": "What is a block explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#be-your-own-explorer",
+      "text": "Be your own explorer™"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "text": "More FAQs »"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#about",
+      "text": "Research"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/testnet4",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/signet",
+      "text": "Signet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#liquid-testnet",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#liquid",
+      "text": "Liquid Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#terms-of-service",
+      "text": "Terms of Service"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#trademark-policy",
+      "text": "Trademark Policy"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#third-party-licenses",
+      "text": "Third-party Licenses"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#github",
+      "text": "GitHub"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#x",
+      "text": "X"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#nostr",
+      "text": "Nostr"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#primal",
+      "text": "Primal"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#youtube",
+      "text": "YouTube"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#bitcointv",
+      "text": "BitcoinTV"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#matrix",
+      "text": "m"
+    },
+    {
+      "href": "http://127.0.0.1:52915/acceleration#changelog",
+      "text": "[04c299c3]"
+    }
+  ],
+  "meta": {
+    "description": "Explore the full Bitcoin ecosystem with deep pool. See the real-time status of your transactions, get network info, and more.",
+    "icons": [
+      "http://127.0.0.1:52915/favicon.svg"
+    ],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "sticky-header",
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "header"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "navbar",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 45,
+        "w": 140,
+        "x": 32,
+        "y": 10
+      },
+      "class": "brand",
+      "color": "#00ddff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/",
+      "tag": "a",
+      "text": "deep pool"
+    },
+    {
+      "box": {
+        "h": 35,
+        "w": 140,
+        "x": 32,
+        "y": 15
+      },
+      "color": "#00ddff",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 36,
+        "w": 62,
+        "x": 188,
+        "y": 17
+      },
+      "class": "net-toggle",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 202,
+        "y": 25
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 406,
+        "x": 266,
+        "y": 0
+      },
+      "class": "navbar-nav",
+      "color": "#ffffff",
+      "depth": 5,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 276,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 284,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 334,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 342,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 392,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 400,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 450,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 458,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 508,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#graphs",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 516,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 566,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#enterprise",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 574,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 624,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#about",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 632,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 38,
+        "w": 485,
+        "x": 923,
+        "y": 16
+      },
+      "class": "search",
+      "color": "#ffffff",
+      "depth": 6,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "role": "search",
+      "tag": "form"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 38,
+        "w": 415,
+        "x": 923,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "name": "",
+      "placeholder": "Explore the full Bitcoin ecosystem",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 38,
+        "w": 62,
+        "x": 1346,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 20,
+        "x": 1367,
+        "y": 27
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "13.3333px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 835,
+        "w": 225,
+        "x": -250,
+        "y": 65
+      },
+      "class": "scrollable",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 85
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/",
+      "tag": "a",
+      "text": "Dashboard"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 117
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration",
+      "tag": "a",
+      "text": "Accelerator"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 149
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Mining"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 181
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "tag": "a",
+      "text": "Lightning"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 213
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#graphs",
+      "tag": "a",
+      "text": "Graphs"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 245
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#enterprise",
+      "tag": "a",
+      "text": "Services"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 277
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#about",
+      "tag": "a",
+      "text": "About"
+    },
+    {
+      "box": {
+        "h": 1390,
+        "w": 1440,
+        "x": 0,
+        "y": 88
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "main"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 555,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-0",
+      "tag": "a",
+      "text": "~4 sat/vB 3.02 - 505 sat/vB 0.059 BTC 3,365 transactions In ~10 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 400,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-1",
+      "tag": "a",
+      "text": "~2 sat/vB 1.69 - 3.02 sat/vB 0.022 BTC 2,381 transactions In ~21 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 245,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-2",
+      "tag": "a",
+      "text": "~1 sat/vB 1.01 - 1.85 sat/vB 0.013 BTC 1,378 transactions In ~32 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 90,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-3",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 1.01 sat/vB 0.006 BTC 2,473 transactions In ~43 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -65,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-4",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 0.13 sat/vB 0.001 BTC 7,922 transactions In ~54 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -220,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-5",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 7,984 transactions In ~65 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -375,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-6",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 5,346 transactions In ~76 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -530,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mempool-block-7",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 0.12 sat/vB 0.031 BTC 40,209 transactions (27 blocks)"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 782,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975639",
+      "tag": "a",
+      "text": "975639"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 760,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975639",
+      "tag": "a",
+      "text": "~3 sat/vB 2.03 - 405 sat/vB 0.04 BTC 3,140 transactions 32 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 784,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 789,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 937,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975638",
+      "tag": "a",
+      "text": "975638"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 915,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975638",
+      "tag": "a",
+      "text": "~4 sat/vB 2.51 - 300 sat/vB 0.047 BTC 3,765 transactions 50 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 939,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 944,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 1092,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975637",
+      "tag": "a",
+      "text": "975637"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1070,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975637",
+      "tag": "a",
+      "text": "~2 sat/vB 1.85 - 101 sat/vB 0.033 BTC 2,474 transactions 86 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 1094,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1099,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1247,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975636",
+      "tag": "a",
+      "text": "975636"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1225,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975636",
+      "tag": "a",
+      "text": "~3 sat/vB 2.00 - 151 sat/vB 0.038 BTC 3,493 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 1240,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1245,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1402,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975635",
+      "tag": "a",
+      "text": "975635"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1380,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975635",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 200 sat/vB 0.005 BTC 7,161 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 1404,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1409,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1557,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975634",
+      "tag": "a",
+      "text": "975634"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1535,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975634",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 202 sat/vB 0.013 BTC 1,536 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 101,
+        "x": 1547,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Sympatheia"
+    },
+    {
+      "alt": "Logo of Sympatheia mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1552,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2300bcd4%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1712,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975633",
+      "tag": "a",
+      "text": "975633"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1690,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975633",
+      "tag": "a",
+      "text": "~1 sat/vB 1.00 - 68.3 sat/vB 0.011 BTC 1,503 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 1716,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1720,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1867,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975632",
+      "tag": "a",
+      "text": "975632"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1845,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975632",
+      "tag": "a",
+      "text": "~4 sat/vB 1.51 - 213 sat/vB 0.043 BTC 2,610 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 1872,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1877,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 2023,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975631",
+      "tag": "a",
+      "text": "975631"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2000,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975631",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 101 sat/vB 0.017 BTC 4,496 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 2027,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2032,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2177,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975630",
+      "tag": "a",
+      "text": "975630"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2155,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975630",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 30.4 sat/vB 0.013 BTC 3,548 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 101,
+        "x": 2167,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Braiins Pool"
+    },
+    {
+      "alt": "Logo of Braiins Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2172,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23e53935%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2332,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975629",
+      "tag": "a",
+      "text": "975629"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2310,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975629",
+      "tag": "a",
+      "text": "~2 sat/vB 1.47 - 60.0 sat/vB 0.027 BTC 3,436 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 64,
+        "x": 2341,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Luxor"
+    },
+    {
+      "alt": "Logo of Luxor mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2346,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23bdbdbd%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EL%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2487,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2465,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "tag": "a",
+      "text": "~5 sat/vB 3.49 - 521 sat/vB 0.058 BTC 2,939 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 2492,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2497,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 2643,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975627",
+      "tag": "a",
+      "text": "975627"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2620,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975627",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 60.1 sat/vB 0.004 BTC 7,326 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 2628,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2633,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2797,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975626",
+      "tag": "a",
+      "text": "975626"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2775,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975626",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 60.0 sat/vB 0.008 BTC 6,354 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 96,
+        "x": 2790,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "MARA Pool"
+    },
+    {
+      "alt": "Logo of MARA Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2794,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2952,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975625",
+      "tag": "a",
+      "text": "975625"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2930,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975625",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 149 sat/vB 0.025 BTC 4,347 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 96,
+        "x": 2945,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "MARA Pool"
+    },
+    {
+      "alt": "Logo of MARA Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2949,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3107,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975624",
+      "tag": "a",
+      "text": "975624"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3085,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975624",
+      "tag": "a",
+      "text": "~2 sat/vB 0.13 - 312 sat/vB 0.028 BTC 3,508 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 3093,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3098,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3262,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975623",
+      "tag": "a",
+      "text": "975623"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3240,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975623",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 100 sat/vB 0.006 BTC 6,397 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 3248,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3253,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 3417,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975622",
+      "tag": "a",
+      "text": "975622"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3395,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975622",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 50.6 sat/vB 0.008 BTC 909 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 3421,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3425,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 3573,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975621",
+      "tag": "a",
+      "text": "975621"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3550,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975621",
+      "tag": "a",
+      "text": "~1 sat/vB 0.13 - 476 sat/vB 0.018 BTC 3,634 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 3576,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3580,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3727,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975620",
+      "tag": "a",
+      "text": "975620"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3705,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975620",
+      "tag": "a",
+      "text": "~2 sat/vB 1.00 - 60.2 sat/vB 0.018 BTC 2,421 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 3732,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3737,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 3883,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975619",
+      "tag": "a",
+      "text": "975619"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3860,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975619",
+      "tag": "a",
+      "text": "~3 sat/vB 2.01 - 241 sat/vB 0.031 BTC 3,730 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 3875,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3880,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4038,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975618",
+      "tag": "a",
+      "text": "975618"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4015,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975618",
+      "tag": "a",
+      "text": "~4 sat/vB 3.02 - 2,010 sat/vB 0.054 BTC 3,723 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 4023,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4028,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4194,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975617",
+      "tag": "a",
+      "text": "975617"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4170,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975617",
+      "tag": "a",
+      "text": "~4 sat/vB 3.01 - 265 sat/vB 0.056 BTC 3,535 transactions 6 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 4196,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4200,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4348,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975616",
+      "tag": "a",
+      "text": "975616"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4325,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975616",
+      "tag": "a",
+      "text": "~1 sat/vB 0.92 - 140 sat/vB 0.024 BTC 3,592 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 4349,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4354,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4503,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975615",
+      "tag": "a",
+      "text": "975615"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4480,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975615",
+      "tag": "a",
+      "text": "~2 sat/vB 1.03 - 265 sat/vB 0.033 BTC 3,451 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 4488,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4493,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4658,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975614",
+      "tag": "a",
+      "text": "975614"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4635,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975614",
+      "tag": "a",
+      "text": "~2 sat/vB 1.20 - 101 sat/vB 0.027 BTC 3,213 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 4662,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4667,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4813,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975613",
+      "tag": "a",
+      "text": "975613"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4790,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975613",
+      "tag": "a",
+      "text": "~4 sat/vB 2.33 - 302 sat/vB 0.066 BTC 3,529 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 4805,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4810,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4968,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975612",
+      "tag": "a",
+      "text": "975612"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4945,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975612",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 302 sat/vB 0.018 BTC 5,145 transactions 8 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 4969,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4974,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 200,
+        "w": 2,
+        "x": 720,
+        "y": 113
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 89
+      },
+      "class": "block-display-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 89
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 322
+      },
+      "class": "time-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 322
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 63,
+        "x": 10,
+        "y": 193
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 22,
+        "x": 1189,
+        "y": 344
+      },
+      "class": "inactive",
+      "color": "#ffffffbb",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "tag": "a",
+      "text": "24h"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 16,
+        "x": 1217,
+        "y": 344
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "tag": "a",
+      "text": "1m"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 12,
+        "x": 1240,
+        "y": 344
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "tag": "a",
+      "text": "1y"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 13,
+        "x": 1258,
+        "y": 344
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/acceleration#",
+      "tag": "a",
+      "text": "all"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 506,
+        "x": 182,
+        "y": 532
+      },
+      "class": "title-link mb-0",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#goggles",
+      "tag": "a",
+      "text": "Pool Goggles : Accelerations"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 534,
+        "y": 538
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 410,
+        "w": 410,
+        "x": 230,
+        "y": 579
+      },
+      "class": "fade-in",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "canvas"
+    },
+    {
+      "box": {
+        "h": 392,
+        "w": 498,
+        "x": 756,
+        "y": 575
+      },
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 91,
+        "x": 960,
+        "y": 975
+      },
+      "class": "view-more",
+      "color": "#00ddff",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#accelerator",
+      "tag": "a",
+      "text": "View more »"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 498,
+        "x": 756,
+        "y": 1066
+      },
+      "class": "title-link",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#accelerations",
+      "tag": "a",
+      "text": "Recent Accelerations"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 1077,
+        "y": 1072
+      },
+      "color": "#2055e3",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 107,
+        "x": 768,
+        "y": 1158
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#tx-8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016",
+      "tag": "a",
+      "text": "8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a 5d016 8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1048,
+        "y": 1161
+      },
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975639",
+      "tag": "a",
+      "text": "975639"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 107,
+        "x": 768,
+        "y": 1206
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#tx-e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f",
+      "tag": "a",
+      "text": "e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44 e280f e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1049,
+        "y": 1209
+      },
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 107,
+        "x": 768,
+        "y": 1253
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#tx-b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade",
+      "tag": "a",
+      "text": "b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62 f6ade b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1049,
+        "y": 1256
+      },
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 107,
+        "x": 768,
+        "y": 1300
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#tx-e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217",
+      "tag": "a",
+      "text": "e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b8512 7f217 e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1049,
+        "y": 1303
+      },
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 107,
+        "x": 768,
+        "y": 1348
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#tx-01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc",
+      "tag": "a",
+      "text": "01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d 93afc 01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 1052,
+        "y": 1351
+      },
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975617",
+      "tag": "a",
+      "text": "975617"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 107,
+        "x": 768,
+        "y": 1395
+      },
+      "class": "truncate",
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#tx-6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed",
+      "tag": "a",
+      "text": "6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f83 23bed 6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 1051,
+        "y": 1398
+      },
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#block-975614",
+      "tag": "a",
+      "text": "975614"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 517,
+        "w": 1440,
+        "x": 0,
+        "y": 1508
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "footer"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 1556
+      },
+      "class": "footer-logo-wrapper",
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 1556
+      },
+      "color": "#ffffff66",
+      "depth": 8,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 120,
+        "x": 649,
+        "y": 1548
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenšči",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 85,
+        "x": 779,
+        "y": 1548
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "AUD CAD CHF EUR GBP JPY USD",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 110,
+        "x": 874,
+        "y": 1548
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - ",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 75,
+        "x": 994,
+        "y": 1548
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "BTC sats Fiat",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 108,
+        "x": 1079,
+        "y": 1548
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "wiz BlueMatt softsimon nymkappa contrast",
+      "type": "select-one"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 31,
+        "w": 73,
+        "x": 1197,
+        "y": 1548
+      },
+      "class": "sponsor",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "Sign In"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 1110,
+        "x": 165,
+        "y": 1611
+      },
+      "class": "explore-tagline-desktop",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Explore the full Bitcoin ecosystem®"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1675
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Explore"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1703
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1706
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1731
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1734
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "tag": "a",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1759
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 103,
+        "x": 165,
+        "y": 1762
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#mining",
+      "tag": "a",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1787
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 162,
+        "x": 165,
+        "y": 1790
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#broadcast-transaction",
+      "tag": "a",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1815
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 119,
+        "x": 165,
+        "y": 1818
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#test-transaction",
+      "tag": "a",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1843
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 165,
+        "y": 1846
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#preview-transaction",
+      "tag": "a",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1871
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 160,
+        "x": 165,
+        "y": 1874
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#lightning",
+      "tag": "a",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1899
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 139,
+        "x": 165,
+        "y": 1902
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "tag": "a",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1675
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Learn"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1703
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 442,
+        "y": 1706
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "tag": "a",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1731
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 182,
+        "x": 442,
+        "y": 1734
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "tag": "a",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1759
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 210,
+        "x": 442,
+        "y": 1762
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "tag": "a",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1787
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 268,
+        "x": 442,
+        "y": 1790
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "tag": "a",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1815
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 442,
+        "y": 1818
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#be-your-own-explorer",
+      "tag": "a",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1843
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 94,
+        "x": 442,
+        "y": 1846
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#docs",
+      "tag": "a",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 1871
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 67,
+        "x": 442,
+        "y": 1874
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#about",
+      "tag": "a",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1675
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Networks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1703
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 839,
+        "y": 1706
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet",
+      "tag": "a",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1731
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 839,
+        "y": 1734
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/testnet4",
+      "tag": "a",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1759
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 110,
+        "x": 839,
+        "y": 1762
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/signet",
+      "tag": "a",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1787
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 839,
+        "y": 1790
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#liquid-testnet",
+      "tag": "a",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 1815
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 108,
+        "x": 839,
+        "y": 1818
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#liquid",
+      "tag": "a",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1675
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Legal"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1703
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 122,
+        "x": 1119,
+        "y": 1706
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#terms-of-service",
+      "tag": "a",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1731
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 100,
+        "x": 1119,
+        "y": 1734
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#privacy-policy",
+      "tag": "a",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1759
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 125,
+        "x": 1119,
+        "y": 1762
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#trademark-policy",
+      "tag": "a",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1787
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 151,
+        "x": 1119,
+        "y": 1790
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#third-party-licenses",
+      "tag": "a",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 566,
+        "y": 1927
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#github",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 566,
+        "y": 1937
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 614,
+        "y": 1927
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#x",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 614,
+        "y": 1937
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 662,
+        "y": 1927
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#nostr",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 662,
+        "y": 1937
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 710,
+        "y": 1927
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#primal",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 710,
+        "y": 1937
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 758,
+        "y": 1927
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#youtube",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 758,
+        "y": 1937
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 806,
+        "y": 1927
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#bitcointv",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 806,
+        "y": 1937
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 854,
+        "y": 1927
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:52915/acceleration#matrix",
+      "tag": "a",
+      "text": "m"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 854,
+        "y": 1937
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 1410,
+        "x": 15,
+        "y": 1987
+      },
+      "color": "#ffffff66",
+      "depth": 5,
+      "font": "12px 400",
+      "tag": "p",
+      "text": "node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 68,
+        "x": 753,
+        "y": 1988
+      },
+      "color": "#3fb8d6",
+      "depth": 6,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:52915/acceleration#changelog",
+      "tag": "a",
+      "text": "[04c299c3]"
+    }
+  ],
+  "page": {
+    "h": 2025,
+    "w": 1440
+  },
+  "text": "deep pool Dashboard Accelerator Mining Lightning Graphs Services About ~4 sat/vB 3.02 - 505 sat/vB 0.059 BTC 3,365 transactions In ~10 minutes ~2 sat/vB 1.69 - 3.02 sat/vB 0.022 BTC 2,381 transactions In ~21 minutes ~1 sat/vB 1.01 - 1.85 sat/vB 0.013 BTC 1,378 transactions In ~32 minutes ~1 sat/vB 0.12 - 1.01 sat/vB 0.006 BTC 2,473 transactions In ~43 minutes ~0 sat/vB 0.12 - 0.13 sat/vB 0.001 BTC 7,922 transactions In ~54 minutes ~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 7,984 transactions In ~65 minutes ~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 5,346 transactions In ~76 minutes ~0 sat/vB 0.10 - 0.12 sat/vB 0.031 BTC 40,209 transactions (27 blocks) 975639 ~3 sat/vB 2.03 - 405 sat/vB 0.04 BTC 3,140 transactions 32 minutes ago AntPool 975638 ~4 sat/vB 2.51 - 300 sat/vB 0.047 BTC 3,765 transactions 50 minutes ago AntPool 975637 ~2 sat/vB 1.85 - 101 sat/vB 0.033 BTC 2,474 transactions 86 minutes ago AntPool 975636 ~3 sat/vB 2.00 - 151 sat/vB 0.038 BTC 3,493 transactions 2 hours ago SpiderPool 975635 ~0 sat/vB 0.12 - 200 sat/vB 0.005 BTC 7,161 transactions 2 hours ago AntPool 975634 ~0 sat/vB 1.00 - 202 sat/vB 0.013 BTC 1,536 transactions 2 hours ago Sympatheia 975633 ~1 sat/vB 1.00 - 68.3 sat/vB 0.011 BTC 1,503 transactions 2 hours ago ViaBTC 975632 ~4 sat/vB 1.51 - 213 sat/vB 0.043 BTC 2,610 transactions 2 hours ago F2Pool 975631 ~1 sat/vB 0.12 - 101 sat/vB 0.017 BTC 4,496 transactions 3 hours ago F2Pool 975630 ~1 sat/vB 0.12 - 30.4 sat/vB 0.013 BTC 3,548 transactions 3 hours ago Braiins Pool 975629 ~2 sat/vB 1.47 - 60.0 sat/vB 0.027 BTC 3,436 transactions 3 hours ago Luxor 975628 ~5 sat/vB 3.49 - 521 sat/vB 0.058 BTC 2,939 transactions 3 hours ago F2Pool 975627 ~0 sat/vB 0.12 - 60.1 sat/vB 0.004 BTC 7,326 transactions 4 hours ago Foundry USA 975626 ~0 sat/vB 0.12 - 60.0 sat/vB 0.008 BTC 6,354 transactions 4 hours ago MARA Pool 975625 ~1 sat/vB 0.12 - 149 sat/vB 0.025 BTC 4,347 transactions 4 hours ago MARA Pool 975624 ~2 sat/vB 0.13 - 312 sat/vB 0.028 BTC 3,508 transactions 4 hours ago Foundry USA 975623 ~0 sat/vB 0.12 - 100 sat/vB 0.006 BTC 6,397 transactions 5 hours ago Foundry USA 975622 ~0 sat/vB 1.00 - 50.6 sat/vB 0.008 BTC 909 transactions 5 hours ago ViaBTC 975621 ~1 sat/vB 0.13 - 476 sat/vB 0.018 BTC 3,634 transactions 5 hours ago ViaBTC 975620 ~2 sat/vB 1.00 - 60.2 sat/vB 0.018 BTC 2,421 transactions 5 hours ago F2Pool 975619 ~3 sat/vB 2.01 - 241 sat/vB 0.031 BTC 3,730 transactions 5 hours ago SpiderPool 975618 ~4 sat/vB 3.02 - 2,010 sat/vB 0.054 BTC 3,723 transactions 5 hours ago Foundry USA 975617 ~4 sat/vB 3.01 - 265 sat/vB 0.056 BTC 3,535 transactions 6 hours ago ViaBTC 975616 ~1 sat/vB 0.92 - 140 sat/vB 0.024 BTC 3,592 transactions 7 hours ago AntPool 975615 ~2 sat/vB 1.03 - 265 sat/vB 0.033 BTC 3,451 transactions 7 hours ago Foundry USA 975614 ~2 sat/vB 1.20 - 101 sat/vB 0.027 BTC 3,213 transactions 7 hours ago F2Pool 975613 ~4 sat/vB 2.33 - 302 sat/vB 0.066 BTC 3,529 transactions 7 hours ago SpiderPool 975612 ~1 sat/vB 0.12 - 302 sat/vB 0.018 BTC 5,145 transactions 8 hours ago AntPool ACTIVE ACCELERATIONS Requests 0 pending Avg Max Bid 0.0000 BTC $0.00 Total vSize 0 vB 0.00% of block ACCELERATION STATS (1 day) 24h|1m|1y|all Requests 22 accelerated Total Bid Boost 0.0001 BTC $3.77 Total vSize 10.8 kvB 0.01% of blocks Pool Goggles : Accelerations Historical Trend Accelerated Total bid boost 0 3 6 9 12 15 18 21 0 sats 20000 sats 40000 sats 60000 sats 80000 sats 0.001 BTC 0.001 BTC October 17 October 25 November 1 November 9 View more » Active Accelerations There are no active accelerations Recent Accelerations TXID Bid Boost Block Status 8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a 5d016 8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016 199 sats 975639 Completed e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44 e280f e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f 921 sats 975628 Completed b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62 f6ade b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade 408 sats 975628 Completed e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b8512 7f217 e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217 2,252 sats 975628 Completed 01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d 93afc 01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc 0 sats 975617 Mined 6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f83 23bed 6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed 0 sats 975614 Completed العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenščina Suomi Svenska ไทย Türkçe Українська Tiếng Việt 中文 AUD CAD CHF EUR GBP JPY USD UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - Pacific Standard Time (PST) UTC-7 - Mountain Standard Time (MST) UTC-6 - Central Standard Time (CST) UTC-5 - Eastern Standard Time (EST) UTC-4 - Atlantic Standard Time (AST) UTC-3 - Argentina Time (ART) UTC-2 - Fernando de Noronha Time (FNT) UTC-1 - Azores Time (AZOT) UTC+1 - Central European Time (CET) UTC+2 - Eastern European Time (EET) UTC+3 - Moscow Standard Time (MSK) UTC+4 - Armenia Time (AMT) UTC+5 - Pakistan Standard Time (PKT) UTC+6 - Xinjiang Time (XJT) UTC+7 - Indochina Time (ICT) UTC+8 - Hong Kong Time (HKT) UTC+9 - Japan Standard Time (JST) UTC+10 - Australian Eastern Standard Time (AEST) UTC+11 - Norfolk Time (NFT) UTC+12 - New Zealand Standard Time (NZST) UTC+13 - Tonga Time (TOT) UTC+14 - Line Islands Time (LINT) BTC sats Fiat wiz BlueMatt softsimon nymkappa contrast Sign In Explore the full Bitcoin ecosystem® Explore Mining Dashboard Lightning Explorer Recent Blocks Broadcast Transaction Test Transaction Preview Transaction Connect to our Nodes API Documentation Learn What is a mempool? What is a block explorer? What is a mempool explorer? Why isn't my transaction confirming? Be your own explorer™ More FAQs » Research Networks Testnet3 Explorer Testnet4 Explorer Signet Explorer Liquid Testnet Explorer Liquid Explorer Legal Terms of Service Privacy Policy Trademark Policy Third-party Licenses m node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]",
+  "title": "deep pool - Accelerator Dashboard",
+  "unreadable_stylesheets": 0,
+  "url": "http://127.0.0.1:52915/acceleration",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

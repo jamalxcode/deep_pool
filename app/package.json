@@ -1,0 +1,9 @@
+{
+  "name": "deep-pool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "deep pool - a Bitcoin mempool explorer with a colour-blind friendly palette",
+  "scripts": {
+    "build": "sh scripts/build.sh"
+  }
+}

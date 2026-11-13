@@ -1,0 +1,6780 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "contentinfo": 1,
+      "main": 1,
+      "navigation": 4,
+      "search": 1
+    },
+    "lang": "en-US",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [],
+    "images": [
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Sympatheia mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2300bcd4%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Braiins Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23e53935%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EB%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Luxor mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23bdbdbd%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EL%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of MARA Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of MARA Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 150,
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "w": 150
+      }
+    ],
+    "inline_scripts": 0,
+    "requests": [
+      {
+        "bytes": 32715,
+        "type": "link",
+        "url": "http://127.0.0.1:51178/style.css"
+      },
+      {
+        "bytes": 92380,
+        "type": "script",
+        "url": "http://127.0.0.1:51178/app.js"
+      },
+      {
+        "bytes": 924,
+        "type": "other",
+        "url": "http://127.0.0.1:51178/favicon.svg"
+      }
+    ],
+    "scripts": [
+      "http://127.0.0.1:51178/app.js"
+    ],
+    "stylesheets": [
+      "http://127.0.0.1:51178/style.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 369,
+      "query": "max-width 369px"
+    },
+    {
+      "count": 1,
+      "px": 429,
+      "query": "max-width 429px"
+    },
+    {
+      "count": 2,
+      "px": 450,
+      "query": "max-width 450px"
+    },
+    {
+      "count": 2,
+      "px": 484,
+      "query": "max-width 484px"
+    },
+    {
+      "count": 3,
+      "px": 575,
+      "query": "max-width 575px"
+    },
+    {
+      "count": 2,
+      "px": 613,
+      "query": "max-width 613px"
+    },
+    {
+      "count": 5,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 6,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 12,
+      "px": 991,
+      "query": "max-width 991px"
+    },
+    {
+      "count": 1,
+      "px": 992,
+      "query": "min-width 992px"
+    },
+    {
+      "count": 1,
+      "px": 1019,
+      "query": "max-width 1019px"
+    },
+    {
+      "count": 1,
+      "px": 1080,
+      "query": "max-width 1080px"
+    },
+    {
+      "count": 1,
+      "px": 1199,
+      "query": "max-width 1199px"
+    },
+    {
+      "count": 1,
+      "px": 1200,
+      "query": "max-width 1200px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 21,
+        "value": "#171c2a"
+      },
+      {
+        "count": 18,
+        "value": "#11131f"
+      },
+      {
+        "count": 10,
+        "value": "#007cfa"
+      },
+      {
+        "count": 7,
+        "value": "#272f4e"
+      },
+      {
+        "count": 5,
+        "value": "#6225b2"
+      },
+      {
+        "count": 3,
+        "value": "#0aab2f"
+      },
+      {
+        "count": 1,
+        "value": "#000000"
+      }
+    ],
+    "css_variables": {
+      "--active-bg": "#000000",
+      "--active-nav": "#6225b2",
+      "--alert": "#b71c1c",
+      "--behind": "#ff3d00",
+      "--bg": "#11131f",
+      "--block-side": "#191c27",
+      "--block-top": "#232838",
+      "--border-subtle": "rgba(255, 255, 255, .11)",
+      "--button": "#6225b2",
+      "--chart-high": "#fdd835",
+      "--chart-low": "#83c341",
+      "--down": "#ff3d00",
+      "--fee-span": "#fff000",
+      "--fg": "#ffffff",
+      "--fiat": "#83fd00",
+      "--font": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Appl",
+      "--footer-fg": "rgba(255, 255, 255, .4)",
+      "--icon": "#f1f1f1",
+      "--link": "#00ddff",
+      "--mempool-block-empty": "#554b45",
+      "--mempool-block-side": "#2d2825",
+      "--mempool-block-top": "#403834",
+      "--mined-bottom": "#105fb0",
+      "--mined-empty": "#2b3456",
+      "--mined-top": "#9339f4",
+      "--nav-bg": "#11131f",
+      "--opacity": ".57",
+      "--primary": "#007cfa",
+      "--primary-dark": "#0162c8",
+      "--secondary": "#272f4e",
+      "--success": "#0aab2f",
+      "--title-fg": "#2055e3",
+      "--transparent-fg": "#ffffffbb",
+      "--up": "#83fd00",
+      "--warning": "#b58800"
+    },
+    "font_faces": [],
+    "font_sizes": [
+      {
+        "count": 141,
+        "value": "16px"
+      },
+      {
+        "count": 136,
+        "value": "14px"
+      },
+      {
+        "count": 104,
+        "value": "13px"
+      },
+      {
+        "count": 80,
+        "value": "12px"
+      },
+      {
+        "count": 36,
+        "value": "11px"
+      },
+      {
+        "count": 36,
+        "value": "10px"
+      },
+      {
+        "count": 2,
+        "value": "36px"
+      },
+      {
+        "count": 2,
+        "value": "44px"
+      },
+      {
+        "count": 2,
+        "value": "9px"
+      },
+      {
+        "count": 1,
+        "value": "20.5px"
+      },
+      {
+        "count": 1,
+        "value": "19px"
+      },
+      {
+        "count": 1,
+        "value": "32px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 462,
+        "value": "400"
+      },
+      {
+        "count": 73,
+        "value": "700"
+      },
+      {
+        "count": 7,
+        "value": "500"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 539,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+      },
+      {
+        "count": 2,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif"
+      },
+      {
+        "count": 1,
+        "value": "Arial"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 28,
+        "value": "145px"
+      },
+      {
+        "count": 3,
+        "value": "1140px"
+      },
+      {
+        "count": 1,
+        "value": "500px"
+      },
+      {
+        "count": 1,
+        "value": "1440px"
+      },
+      {
+        "count": 1,
+        "value": "160px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 74,
+        "value": "4px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 0px 0px 15px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 5px 0px 30px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 183,
+        "value": "10px"
+      },
+      {
+        "count": 131,
+        "value": "8px"
+      },
+      {
+        "count": 100,
+        "value": "4px"
+      },
+      {
+        "count": 98,
+        "value": "3px"
+      },
+      {
+        "count": 92,
+        "value": "12px"
+      },
+      {
+        "count": 74,
+        "value": "5px"
+      },
+      {
+        "count": 56,
+        "value": "4.8px"
+      },
+      {
+        "count": 50,
+        "value": "20px"
+      },
+      {
+        "count": 40,
+        "value": "2px"
+      },
+      {
+        "count": 20,
+        "value": "11px"
+      },
+      {
+        "count": 20,
+        "value": "9px"
+      },
+      {
+        "count": 15,
+        "value": "36px"
+      },
+      {
+        "count": 14,
+        "value": "30px"
+      },
+      {
+        "count": 13,
+        "value": "15px"
+      },
+      {
+        "count": 11,
+        "value": "16px"
+      },
+      {
+        "count": 6,
+        "value": "6px"
+      },
+      {
+        "count": 5,
+        "value": "1px"
+      },
+      {
+        "count": 2,
+        "value": "32px"
+      },
+      {
+        "count": 2,
+        "value": "24px"
+      },
+      {
+        "count": 1,
+        "value": "18px"
+      },
+      {
+        "count": 1,
+        "value": "14px"
+      },
+      {
+        "count": 1,
+        "value": "40px"
+      },
+      {
+        "count": 1,
+        "value": "-10px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 283,
+        "value": "#ffffff"
+      },
+      {
+        "count": 98,
+        "value": "#00ddff"
+      },
+      {
+        "count": 72,
+        "value": "#ffffffbb"
+      },
+      {
+        "count": 36,
+        "value": "#fff000"
+      },
+      {
+        "count": 25,
+        "value": "#ffffff66"
+      },
+      {
+        "count": 12,
+        "value": "#83fd00"
+      },
+      {
+        "count": 10,
+        "value": "#ffffffcc"
+      },
+      {
+        "count": 4,
+        "value": "#2055e3"
+      },
+      {
+        "count": 1,
+        "value": "#ffffffdd"
+      },
+      {
+        "count": 1,
+        "value": "#3fb8d6"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "Explore the full Bitcoin ecosystem",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "Search",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Block ‹ 975637 ›"
+    },
+    {
+      "level": 2,
+      "text": "2,474 transactions"
+    }
+  ],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en-US",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            32,
+            0,
+            32
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 1440,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 65
+        },
+        {
+          "column": {
+            "max_w": 1440,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1440,
+            "x": 0
+          },
+          "h": 3329,
+          "heading": "Block ‹ 975637 ›",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "main",
+          "w": 1440,
+          "y": 88
+        },
+        {
+          "background": "#11131f",
+          "column": {
+            "max_w": 1140,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1140,
+            "x": 150
+          },
+          "h": 517,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 1440,
+          "y": 3447
+        }
+      ],
+      "page_h": 3964,
+      "page_w": 1440,
+      "type": {
+        "body": 16,
+        "h1": 36,
+        "h2": 32,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "header",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 2,
+          "tag": "nav",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 105
+        },
+        {
+          "column": {
+            "max_w": 390,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 390,
+            "x": 0
+          },
+          "h": 4727,
+          "heading": "Block ‹ 975637 ›",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 28,
+          "tag": "main",
+          "w": 390,
+          "y": 128
+        },
+        {
+          "background": "#11131f",
+          "h": 1323,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "footer",
+          "w": 390,
+          "y": 4885
+        }
+      ],
+      "page_h": 6257,
+      "page_w": 390,
+      "type": {
+        "body": 16,
+        "h1": 32,
+        "h2": 22,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "http://127.0.0.1:51178/",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/",
+      "text": "Mainnet"
+    },
+    {
+      "href": "http://127.0.0.1:51178/signet",
+      "text": "Signet"
+    },
+    {
+      "href": "http://127.0.0.1:51178/testnet",
+      "text": "Testnet3"
+    },
+    {
+      "href": "http://127.0.0.1:51178/testnet4",
+      "text": "Testnet4"
+    },
+    {
+      "href": "http://127.0.0.1:51178/",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:51178/acceleration",
+      "text": "Accelerator"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#enterprise",
+      "text": "Services"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:51178/",
+      "text": "Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:51178/acceleration",
+      "text": "Accelerator"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Mining"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#lightning",
+      "text": "Lightning"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#graphs",
+      "text": "Graphs"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#enterprise",
+      "text": "Services"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#about",
+      "text": "About"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-0",
+      "text": "~4 sat/vB 3.01 - 505 sat/vB 0.058 BTC 3,460 transactions In ~10 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-1",
+      "text": "~2 sat/vB 1.77 - 3.01 sat/vB 0.022 BTC 2,294 transactions In ~21 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-2",
+      "text": "~1 sat/vB 1.00 - 1.77 sat/vB 0.012 BTC 1,461 transactions In ~32 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-3",
+      "text": "~1 sat/vB 0.12 - 1.00 sat/vB 0.006 BTC 2,594 transactions In ~43 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-4",
+      "text": "~0 sat/vB 0.12 - 0.13 sat/vB 0.001 BTC 7,922 transactions In ~54 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-5",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 7,984 transactions In ~65 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-6",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 4,819 transactions In ~76 minutes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mempool-block-7",
+      "text": "~0 sat/vB 0.10 - 0.12 sat/vB 0.03 BTC 40,389 transactions (27 blocks)"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975639",
+      "text": "975639"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975639",
+      "text": "~3 sat/vB 2.03 - 405 sat/vB 0.04 BTC 3,140 transactions 31 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975638",
+      "text": "975638"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975638",
+      "text": "~4 sat/vB 2.51 - 300 sat/vB 0.047 BTC 3,765 transactions 49 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975637",
+      "text": "975637"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975637",
+      "text": "~2 sat/vB 1.85 - 101 sat/vB 0.033 BTC 2,474 transactions 85 minutes ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975636",
+      "text": "975636"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975636",
+      "text": "~3 sat/vB 2.00 - 151 sat/vB 0.038 BTC 3,493 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975635",
+      "text": "975635"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975635",
+      "text": "~0 sat/vB 0.12 - 200 sat/vB 0.005 BTC 7,161 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975634",
+      "text": "975634"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975634",
+      "text": "~0 sat/vB 1.00 - 202 sat/vB 0.013 BTC 1,536 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Sympatheia"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975633",
+      "text": "975633"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975633",
+      "text": "~1 sat/vB 1.00 - 68.3 sat/vB 0.011 BTC 1,503 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975632",
+      "text": "975632"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975632",
+      "text": "~4 sat/vB 1.51 - 213 sat/vB 0.043 BTC 2,610 transactions 2 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975631",
+      "text": "975631"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975631",
+      "text": "~1 sat/vB 0.12 - 101 sat/vB 0.017 BTC 4,496 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975630",
+      "text": "975630"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975630",
+      "text": "~1 sat/vB 0.12 - 30.4 sat/vB 0.013 BTC 3,548 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Braiins Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975629",
+      "text": "975629"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975629",
+      "text": "~2 sat/vB 1.47 - 60.0 sat/vB 0.027 BTC 3,436 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Luxor"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975628",
+      "text": "975628"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975628",
+      "text": "~5 sat/vB 3.49 - 521 sat/vB 0.058 BTC 2,939 transactions 3 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975627",
+      "text": "975627"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975627",
+      "text": "~0 sat/vB 0.12 - 60.1 sat/vB 0.004 BTC 7,326 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975626",
+      "text": "975626"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975626",
+      "text": "~0 sat/vB 0.12 - 60.0 sat/vB 0.008 BTC 6,354 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "MARA Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975625",
+      "text": "975625"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975625",
+      "text": "~1 sat/vB 0.12 - 149 sat/vB 0.025 BTC 4,347 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "MARA Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975624",
+      "text": "975624"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975624",
+      "text": "~2 sat/vB 0.13 - 312 sat/vB 0.028 BTC 3,508 transactions 4 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975623",
+      "text": "975623"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975623",
+      "text": "~0 sat/vB 0.12 - 100 sat/vB 0.006 BTC 6,397 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975622",
+      "text": "975622"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975622",
+      "text": "~0 sat/vB 1.00 - 50.6 sat/vB 0.008 BTC 909 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975621",
+      "text": "975621"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975621",
+      "text": "~1 sat/vB 0.13 - 476 sat/vB 0.018 BTC 3,634 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975620",
+      "text": "975620"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975620",
+      "text": "~2 sat/vB 1.00 - 60.2 sat/vB 0.018 BTC 2,421 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975619",
+      "text": "975619"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975619",
+      "text": "~3 sat/vB 2.01 - 241 sat/vB 0.031 BTC 3,730 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975618",
+      "text": "975618"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975618",
+      "text": "~4 sat/vB 3.02 - 2,010 sat/vB 0.054 BTC 3,723 transactions 5 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975617",
+      "text": "975617"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975617",
+      "text": "~4 sat/vB 3.01 - 265 sat/vB 0.056 BTC 3,535 transactions 6 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975616",
+      "text": "975616"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975616",
+      "text": "~1 sat/vB 0.92 - 140 sat/vB 0.024 BTC 3,592 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975615",
+      "text": "975615"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975615",
+      "text": "~2 sat/vB 1.03 - 265 sat/vB 0.033 BTC 3,451 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975614",
+      "text": "975614"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975614",
+      "text": "~2 sat/vB 1.20 - 101 sat/vB 0.027 BTC 3,213 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "F2Pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975613",
+      "text": "975613"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975613",
+      "text": "~4 sat/vB 2.33 - 302 sat/vB 0.066 BTC 3,529 transactions 7 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975612",
+      "text": "975612"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975612",
+      "text": "~1 sat/vB 0.12 - 302 sat/vB 0.018 BTC 5,145 transactions 8 hours ago"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975636",
+      "text": "‹"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#block-975638",
+      "text": "›"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#hash",
+      "text": "000000…cdd41a1"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining",
+      "text": "AntPool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-cfc8ab382b8c423629896692fecf16a9f8f2c10e0d2ecca03d95914e1c30c569",
+      "text": "cfc8ab382b8c423629896692fecf16a9f8f2c10e0d2ecca03d95914e1c30c569"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qxpxtfhzgkp928uarl0tt3usgu… xestrxm"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-b7207e80df899a64273fa2ed735638453428ced90a6ea8dee99bde0736faae59",
+      "text": "b7207e80df899a64273fa2ed735638453428ced90a6ea8dee99bde0736faae59"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q0w86xzrrcreqsvtwzj4c6pv84… xgze8pe"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q7w9tyk8x062mfvadmr4u98lxt… ln2lx5a"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qh5v5a35gtzrnk5avluxrvdw85… 9dxx8w7"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q2hr42ufyt5cczj2rfv2f5j2nw… jks93pf"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qlv4p0eq0ny8390yj6cte5r3f9… x6z9xl2"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-c3c51633bf67d85486665ae4b14aa7d981c04494d1fe3aa04f04bf151de65c73",
+      "text": "c3c51633bf67d85486665ae4b14aa7d981c04494d1fe3aa04f04bf151de65c73"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qtutcmjrfgf0mnlj6lcl2k6c2s… cvtnhl8"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qgrqhxf339vjkk8cntwdy2ce9c… h8et459"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q0908e0ce8ju4hde97vdt8a2rf… ss6r9u7"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q7uvyfuf2ymj64mqpdhuugzme4… gt22h7r"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-4470ea459e04b330b6f04d059c3af92258ba96fc0a27516b9c8777a15ad139ec",
+      "text": "4470ea459e04b330b6f04d059c3af92258ba96fc0a27516b9c8777a15ad139ec"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qafw246fpxyfptj6lvpfesse0z… y6u63rk"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q2wrr7cy8e85ep04pvf2n3atgj… uqvak5v"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qfpzagnylfxv0qlu3x0y8gl7vm… zua0rqu"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qmvc5w8lqrf0x8sdtnaufzltee… mdcz7hu"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-2e1d2a6f837293046f04369fc63781dad3b37646aeeb08a127061bc3b8553789",
+      "text": "2e1d2a6f837293046f04369fc63781dad3b37646aeeb08a127061bc3b8553789"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qd9nwtlgtpchl5pl8pc6eelm2f… 0s37dd6"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qptfexnhyuxyf52p27jdsrygmx… 7zl0ygf"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qyut7s6a0pju83tjx74rlp9n9j… lgnsnre"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q9ur7muynyzn3g8n695kyp2qsm… 86ay0kl"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q79mj20f55q8f7uxt8qp7w6vp8… 9zacj4t"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q99k2dudyjscpwycnn8ycn96yp… 4vpq0f0"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-f41f9306cc3c07d659a0cf63d5a591c348cd2d863c57a0cd43e15659a83c1f1b",
+      "text": "f41f9306cc3c07d659a0cf63d5a591c348cd2d863c57a0cd43e15659a83c1f1b"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q9r3n6nt8jw6685s89xhgtdpkd… 8w9kg3d"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qg6r8rs2t0jvqfqe4829n35h6p… 0hkvz3q"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-ef179ff2798761571856af5a02659c35f530f3684a83fe3de86b9b82f3307835",
+      "text": "ef179ff2798761571856af5a02659c35f530f3684a83fe3de86b9b82f3307835"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qxlnnsuxg2le6437adkthvqgps… a9w9653"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q5nhmnl20yv2xunss6wnnfqknt… 8yyk9s0"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qveamkx48xnc0wrpy4l4tcycq0… ksdgw08"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qwg7fwr6ra8jsau44l6m7f4vxe… 92fncg5"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-68780e2d3fb63f084e22f04cd9e4286da266b6cce871bf296dd829c0480e17ec",
+      "text": "68780e2d3fb63f084e22f04cd9e4286da266b6cce871bf296dd829c0480e17ec"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qlym6u8vpsgjlfzmzgnfdcunp0… 496sv08"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qvck0vtnxvmvy90nx45h9m3cyr… uu9ld8e"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qe8n4te9luscegnl6ceffnn7nq… mh0ryj8"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qau6stkwcrd48wkld4gxpvjezg… rg57697"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qr6s5ds9adamxe2cry96a6mmdz… cs3hx0c"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q3s0pnshtdr85t9weydt7y4r4p… n6mzzqj"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-cd221c4b28939cb8c0463d9eb3a72f4d32bf8d4a1c318a1389a6e30bc0a19e5e",
+      "text": "cd221c4b28939cb8c0463d9eb3a72f4d32bf8d4a1c318a1389a6e30bc0a19e5e"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q5jhaxs0eyxz7ycah5y6setjxv… 7fwcgkp"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qejxtmgdhu5qfyunmhvuk08s7y… rt7uf2g"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qvt6gac7pjaug6x2lcdgu45u5r… zz0dcw2"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q9m2cphy42lsdpcfm23n370u02… 2amnp4p"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#tx-81f9315c519708327befb1c758d2f1c92854e1da892faad29bb1a10637300335",
+      "text": "81f9315c519708327befb1c758d2f1c92854e1da892faad29bb1a10637300335"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qlkcnqujj6y6kpcexzzht348vs… u429wah"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1q2r2qp85t3vvzeeslthm0vetkc… hpt5glr"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qpmnf6vsxt6mlj4kxsjgvsj9fs… eexa5wc"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qfdqux4669nlufp0pzj5ts9dx4… 8teegvm"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#address",
+      "text": "bc1qt5thjhg8dp264jqz82tgsr7ak… es49hlc"
+    },
+    {
+      "href": "http://127.0.0.1:51178/",
+      "text": "deep pool"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#mining-dashboard",
+      "text": "Mining Dashboard"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#lightning-explorer",
+      "text": "Lightning Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#recent-blocks",
+      "text": "Recent Blocks"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#broadcast-transaction",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#test-transaction",
+      "text": "Test Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#preview-transaction",
+      "text": "Preview Transaction"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#connect-to-our-nodes",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#api-documentation",
+      "text": "API Documentation"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#what-is-a-mempool",
+      "text": "What is a mempool?"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#what-is-a-block-explorer",
+      "text": "What is a block explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#what-is-a-mempool-explorer",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#why-isn-t-my-transaction-confirming",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#be-your-own-explorer",
+      "text": "Be your own explorer™"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#more-faqs",
+      "text": "More FAQs »"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#research",
+      "text": "Research"
+    },
+    {
+      "href": "http://127.0.0.1:51178/testnet",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:51178/testnet4",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:51178/signet",
+      "text": "Signet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#liquid-testnet",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#liquid",
+      "text": "Liquid Explorer"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#terms-of-service",
+      "text": "Terms of Service"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#trademark-policy",
+      "text": "Trademark Policy"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#third-party-licenses",
+      "text": "Third-party Licenses"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#github",
+      "text": "GitHub"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#x",
+      "text": "X"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#nostr",
+      "text": "Nostr"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#primal",
+      "text": "Primal"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#youtube",
+      "text": "YouTube"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#bitcointv",
+      "text": "BitcoinTV"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#matrix",
+      "text": "m"
+    },
+    {
+      "href": "http://127.0.0.1:51178/#changelog",
+      "text": "[04c299c3]"
+    }
+  ],
+  "meta": {
+    "description": "Explore the full Bitcoin ecosystem with deep pool. See the real-time status of your transactions, get network info, and more.",
+    "icons": [
+      "http://127.0.0.1:51178/favicon.svg"
+    ],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "sticky-header",
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "header"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "class": "navbar",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 45,
+        "w": 140,
+        "x": 32,
+        "y": 10
+      },
+      "class": "brand",
+      "color": "#00ddff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/",
+      "tag": "a",
+      "text": "deep pool"
+    },
+    {
+      "box": {
+        "h": 35,
+        "w": 140,
+        "x": 32,
+        "y": 15
+      },
+      "color": "#00ddff",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 36,
+        "w": 62,
+        "x": 188,
+        "y": 17
+      },
+      "class": "net-toggle",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 202,
+        "y": 25
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 406,
+        "x": 266,
+        "y": 0
+      },
+      "class": "navbar-nav",
+      "color": "#ffffff",
+      "depth": 5,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 276,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 284,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 334,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/acceleration",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 342,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 392,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 400,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 450,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#lightning",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 458,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 508,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#graphs",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 516,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 566,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#enterprise",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 574,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 624,
+        "y": 10
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#about",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 632,
+        "y": 18
+      },
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 38,
+        "w": 485,
+        "x": 923,
+        "y": 16
+      },
+      "class": "search",
+      "color": "#ffffff",
+      "depth": 6,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "role": "search",
+      "tag": "form"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 38,
+        "w": 415,
+        "x": 923,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "name": "",
+      "placeholder": "Explore the full Bitcoin ecosystem",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 38,
+        "w": 62,
+        "x": 1346,
+        "y": 16
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 20,
+        "x": 1367,
+        "y": 27
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "13.3333px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 835,
+        "w": 225,
+        "x": -250,
+        "y": 65
+      },
+      "class": "scrollable",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 85
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/",
+      "tag": "a",
+      "text": "Dashboard"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 117
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/acceleration",
+      "tag": "a",
+      "text": "Accelerator"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 149
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Mining"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 181
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#lightning",
+      "tag": "a",
+      "text": "Lightning"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 213
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#graphs",
+      "tag": "a",
+      "text": "Graphs"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 245
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#enterprise",
+      "tag": "a",
+      "text": "Services"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 165,
+        "x": -210,
+        "y": 277
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#about",
+      "tag": "a",
+      "text": "About"
+    },
+    {
+      "box": {
+        "h": 3329,
+        "w": 1440,
+        "x": 0,
+        "y": 88
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "main"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 555,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-0",
+      "tag": "a",
+      "text": "~4 sat/vB 3.01 - 505 sat/vB 0.058 BTC 3,460 transactions In ~10 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 400,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-1",
+      "tag": "a",
+      "text": "~2 sat/vB 1.77 - 3.01 sat/vB 0.022 BTC 2,294 transactions In ~21 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 245,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-2",
+      "tag": "a",
+      "text": "~1 sat/vB 1.00 - 1.77 sat/vB 0.012 BTC 1,461 transactions In ~32 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 90,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-3",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 1.00 sat/vB 0.006 BTC 2,594 transactions In ~43 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -65,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-4",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 0.13 sat/vB 0.001 BTC 7,922 transactions In ~54 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -220,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-5",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 7,984 transactions In ~65 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -375,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-6",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 4,819 transactions In ~76 minutes"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -530,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mempool-block-7",
+      "tag": "a",
+      "text": "~0 sat/vB 0.10 - 0.12 sat/vB 0.03 BTC 40,389 transactions (27 blocks)"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 782,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975639",
+      "tag": "a",
+      "text": "975639"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 760,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975639",
+      "tag": "a",
+      "text": "~3 sat/vB 2.03 - 405 sat/vB 0.04 BTC 3,140 transactions 31 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 784,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 789,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 937,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975638",
+      "tag": "a",
+      "text": "975638"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 915,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975638",
+      "tag": "a",
+      "text": "~4 sat/vB 2.51 - 300 sat/vB 0.047 BTC 3,765 transactions 49 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 939,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 944,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 1092,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975637",
+      "tag": "a",
+      "text": "975637"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1070,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975637",
+      "tag": "a",
+      "text": "~2 sat/vB 1.85 - 101 sat/vB 0.033 BTC 2,474 transactions 85 minutes ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 1094,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1099,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1247,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975636",
+      "tag": "a",
+      "text": "975636"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1225,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975636",
+      "tag": "a",
+      "text": "~3 sat/vB 2.00 - 151 sat/vB 0.038 BTC 3,493 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 1240,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1245,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1402,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975635",
+      "tag": "a",
+      "text": "975635"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1380,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975635",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 200 sat/vB 0.005 BTC 7,161 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 1404,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1409,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1557,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975634",
+      "tag": "a",
+      "text": "975634"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1535,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975634",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 202 sat/vB 0.013 BTC 1,536 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 101,
+        "x": 1547,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Sympatheia"
+    },
+    {
+      "alt": "Logo of Sympatheia mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1552,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2300bcd4%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1712,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975633",
+      "tag": "a",
+      "text": "975633"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1690,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975633",
+      "tag": "a",
+      "text": "~1 sat/vB 1.00 - 68.3 sat/vB 0.011 BTC 1,503 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 1716,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1720,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1867,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975632",
+      "tag": "a",
+      "text": "975632"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1845,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975632",
+      "tag": "a",
+      "text": "~4 sat/vB 1.51 - 213 sat/vB 0.043 BTC 2,610 transactions 2 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 1872,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1877,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 2023,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975631",
+      "tag": "a",
+      "text": "975631"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2000,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975631",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 101 sat/vB 0.017 BTC 4,496 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 2027,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2032,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2177,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975630",
+      "tag": "a",
+      "text": "975630"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2155,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975630",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 30.4 sat/vB 0.013 BTC 3,548 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 101,
+        "x": 2167,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Braiins Pool"
+    },
+    {
+      "alt": "Logo of Braiins Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2172,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23e53935%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2332,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975629",
+      "tag": "a",
+      "text": "975629"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2310,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975629",
+      "tag": "a",
+      "text": "~2 sat/vB 1.47 - 60.0 sat/vB 0.027 BTC 3,436 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 64,
+        "x": 2341,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Luxor"
+    },
+    {
+      "alt": "Logo of Luxor mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2346,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23bdbdbd%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EL%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2487,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2465,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975628",
+      "tag": "a",
+      "text": "~5 sat/vB 3.49 - 521 sat/vB 0.058 BTC 2,939 transactions 3 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 2492,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2497,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 2643,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975627",
+      "tag": "a",
+      "text": "975627"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2620,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975627",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 60.1 sat/vB 0.004 BTC 7,326 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 2628,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2633,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2797,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975626",
+      "tag": "a",
+      "text": "975626"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2775,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975626",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 60.0 sat/vB 0.008 BTC 6,354 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 96,
+        "x": 2790,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "MARA Pool"
+    },
+    {
+      "alt": "Logo of MARA Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2794,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2952,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975625",
+      "tag": "a",
+      "text": "975625"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2930,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975625",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 149 sat/vB 0.025 BTC 4,347 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 96,
+        "x": 2945,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "MARA Pool"
+    },
+    {
+      "alt": "Logo of MARA Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2949,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%231d4ed8%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3107,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975624",
+      "tag": "a",
+      "text": "975624"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3085,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975624",
+      "tag": "a",
+      "text": "~2 sat/vB 0.13 - 312 sat/vB 0.028 BTC 3,508 transactions 4 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 3093,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3098,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3262,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975623",
+      "tag": "a",
+      "text": "975623"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3240,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975623",
+      "tag": "a",
+      "text": "~0 sat/vB 0.12 - 100 sat/vB 0.006 BTC 6,397 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 3248,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3253,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 3417,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975622",
+      "tag": "a",
+      "text": "975622"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3395,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975622",
+      "tag": "a",
+      "text": "~0 sat/vB 1.00 - 50.6 sat/vB 0.008 BTC 909 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 3421,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3425,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 3573,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975621",
+      "tag": "a",
+      "text": "975621"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3550,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975621",
+      "tag": "a",
+      "text": "~1 sat/vB 0.13 - 476 sat/vB 0.018 BTC 3,634 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 3576,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3580,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3727,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975620",
+      "tag": "a",
+      "text": "975620"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3705,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975620",
+      "tag": "a",
+      "text": "~2 sat/vB 1.00 - 60.2 sat/vB 0.018 BTC 2,421 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 3732,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3737,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 3883,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975619",
+      "tag": "a",
+      "text": "975619"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3860,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975619",
+      "tag": "a",
+      "text": "~3 sat/vB 2.01 - 241 sat/vB 0.031 BTC 3,730 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 3875,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3880,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4038,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975618",
+      "tag": "a",
+      "text": "975618"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4015,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975618",
+      "tag": "a",
+      "text": "~4 sat/vB 3.02 - 2,010 sat/vB 0.054 BTC 3,723 transactions 5 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 4023,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4028,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4194,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975617",
+      "tag": "a",
+      "text": "975617"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4170,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975617",
+      "tag": "a",
+      "text": "~4 sat/vB 3.01 - 265 sat/vB 0.056 BTC 3,535 transactions 6 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 4196,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4200,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f5a623%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4348,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975616",
+      "tag": "a",
+      "text": "975616"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4325,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975616",
+      "tag": "a",
+      "text": "~1 sat/vB 0.92 - 140 sat/vB 0.024 BTC 3,592 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 4349,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4354,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4503,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975615",
+      "tag": "a",
+      "text": "975615"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4480,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975615",
+      "tag": "a",
+      "text": "~2 sat/vB 1.03 - 265 sat/vB 0.033 BTC 3,451 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 4488,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4493,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23ff8c00%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4658,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975614",
+      "tag": "a",
+      "text": "975614"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4635,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975614",
+      "tag": "a",
+      "text": "~2 sat/vB 1.20 - 101 sat/vB 0.027 BTC 3,213 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 4662,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4667,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%232f6fdf%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EF%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4813,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975613",
+      "tag": "a",
+      "text": "975613"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4790,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975613",
+      "tag": "a",
+      "text": "~4 sat/vB 2.33 - 302 sat/vB 0.066 BTC 3,529 transactions 7 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 4805,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4810,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%23f4b400%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3ES%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4968,
+        "y": 110
+      },
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975612",
+      "tag": "a",
+      "text": "975612"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4945,
+        "y": 163
+      },
+      "class": "block-link",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#block-975612",
+      "tag": "a",
+      "text": "~1 sat/vB 0.12 - 302 sat/vB 0.018 BTC 5,145 transactions 8 hours ago"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 4969,
+        "y": 299
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4974,
+        "y": 302
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 200,
+        "w": 2,
+        "x": 720,
+        "y": 113
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 89
+      },
+      "class": "block-display-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 89
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 322
+      },
+      "class": "time-toggle",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 16,
+        "x": 713,
+        "y": 322
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 63,
+        "x": 10,
+        "y": 193
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 47,
+        "w": 294,
+        "x": 165,
+        "y": 368
+      },
+      "class": "blk-title",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "36px 500",
+      "tag": "h1",
+      "text": "Block ‹ 975637 ›"
+    },
+    {
+      "box": {
+        "h": 52,
+        "w": 26,
+        "x": 261,
+        "y": 366
+      },
+      "class": "blk-nav",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "44px 500",
+      "href": "http://127.0.0.1:51178/#block-975636",
+      "tag": "a",
+      "text": "‹"
+    },
+    {
+      "box": {
+        "h": 52,
+        "w": 26,
+        "x": 433,
+        "y": 366
+      },
+      "class": "blk-nav",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "44px 500",
+      "href": "http://127.0.0.1:51178/#block-975638",
+      "tag": "a",
+      "text": "›"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 36,
+        "x": 1239,
+        "y": 374
+      },
+      "class": "blk-close",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1250,
+        "y": 385
+      },
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "13.3333px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 130,
+        "x": 353,
+        "y": 464
+      },
+      "class": "hash-link",
+      "color": "#00ddff",
+      "depth": 13,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#hash",
+      "tag": "a",
+      "text": "000000…cdd41a1"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 17,
+        "x": 487,
+        "y": 468
+      },
+      "class": "copy",
+      "color": "#ffffff",
+      "depth": 13,
+      "font": "13.3333px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 13,
+        "x": 489,
+        "y": 468
+      },
+      "color": "#ffffff",
+      "depth": 14,
+      "font": "13.3333px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 68,
+        "x": 903,
+        "y": 657
+      },
+      "color": "#ffffff",
+      "depth": 14,
+      "font": "12px 700",
+      "href": "http://127.0.0.1:51178/#mining",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 903,
+        "y": 662
+      },
+      "class": "pool-logo",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "12px 700",
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2015%2015%22%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%227.5%22%20fill%3D%22%2314a37f%22%2F%3E%3Ctext%20x%3D%227.5%22%20y%3D%2211%22%20text-anchor%3D%22middle%22%20font-size%3D%229.5%22%20font-weight%3D%22700%22%20fill%3D%22%2311131f%22%20font-family%3D%22Arial%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 48,
+        "w": 265,
+        "x": 165,
+        "y": 793
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "32px 500",
+      "tag": "h2",
+      "text": "2,474 transactions"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 62,
+        "x": 877,
+        "y": 803
+      },
+      "class": "details-btn",
+      "color": "#00ddff",
+      "depth": 8,
+      "font": "14px 400",
+      "tag": "button",
+      "text": "Details"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 36,
+        "w": 326,
+        "x": 949,
+        "y": 799
+      },
+      "class": "pager",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "16px 400",
+      "role": "navigation",
+      "tag": "div",
+      "text": "«« « 1 2 3 4 5 » »»"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 41,
+        "x": 949,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#ffffffbb",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "««"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 989,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#ffffffbb",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "«"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1024,
+        "y": 799
+      },
+      "class": "pg active",
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "1"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1059,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "2"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1094,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "3"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1129,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "4"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1164,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "5"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1199,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "»"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 41,
+        "x": 1234,
+        "y": 799
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "»»"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 510,
+        "x": 176,
+        "y": 861
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-cfc8ab382b8c423629896692fecf16a9f8f2c10e0d2ecca03d95914e1c30c569",
+      "tag": "a",
+      "text": "cfc8ab382b8c423629896692fecf16a9f8f2c10e0d2ecca03d95914e1c30c569"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 928
+      },
+      "color": "#7e7e7e",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 375,
+        "x": 738,
+        "y": 926
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qxpxtfhzgkp928uarl0tt3usgu… xestrxm"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 928
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 958
+      },
+      "color": "#7e7e7e",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 988
+      },
+      "color": "#7e7e7e",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 521,
+        "x": 176,
+        "y": 1117
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-b7207e80df899a64273fa2ed735638453428ced90a6ea8dee99bde0736faae59",
+      "tag": "a",
+      "text": "b7207e80df899a64273fa2ed735638453428ced90a6ea8dee99bde0736faae59"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 1184
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 374,
+        "x": 211,
+        "y": 1182
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q0w86xzrrcreqsvtwzj4c6pv84… xgze8pe"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 1214
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 211,
+        "y": 1212
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q7w9tyk8x062mfvadmr4u98lxt… ln2lx5a"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 738,
+        "y": 1182
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qh5v5a35gtzrnk5avluxrvdw85… 9dxx8w7"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1184
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 381,
+        "x": 738,
+        "y": 1212
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q2hr42ufyt5cczj2rfv2f5j2nw… jks93pf"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1214
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 375,
+        "x": 738,
+        "y": 1242
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qlv4p0eq0ny8390yj6cte5r3f9… x6z9xl2"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1244
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 509,
+        "x": 176,
+        "y": 1373
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-c3c51633bf67d85486665ae4b14aa7d981c04494d1fe3aa04f04bf151de65c73",
+      "tag": "a",
+      "text": "c3c51633bf67d85486665ae4b14aa7d981c04494d1fe3aa04f04bf151de65c73"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 1440
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 376,
+        "x": 211,
+        "y": 1438
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qtutcmjrfgf0mnlj6lcl2k6c2s… cvtnhl8"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 1438
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qgrqhxf339vjkk8cntwdy2ce9c… h8et459"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1440
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 1468
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q0908e0ce8ju4hde97vdt8a2rf… ss6r9u7"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1470
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 1498
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q7uvyfuf2ymj64mqpdhuugzme4… gt22h7r"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1500
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 517,
+        "x": 176,
+        "y": 1629
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-4470ea459e04b330b6f04d059c3af92258ba96fc0a27516b9c8777a15ad139ec",
+      "tag": "a",
+      "text": "4470ea459e04b330b6f04d059c3af92258ba96fc0a27516b9c8777a15ad139ec"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 1696
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 374,
+        "x": 211,
+        "y": 1694
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qafw246fpxyfptj6lvpfesse0z… y6u63rk"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 372,
+        "x": 738,
+        "y": 1694
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q2wrr7cy8e85ep04pvf2n3atgj… uqvak5v"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1696
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 738,
+        "y": 1724
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qfpzagnylfxv0qlu3x0y8gl7vm… zua0rqu"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1726
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 1754
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qmvc5w8lqrf0x8sdtnaufzltee… mdcz7hu"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1756
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 518,
+        "x": 176,
+        "y": 1885
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-2e1d2a6f837293046f04369fc63781dad3b37646aeeb08a127061bc3b8553789",
+      "tag": "a",
+      "text": "2e1d2a6f837293046f04369fc63781dad3b37646aeeb08a127061bc3b8553789"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 1952
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 376,
+        "x": 211,
+        "y": 1950
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qd9nwtlgtpchl5pl8pc6eelm2f… 0s37dd6"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 1982
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 211,
+        "y": 1980
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qptfexnhyuxyf52p27jdsrygmx… 7zl0ygf"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2012
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 378,
+        "x": 211,
+        "y": 2010
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qyut7s6a0pju83tjx74rlp9n9j… lgnsnre"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 1950
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q9ur7muynyzn3g8n695kyp2qsm… 86ay0kl"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1952
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 374,
+        "x": 738,
+        "y": 1980
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q79mj20f55q8f7uxt8qp7w6vp8… 9zacj4t"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 1982
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 376,
+        "x": 738,
+        "y": 2010
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q99k2dudyjscpwycnn8ycn96yp… 4vpq0f0"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2012
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 509,
+        "x": 176,
+        "y": 2141
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-f41f9306cc3c07d659a0cf63d5a591c348cd2d863c57a0cd43e15659a83c1f1b",
+      "tag": "a",
+      "text": "f41f9306cc3c07d659a0cf63d5a591c348cd2d863c57a0cd43e15659a83c1f1b"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2208
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 375,
+        "x": 211,
+        "y": 2206
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q9r3n6nt8jw6685s89xhgtdpkd… 8w9kg3d"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 375,
+        "x": 738,
+        "y": 2206
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qg6r8rs2t0jvqfqe4829n35h6p… 0hkvz3q"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2208
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 504,
+        "x": 176,
+        "y": 2337
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-ef179ff2798761571856af5a02659c35f530f3684a83fe3de86b9b82f3307835",
+      "tag": "a",
+      "text": "ef179ff2798761571856af5a02659c35f530f3684a83fe3de86b9b82f3307835"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2404
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 211,
+        "y": 2402
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qxlnnsuxg2le6437adkthvqgps… a9w9653"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 2402
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q5nhmnl20yv2xunss6wnnfqknt… 8yyk9s0"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2404
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 2432
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qveamkx48xnc0wrpy4l4tcycq0… ksdgw08"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2434
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 2462
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qwg7fwr6ra8jsau44l6m7f4vxe… 92fncg5"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2464
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 519,
+        "x": 176,
+        "y": 2593
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-68780e2d3fb63f084e22f04cd9e4286da266b6cce871bf296dd829c0480e17ec",
+      "tag": "a",
+      "text": "68780e2d3fb63f084e22f04cd9e4286da266b6cce871bf296dd829c0480e17ec"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2660
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 211,
+        "y": 2658
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qlym6u8vpsgjlfzmzgnfdcunp0… 496sv08"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2690
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 376,
+        "x": 211,
+        "y": 2688
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qvck0vtnxvmvy90nx45h9m3cyr… uu9ld8e"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2720
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 211,
+        "y": 2718
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qe8n4te9luscegnl6ceffnn7nq… mh0ryj8"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2750
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 375,
+        "x": 211,
+        "y": 2748
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qau6stkwcrd48wkld4gxpvjezg… rg57697"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 2658
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qr6s5ds9adamxe2cry96a6mmdz… cs3hx0c"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2660
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 376,
+        "x": 738,
+        "y": 2688
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q3s0pnshtdr85t9weydt7y4r4p… n6mzzqj"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2690
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 515,
+        "x": 176,
+        "y": 2879
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-cd221c4b28939cb8c0463d9eb3a72f4d32bf8d4a1c318a1389a6e30bc0a19e5e",
+      "tag": "a",
+      "text": "cd221c4b28939cb8c0463d9eb3a72f4d32bf8d4a1c318a1389a6e30bc0a19e5e"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 2946
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 211,
+        "y": 2944
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q5jhaxs0eyxz7ycah5y6setjxv… 7fwcgkp"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 376,
+        "x": 738,
+        "y": 2944
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qejxtmgdhu5qfyunmhvuk08s7y… rt7uf2g"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2946
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 377,
+        "x": 738,
+        "y": 2974
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qvt6gac7pjaug6x2lcdgu45u5r… zz0dcw2"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 2976
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 3004
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q9m2cphy42lsdpcfm23n370u02… 2amnp4p"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 3006
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 503,
+        "x": 176,
+        "y": 3135
+      },
+      "class": "tx-id",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#tx-81f9315c519708327befb1c758d2f1c92854e1da892faad29bb1a10637300335",
+      "tag": "a",
+      "text": "81f9315c519708327befb1c758d2f1c92854e1da892faad29bb1a10637300335"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 3202
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 211,
+        "y": 3200
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qlkcnqujj6y6kpcexzzht348vs… u429wah"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 185,
+        "y": 3232
+      },
+      "color": "#ff3d00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 211,
+        "y": 3230
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1q2r2qp85t3vvzeeslthm0vetkc… hpt5glr"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 375,
+        "x": 738,
+        "y": 3200
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qpmnf6vsxt6mlj4kxsjgvsj9fs… eexa5wc"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 3202
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 374,
+        "x": 738,
+        "y": 3230
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qfdqux4669nlufp0pzj5ts9dx4… 8teegvm"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 3232
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 373,
+        "x": 738,
+        "y": 3260
+      },
+      "class": "io-addr",
+      "color": "#00ddff",
+      "depth": 11,
+      "font": "14px 400",
+      "href": "http://127.0.0.1:51178/#address",
+      "tag": "a",
+      "text": "bc1qt5thjhg8dp264jqz82tgsr7ak… es49hlc"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1237,
+        "y": 3262
+      },
+      "color": "#83fd00",
+      "depth": 12,
+      "font": "14px 400",
+      "tag": "svg"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 36,
+        "w": 326,
+        "x": 949,
+        "y": 3381
+      },
+      "class": "pager",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "16px 400",
+      "role": "navigation",
+      "tag": "div",
+      "text": "«« « 1 2 3 4 5 » »»"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 41,
+        "x": 949,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#ffffffbb",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "««"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 989,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#ffffffbb",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "«"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1024,
+        "y": 3381
+      },
+      "class": "pg active",
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "1"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1059,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "2"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1094,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "3"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1129,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "4"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1164,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "5"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 35,
+        "x": 1199,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "»"
+    },
+    {
+      "box": {
+        "h": 36,
+        "w": 41,
+        "x": 1234,
+        "y": 3381
+      },
+      "class": "pg",
+      "color": "#00ddff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "»»"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 517,
+        "w": 1440,
+        "x": 0,
+        "y": 3447
+      },
+      "color": "#ffffff",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "footer"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 3495
+      },
+      "class": "footer-logo-wrapper",
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 3495
+      },
+      "color": "#ffffff66",
+      "depth": 8,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 120,
+        "x": 649,
+        "y": 3487
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenšči",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 85,
+        "x": 779,
+        "y": 3487
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "AUD CAD CHF EUR GBP JPY USD",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 110,
+        "x": 874,
+        "y": 3487
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - ",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 75,
+        "x": 994,
+        "y": 3487
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "BTC sats Fiat",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 108,
+        "x": 1079,
+        "y": 3487
+      },
+      "class": "form-select",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "wiz BlueMatt softsimon nymkappa contrast",
+      "type": "select-one"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 31,
+        "w": 73,
+        "x": 1197,
+        "y": 3487
+      },
+      "class": "sponsor",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "Sign In"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 1110,
+        "x": 165,
+        "y": 3550
+      },
+      "class": "explore-tagline-desktop",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Explore the full Bitcoin ecosystem®"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3614
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Explore"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3642
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 3645
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#mining-dashboard",
+      "tag": "a",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3670
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 3673
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#lightning-explorer",
+      "tag": "a",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3698
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 103,
+        "x": 165,
+        "y": 3701
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#recent-blocks",
+      "tag": "a",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3726
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 162,
+        "x": 165,
+        "y": 3729
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#broadcast-transaction",
+      "tag": "a",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3754
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 119,
+        "x": 165,
+        "y": 3757
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#test-transaction",
+      "tag": "a",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3782
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 165,
+        "y": 3785
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#preview-transaction",
+      "tag": "a",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3810
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 160,
+        "x": 165,
+        "y": 3813
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#connect-to-our-nodes",
+      "tag": "a",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 3838
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 139,
+        "x": 165,
+        "y": 3841
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#api-documentation",
+      "tag": "a",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3614
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Learn"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3642
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 442,
+        "y": 3645
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#what-is-a-mempool",
+      "tag": "a",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3670
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 182,
+        "x": 442,
+        "y": 3673
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#what-is-a-block-explorer",
+      "tag": "a",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3698
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 210,
+        "x": 442,
+        "y": 3701
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#what-is-a-mempool-explorer",
+      "tag": "a",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3726
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 268,
+        "x": 442,
+        "y": 3729
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#why-isn-t-my-transaction-confirming",
+      "tag": "a",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3754
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 442,
+        "y": 3757
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#be-your-own-explorer",
+      "tag": "a",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3782
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 94,
+        "x": 442,
+        "y": 3785
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#more-faqs",
+      "tag": "a",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 442,
+        "y": 3810
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 67,
+        "x": 442,
+        "y": 3813
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#research",
+      "tag": "a",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 3614
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Networks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 3642
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 839,
+        "y": 3645
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/testnet",
+      "tag": "a",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 3670
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 839,
+        "y": 3673
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/testnet4",
+      "tag": "a",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 3698
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 110,
+        "x": 839,
+        "y": 3701
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/signet",
+      "tag": "a",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 3726
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 839,
+        "y": 3729
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#liquid-testnet",
+      "tag": "a",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 839,
+        "y": 3754
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 108,
+        "x": 839,
+        "y": 3757
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#liquid",
+      "tag": "a",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 3614
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 6,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Legal"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 3642
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 122,
+        "x": 1119,
+        "y": 3645
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#terms-of-service",
+      "tag": "a",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 3670
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 100,
+        "x": 1119,
+        "y": 3673
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#privacy-policy",
+      "tag": "a",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 3698
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 125,
+        "x": 1119,
+        "y": 3701
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#trademark-policy",
+      "tag": "a",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 3726
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 151,
+        "x": 1119,
+        "y": 3729
+      },
+      "color": "#ffffff66",
+      "depth": 7,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#third-party-licenses",
+      "tag": "a",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 566,
+        "y": 3866
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#github",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 566,
+        "y": 3876
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 614,
+        "y": 3866
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#x",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 614,
+        "y": 3876
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 662,
+        "y": 3866
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#nostr",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 662,
+        "y": 3876
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 710,
+        "y": 3866
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#primal",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 710,
+        "y": 3876
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 758,
+        "y": 3866
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#youtube",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 758,
+        "y": 3876
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 806,
+        "y": 3866
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#bitcointv",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 806,
+        "y": 3876
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 20,
+        "x": 854,
+        "y": 3866
+      },
+      "color": "#ffffffdd",
+      "depth": 5,
+      "font": "16px 400",
+      "href": "http://127.0.0.1:51178/#matrix",
+      "tag": "a",
+      "text": "m"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 854,
+        "y": 3876
+      },
+      "color": "#ffffffdd",
+      "depth": 6,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 1410,
+        "x": 15,
+        "y": 3926
+      },
+      "color": "#ffffff66",
+      "depth": 5,
+      "font": "12px 400",
+      "tag": "p",
+      "text": "node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 68,
+        "x": 753,
+        "y": 3927
+      },
+      "color": "#3fb8d6",
+      "depth": 6,
+      "font": "12px 400",
+      "href": "http://127.0.0.1:51178/#changelog",
+      "tag": "a",
+      "text": "[04c299c3]"
+    }
+  ],
+  "page": {
+    "h": 3964,
+    "w": 1440
+  },
+  "text": "deep pool Dashboard Accelerator Mining Lightning Graphs Services About ~4 sat/vB 3.01 - 505 sat/vB 0.058 BTC 3,460 transactions In ~10 minutes ~2 sat/vB 1.77 - 3.01 sat/vB 0.022 BTC 2,294 transactions In ~21 minutes ~1 sat/vB 1.00 - 1.77 sat/vB 0.012 BTC 1,461 transactions In ~32 minutes ~1 sat/vB 0.12 - 1.00 sat/vB 0.006 BTC 2,594 transactions In ~43 minutes ~0 sat/vB 0.12 - 0.13 sat/vB 0.001 BTC 7,922 transactions In ~54 minutes ~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 7,984 transactions In ~65 minutes ~0 sat/vB 0.12 - 0.12 sat/vB 0.001 BTC 4,819 transactions In ~76 minutes ~0 sat/vB 0.10 - 0.12 sat/vB 0.03 BTC 40,389 transactions (27 blocks) 975639 ~3 sat/vB 2.03 - 405 sat/vB 0.04 BTC 3,140 transactions 31 minutes ago AntPool 975638 ~4 sat/vB 2.51 - 300 sat/vB 0.047 BTC 3,765 transactions 49 minutes ago AntPool 975637 ~2 sat/vB 1.85 - 101 sat/vB 0.033 BTC 2,474 transactions 85 minutes ago AntPool 975636 ~3 sat/vB 2.00 - 151 sat/vB 0.038 BTC 3,493 transactions 2 hours ago SpiderPool 975635 ~0 sat/vB 0.12 - 200 sat/vB 0.005 BTC 7,161 transactions 2 hours ago AntPool 975634 ~0 sat/vB 1.00 - 202 sat/vB 0.013 BTC 1,536 transactions 2 hours ago Sympatheia 975633 ~1 sat/vB 1.00 - 68.3 sat/vB 0.011 BTC 1,503 transactions 2 hours ago ViaBTC 975632 ~4 sat/vB 1.51 - 213 sat/vB 0.043 BTC 2,610 transactions 2 hours ago F2Pool 975631 ~1 sat/vB 0.12 - 101 sat/vB 0.017 BTC 4,496 transactions 3 hours ago F2Pool 975630 ~1 sat/vB 0.12 - 30.4 sat/vB 0.013 BTC 3,548 transactions 3 hours ago Braiins Pool 975629 ~2 sat/vB 1.47 - 60.0 sat/vB 0.027 BTC 3,436 transactions 3 hours ago Luxor 975628 ~5 sat/vB 3.49 - 521 sat/vB 0.058 BTC 2,939 transactions 3 hours ago F2Pool 975627 ~0 sat/vB 0.12 - 60.1 sat/vB 0.004 BTC 7,326 transactions 4 hours ago Foundry USA 975626 ~0 sat/vB 0.12 - 60.0 sat/vB 0.008 BTC 6,354 transactions 4 hours ago MARA Pool 975625 ~1 sat/vB 0.12 - 149 sat/vB 0.025 BTC 4,347 transactions 4 hours ago MARA Pool 975624 ~2 sat/vB 0.13 - 312 sat/vB 0.028 BTC 3,508 transactions 4 hours ago Foundry USA 975623 ~0 sat/vB 0.12 - 100 sat/vB 0.006 BTC 6,397 transactions 5 hours ago Foundry USA 975622 ~0 sat/vB 1.00 - 50.6 sat/vB 0.008 BTC 909 transactions 5 hours ago ViaBTC 975621 ~1 sat/vB 0.13 - 476 sat/vB 0.018 BTC 3,634 transactions 5 hours ago ViaBTC 975620 ~2 sat/vB 1.00 - 60.2 sat/vB 0.018 BTC 2,421 transactions 5 hours ago F2Pool 975619 ~3 sat/vB 2.01 - 241 sat/vB 0.031 BTC 3,730 transactions 5 hours ago SpiderPool 975618 ~4 sat/vB 3.02 - 2,010 sat/vB 0.054 BTC 3,723 transactions 5 hours ago Foundry USA 975617 ~4 sat/vB 3.01 - 265 sat/vB 0.056 BTC 3,535 transactions 6 hours ago ViaBTC 975616 ~1 sat/vB 0.92 - 140 sat/vB 0.024 BTC 3,592 transactions 7 hours ago AntPool 975615 ~2 sat/vB 1.03 - 265 sat/vB 0.033 BTC 3,451 transactions 7 hours ago Foundry USA 975614 ~2 sat/vB 1.20 - 101 sat/vB 0.027 BTC 3,213 transactions 7 hours ago F2Pool 975613 ~4 sat/vB 2.33 - 302 sat/vB 0.066 BTC 3,529 transactions 7 hours ago SpiderPool 975612 ~1 sat/vB 0.12 - 302 sat/vB 0.018 BTC 5,145 transactions 8 hours ago AntPool Block ‹ 975637 › Hash 000000…cdd41a1 Timestamp 2026-11-13 11:58:54 (85 minutes ago) Size 1.70 MB Weight 3.99 MWU Health 99.37% Fee span 1.85 - 101 sat/vB Median fee ~2 sat/vB $0.19 Total fees 0.033 BTC $2,282 Subsidy + fees 3.158 BTC $218,347 Miner AntPool Features SegWitTaproot 2,474 transactions Details «« « 1 2 3 4 5 » »» cfc8ab382b8c423629896692fecf16a9f8f2c10e0d2ecca03d95914e1c30c569 2026-11-13 11:58:54 Coinbase (Newly Generated Coins) bc1qxpxtfhzgkp928uarl0tt3usgu… xestrxm 3.15800000 BTC OP_RETURN 0.00000000 BTC OP_RETURN 0.00000000 BTC 3.15800000 BTC b7207e80df899a64273fa2ed735638453428ced90a6ea8dee99bde0736faae59 2026-11-13 11:58:54 bc1q0w86xzrrcreqsvtwzj4c6pv84… xgze8pe 0.00238947 BTC bc1q7w9tyk8x062mfvadmr4u98lxt… ln2lx5a 0.01993641 BTC bc1qh5v5a35gtzrnk5avluxrvdw85… 9dxx8w7 0.00526731 BTC bc1q2hr42ufyt5cczj2rfv2f5j2nw… jks93pf 0.01232311 BTC bc1qlv4p0eq0ny8390yj6cte5r3f9… x6z9xl2 0.00448155 BTC 74.9 sat/vB – 25,391 sats $17.56 0.02207197 BTC c3c51633bf67d85486665ae4b14aa7d981c04494d1fe3aa04f04bf151de65c73 2026-11-13 11:58:54 bc1qtutcmjrfgf0mnlj6lcl2k6c2s… cvtnhl8 0.00522130 BTC bc1qgrqhxf339vjkk8cntwdy2ce9c… h8et459 0.00328042 BTC bc1q0908e0ce8ju4hde97vdt8a2rf… ss6r9u7 0.00348542 BTC bc1q7uvyfuf2ymj64mqpdhuugzme4… gt22h7r 0.00000000 BTC 73.5 sat/vB – 19,919 sats $13.77 0.00502211 BTC 4470ea459e04b330b6f04d059c3af92258ba96fc0a27516b9c8777a15ad139ec 2026-11-13 11:58:54 bc1qafw246fpxyfptj6lvpfesse0z… y6u63rk 0.00657945 BTC bc1q2wrr7cy8e85ep04pvf2n3atgj… uqvak5v 0.00394669 BTC bc1qfpzagnylfxv0qlu3x0y8gl7vm… zua0rqu 0.00415164 BTC bc1qmvc5w8lqrf0x8sdtnaufzltee… mdcz7hu 0.00000000 BTC 72.5 sat/vB – 19,648 sats $13.58 0.00638297 BTC 2e1d2a6f837293046f04369fc63781dad3b37646aeeb08a127061bc3b8553789 2026-11-13 11:58:54 bc1qd9nwtlgtpchl5pl8pc6eelm2f… 0s37dd6 0.01868576 BTC bc1qptfexnhyuxyf52p27jdsrygmx… 7zl0ygf 0.01795375 BTC bc1qyut7s6a0pju83tjx74rlp9n9j… lgnsnre 0.01221662 BTC bc1q9ur7muynyzn3g8n695kyp2qsm… 86ay0kl 0.02698960 BTC bc1q79mj20f55q8f7uxt8qp7w6vp8… 9zacj4t 0.02078456 BTC bc1q99k2dudyjscpwycnn8ycn96yp… 4vpq0f0 0.00078974 BTC 71.8 sat/vB – 29,223 sats $20.21 0.04856390 BTC f41f9306cc3c07d659a0cf63d5a591c348cd2d863c57a0cd43e15659a83c1f1b 2026-11-13 11:58:54 bc1q9r3n6nt8jw6685s89xhgtdpkd… 8w9kg3d 0.00376743 BTC bc1qg6r8rs2t0jvqfqe4829n35h6p… 0hkvz3q 0.00361883 BTC 71.1 sat/vB – 14,860 sats $10.27 0.00361883 BTC ef179ff2798761571856af5a02659c35f530f3684a83fe3de86b9b82f3307835 2026-11-13 11:58:54 bc1qxlnnsuxg2le6437adkthvqgps… a9w9653 0.00105775 BTC bc1q5nhmnl20yv2xunss6wnnfqknt… 8yyk9s0 0.00052483 BTC bc1qveamkx48xnc0wrpy4l4tcycq0… ksdgw08 0.00035596 BTC bc1qwg7fwr6ra8jsau44l6m7f4vxe… 92fncg5 0.00000000 BTC 70.5 sat/vB – 19,106 sats $13.21 0.00086669 BTC 68780e2d3fb63f084e22f04cd9e4286da266b6cce871bf296dd829c0480e17ec 2026-11-13 11:58:54 bc1qlym6u8vpsgjlfzmzgnfdcunp0… 496sv08 0.01920184 BTC bc1qvck0vtnxvmvy90nx45h9m3cyr… uu9ld8e 0.00317989 BTC bc1qe8n4te9luscegnl6ceffnn7nq… mh0ryj8 0.02006600 BTC bc1qau6stkwcrd48wkld4gxpvjezg… rg57697 0.00579573 BTC bc1qr6s5ds9adamxe2cry96a6mmdz… cs3hx0c 0.02456845 BTC bc1q3s0pnshtdr85t9weydt7y4r4p… n6mzzqj 0.02336421 BTC 70.0 sat/vB – 31,080 sats $21.49 0.04793266 BTC cd221c4b28939cb8c0463d9eb3a72f4d32bf8d4a1c318a1389a6e30bc0a19e5e 2026-11-13 11:58:54 bc1q5jhaxs0eyxz7ycah5y6setjxv… 7fwcgkp 0.01773249 BTC bc1qejxtmgdhu5qfyunmhvuk08s7y… rt7uf2g 0.00758613 BTC bc1qvt6gac7pjaug6x2lcdgu45u5r… zz0dcw2 0.00631148 BTC bc1q9m2cphy42lsdpcfm23n370u02… 2amnp4p 0.00364653 BTC 69.5 sat/vB – 18,835 sats $13.02 0.01754414 BTC 81f9315c519708327befb1c758d2f1c92854e1da892faad29bb1a10637300335 2026-11-13 11:58:54 bc1qlkcnqujj6y6kpcexzzht348vs… u429wah 0.00595095 BTC bc1q2r2qp85t3vvzeeslthm0vetkc… hpt5glr 0.00305896 BTC bc1qpmnf6vsxt6mlj4kxsjgvsj9fs… eexa5wc 0.00588313 BTC bc1qfdqux4669nlufp0pzj5ts9dx4… 8teegvm 0.00333097 BTC bc1qt5thjhg8dp264jqz82tgsr7ak… es49hlc 0.00000000 BTC 69.1 sat/vB – 23,425 sats $16.20 0.00877566 BTC «« « 1 2 3 4 5 » »» العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenščina Suomi Svenska ไทย Türkçe Українська Tiếng Việt 中文 AUD CAD CHF EUR GBP JPY USD UTC+3 - Asia/Kuwait UTC - Greenwich Mean Time (GMT) UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - Pacific Standard Time (PST) UTC-7 - Mountain Standard Time (MST) UTC-6 - Central Standard Time (CST) UTC-5 - Eastern Standard Time (EST) UTC-4 - Atlantic Standard Time (AST) UTC-3 - Argentina Time (ART) UTC-2 - Fernando de Noronha Time (FNT) UTC-1 - Azores Time (AZOT) UTC+1 - Central European Time (CET) UTC+2 - Eastern European Time (EET) UTC+3 - Moscow Standard Time (MSK) UTC+4 - Armenia Time (AMT) UTC+5 - Pakistan Standard Time (PKT) UTC+6 - Xinjiang Time (XJT) UTC+7 - Indochina Time (ICT) UTC+8 - Hong Kong Time (HKT) UTC+9 - Japan Standard Time (JST) UTC+10 - Australian Eastern Standard Time (AEST) UTC+11 - Norfolk Time (NFT) UTC+12 - New Zealand Standard Time (NZST) UTC+13 - Tonga Time (TOT) UTC+14 - Line Islands Time (LINT) BTC sats Fiat wiz BlueMatt softsimon nymkappa contrast Sign In Explore the full Bitcoin ecosystem® Explore Mining Dashboard Lightning Explorer Recent Blocks Broadcast Transaction Test Transaction Preview Transaction Connect to our Nodes API Documentation Learn What is a mempool? What is a block explorer? What is a mempool explorer? Why isn't my transaction confirming? Be your own explorer™ More FAQs » Research Networks Testnet3 Explorer Testnet4 Explorer Signet Explorer Liquid Testnet Explorer Liquid Explorer Legal Terms of Service Privacy Policy Trademark Policy Third-party Licenses m node208.fra.deep.pool (v3.4-dev) [04c299c3][ca77acb1]",
+  "title": "deep pool - Bitcoin Explorer",
+  "unreadable_stylesheets": 0,
+  "url": "http://127.0.0.1:51178/#block-975637",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

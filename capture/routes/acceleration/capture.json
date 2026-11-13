@@ -1,0 +1,5650 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "contentinfo": 1,
+      "main": 1,
+      "navigation": 2
+    },
+    "lang": "en-US",
+    "unnamed_controls": 45,
+    "unnamed_examples": [
+      "a.navbar-brand",
+      "a.nav-link",
+      "a.nav-link",
+      "a.nav-link",
+      "a.nav-link"
+    ]
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [],
+    "images": [
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 46,
+        "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+        "w": 40
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 46,
+        "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+        "w": 40
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 46,
+        "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+        "w": 40
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 135,
+        "src": "https://mempool.space/resources/mining-pools/spiderpool.svg",
+        "w": 135
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 46,
+        "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+        "w": 40
+      },
+      {
+        "alt": "Logo of Sympatheia mining pool",
+        "h": 41,
+        "src": "https://mempool.space/resources/mining-pools/ocean.svg",
+        "w": 40
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of Braiins Pool mining pool",
+        "h": 512,
+        "src": "https://mempool.space/resources/mining-pools/braiinspool.svg",
+        "w": 512
+      },
+      {
+        "alt": "Logo of Luxor mining pool",
+        "h": 70,
+        "src": "https://mempool.space/resources/mining-pools/luxor.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+        "w": 63
+      },
+      {
+        "alt": "Logo of MARA Pool mining pool",
+        "h": 256,
+        "src": "https://mempool.space/resources/mining-pools/marapool.svg",
+        "w": 256
+      },
+      {
+        "alt": "Logo of MARA Pool mining pool",
+        "h": 256,
+        "src": "https://mempool.space/resources/mining-pools/marapool.svg",
+        "w": 256
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+        "w": 63
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+        "w": 63
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 135,
+        "src": "https://mempool.space/resources/mining-pools/spiderpool.svg",
+        "w": 135
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+        "w": 63
+      },
+      {
+        "alt": "Logo of ViaBTC mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 46,
+        "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+        "w": 40
+      },
+      {
+        "alt": "Logo of Foundry USA mining pool",
+        "h": 150,
+        "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+        "w": 63
+      },
+      {
+        "alt": "Logo of F2Pool mining pool",
+        "h": 80,
+        "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+        "w": 80
+      },
+      {
+        "alt": "Logo of SpiderPool mining pool",
+        "h": 135,
+        "src": "https://mempool.space/resources/mining-pools/spiderpool.svg",
+        "w": 135
+      },
+      {
+        "alt": "Logo of AntPool mining pool",
+        "h": 46,
+        "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+        "w": 40
+      }
+    ],
+    "inline_scripts": 2,
+    "requests": [
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/runtime.b7bf16dc95bb684f.js"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://mempool.space/styles.ca19c07c34088cb1.css"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/polyfills.6fd0602505b2941d.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/scripts.ceed198d5342d328.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/main.57eeaac0977fafe3.js"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://mempool.space/resources/favicons/site.webmanifest"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/83.842089a2982991b3.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/187.38c6d9b29c262182.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/234.aad687241d2f92ef.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/140.797e6a55a6771247.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/166.93f5be546380d220.js"
+      },
+      {
+        "bytes": 300,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/services/version"
+      },
+      {
+        "bytes": 2741,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/mining/pools"
+      },
+      {
+        "bytes": 0,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/mining/pools"
+      },
+      {
+        "bytes": 0,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/services/accelerator/accelerations/stats"
+      },
+      {
+        "bytes": 0,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/resources/miners.json"
+      },
+      {
+        "bytes": 2346,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/services/accelerator/accelerations/history/aggregated"
+      },
+      {
+        "bytes": 1140,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/services/accelerator/accelerations/history"
+      },
+      {
+        "bytes": 300,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/blocks/975640"
+      },
+      {
+        "bytes": 300,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/blocks/975630"
+      },
+      {
+        "bytes": 300,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/blocks/975620"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/antpool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/spiderpool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/ocean.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/viabtc.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/f2pool.svg"
+      },
+      {
+        "bytes": 400,
+        "type": "xmlhttprequest",
+        "url": "https://mempool.space/api/v1/services/accelerator/accelerations/stats"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/marapool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/braiinspool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/luxor.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/foundryusa.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/640.2f640bdf6ae17933.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/875.33c7d90135573fe3.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/207.5ab1ebb81482cf48.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/320.8495b1ff3ee4fcab.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/377.c619db5718a461f1.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/562.b612e21f51d26778.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/220.cc78b6ca312c6170.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/225.4b75c7013e456bea.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://mempool.space/617.0222b36960147791.js"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/marapool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/foundryusa.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/viabtc.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/marapool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/foundryusa.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/viabtc.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/f2pool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/spiderpool.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://mempool.space/resources/mining-pools/antpool.svg"
+      }
+    ],
+    "scripts": [
+      "https://mempool.space/runtime.b7bf16dc95bb684f.js",
+      "https://mempool.space/polyfills.6fd0602505b2941d.js",
+      "https://mempool.space/scripts.ceed198d5342d328.js",
+      "https://mempool.space/main.57eeaac0977fafe3.js"
+    ],
+    "stylesheets": [
+      "https://mempool.space/styles.ca19c07c34088cb1.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 3,
+      "px": 369,
+      "query": "max-width 369px"
+    },
+    {
+      "count": 1,
+      "px": 370,
+      "query": "min-width 370px"
+    },
+    {
+      "count": 6,
+      "px": 376,
+      "query": "min-width 376px"
+    },
+    {
+      "count": 1,
+      "px": 400,
+      "query": "min-width 400px"
+    },
+    {
+      "count": 1,
+      "px": 410,
+      "query": "max-width 410px"
+    },
+    {
+      "count": 1,
+      "px": 429,
+      "query": "max-width 429px"
+    },
+    {
+      "count": 1,
+      "px": 430,
+      "query": "min-width 430px"
+    },
+    {
+      "count": 1,
+      "px": 450,
+      "query": "max-width 450px"
+    },
+    {
+      "count": 1,
+      "px": 465,
+      "query": "min-width 465px"
+    },
+    {
+      "count": 2,
+      "px": 476,
+      "query": "min-width 476px"
+    },
+    {
+      "count": 2,
+      "px": 485,
+      "query": "min-width 485px"
+    },
+    {
+      "count": 1,
+      "px": 550,
+      "query": "min-width 550px"
+    },
+    {
+      "count": 2,
+      "px": 564,
+      "query": "min-width 564px"
+    },
+    {
+      "count": 2,
+      "px": 567,
+      "query": "max-width 567px"
+    },
+    {
+      "count": 1,
+      "px": 575,
+      "query": "max-width 575px"
+    },
+    {
+      "count": 15,
+      "px": 576,
+      "query": "min-width 576px"
+    },
+    {
+      "count": 7,
+      "px": 576,
+      "query": "max-width 576px"
+    },
+    {
+      "count": 2,
+      "px": 600,
+      "query": "max-width 600px"
+    },
+    {
+      "count": 2,
+      "px": 613,
+      "query": "max-width 613px"
+    },
+    {
+      "count": 1,
+      "px": 629,
+      "query": "max-width 629px"
+    },
+    {
+      "count": 1,
+      "px": 676,
+      "query": "min-width 676px"
+    },
+    {
+      "count": 1,
+      "px": 700,
+      "query": "max-width 700px"
+    },
+    {
+      "count": 6,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 24,
+      "px": 768,
+      "query": "min-width 768px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 11,
+        "value": "#11131f"
+      },
+      {
+        "count": 7,
+        "value": "#272f4e"
+      },
+      {
+        "count": 6,
+        "value": "#0aab2f"
+      },
+      {
+        "count": 3,
+        "value": "#6225b2"
+      },
+      {
+        "count": 1,
+        "value": "#000000"
+      }
+    ],
+    "css_variables": {
+      "--active-bg": "#000000",
+      "--alert-bg": "#3a1c61",
+      "--bg": "#11131f",
+      "--block-goggles-overlay": "#181b2d7f",
+      "--block-side": "#191c27",
+      "--block-top": "#232838",
+      "--border-subtle": "rgba(255, 255, 255, .11)",
+      "--box-bg": "#171c2a",
+      "--bs-black": "#000",
+      "--bs-black-rgb": "0, 0, 0",
+      "--bs-blue": "#0d6efd",
+      "--bs-body-bg": "var(--active-bg)",
+      "--bs-body-bg-rgb": "17, 19, 31",
+      "--bs-body-color": "var(--fg)",
+      "--bs-body-color-rgb": "255, 255, 255",
+      "--bs-body-font-family": "var(--bs-font-sans-serif)",
+      "--bs-body-font-size": "1rem",
+      "--bs-body-font-weight": "400",
+      "--bs-body-line-height": "1.5",
+      "--bs-border-color": "#dee2e6",
+      "--bs-border-color-translucent": "rgba(0, 0, 0, .175)",
+      "--bs-border-radius": ".25rem",
+      "--bs-border-radius-2xl": "var(--bs-border-radius-xxl)",
+      "--bs-border-radius-lg": ".5rem",
+      "--bs-border-radius-pill": "50rem",
+      "--bs-border-radius-sm": ".25rem",
+      "--bs-border-radius-xl": "1rem",
+      "--bs-border-radius-xxl": "2rem",
+      "--bs-border-style": "solid",
+      "--bs-border-width": "1px",
+      "--bs-box-shadow": "0 .5rem 1rem rgba(0, 0, 0, .15)",
+      "--bs-box-shadow-inset": "inset 0 1px 2px rgba(0, 0, 0, .075)",
+      "--bs-box-shadow-lg": "0 1rem 3rem rgba(0, 0, 0, .175)",
+      "--bs-box-shadow-sm": "0 .125rem .25rem rgba(0, 0, 0, .075)",
+      "--bs-breakpoint-lg": "992px",
+      "--bs-breakpoint-md": "768px",
+      "--bs-breakpoint-sm": "576px",
+      "--bs-breakpoint-xl": "1200px",
+      "--bs-breakpoint-xs": "0",
+      "--bs-breakpoint-xxl": "1400px",
+      "--bs-btn-border-color": "transparent",
+      "--bs-btn-close-filter": "",
+      "--bs-btn-disabled-border-color": "transparent",
+      "--bs-card-color": "var(--fg)",
+      "--bs-carousel-caption-color": "#fff",
+      "--bs-carousel-control-icon-filter": "",
+      "--bs-carousel-indicator-active-bg": "#fff",
+      "--bs-code-color": "#d63384",
+      "--bs-cyan": "#0dcaf0",
+      "--bs-danger": "#dc3545",
+      "--bs-danger-bg-subtle": "rgb(248, 214.6, 217.8)",
+      "--bs-danger-border-subtle": "rgb(241, 174.2, 180.6)",
+      "--bs-danger-rgb": "220, 53, 69",
+      "--bs-danger-text-emphasis": "rgb(88, 21.2, 27.6)",
+      "--bs-dark": "#212529",
+      "--bs-dark-bg-subtle": "#ced4da",
+      "--bs-dark-border-subtle": "#adb5bd",
+      "--bs-dark-rgb": "33, 37, 41",
+      "--bs-dark-text-emphasis": "#fff",
+      "--bs-emphasis-color": "#000",
+      "--bs-emphasis-color-rgb": "0, 0, 0",
+      "--bs-focus-ring-color": "rgba(0, 124, 250, .25)",
+      "--bs-focus-ring-opacity": ".25",
+      "--bs-focus-ring-width": ".25rem",
+      "--bs-font-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "--bs-font-sans-serif": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Appl",
+      "--bs-form-invalid-border-color": "#dc3545",
+      "--bs-form-invalid-color": "#dc3545",
+      "--bs-form-valid-border-color": "#0aab2f",
+      "--bs-form-valid-color": "#0aab2f",
+      "--bs-gradient": "linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0))",
+      "--bs-gray": "#6c757d",
+      "--bs-gray-100": "#f8f9fa",
+      "--bs-gray-200": "#e9ecef",
+      "--bs-gray-300": "#dee2e6",
+      "--bs-gray-400": "#ced4da",
+      "--bs-gray-500": "#adb5bd",
+      "--bs-gray-600": "#6c757d",
+      "--bs-gray-700": "#fff",
+      "--bs-gray-800": "#11131f",
+      "--bs-gray-900": "#212529",
+      "--bs-gray-dark": "#11131f",
+      "--bs-green": "#198754",
+      "--bs-heading-color": "inherit",
+      "--bs-highlight-bg": "rgb(255, 242.6, 205.4)",
+      "--bs-highlight-color": "#fff",
+      "--bs-indigo": "#6610f2",
+      "--bs-info": "#00ddff",
+      "--bs-info-bg-subtle": "rgb(204, 248.2, 255)",
+      "--bs-info-border-subtle": "rgb(153, 241.4, 255)",
+      "--bs-info-rgb": "0, 221, 255",
+      "--bs-info-text-emphasis": "rgb(0, 88.4, 102)",
+      "--bs-light": "#f8f9fa",
+      "--bs-light-bg-subtle": "rgb(251.5, 252, 252.5)",
+      "--bs-light-border-subtle": "#e9ecef",
+      "--bs-light-rgb": "248, 249, 250",
+      "--bs-light-text-emphasis": "#fff",
+      "--bs-link-color": "#00ddff",
+      "--bs-link-color-rgb": "0, 221, 255",
+      "--bs-link-decoration": "none",
+      "--bs-link-hover-color": "rgb(0, 154.7, 178.5)",
+      "--bs-link-hover-color-rgb": "0, 155, 179",
+      "--bs-link-hover-decoration": "underline",
+      "--bs-orange": "#fd7e14",
+      "--bs-pink": "#d63384",
+      "--bs-primary": "#007cfa",
+      "--bs-primary-bg-subtle": "rgb(204, 228.8, 254)",
+      "--bs-primary-border-subtle": "rgb(153, 202.6, 253)",
+      "--bs-primary-rgb": "0, 124, 250",
+      "--bs-primary-text-emphasis": "rgb(0, 49.6, 100)",
+      "--bs-purple": "#6f42c1",
+      "--bs-red": "#dc3545",
+      "--bs-secondary": "#272f4e",
+      "--bs-secondary-bg": "#e9ecef",
+      "--bs-secondary-bg-rgb": "233, 236, 239",
+      "--bs-secondary-bg-subtle": "rgb(211.8, 213.4, 219.6)",
+      "--bs-secondary-border-subtle": "rgb(168.6, 171.8, 184.2)",
+      "--bs-secondary-color": "rgba(255, 255, 255, .75)",
+      "--bs-secondary-color-rgb": "255, 255, 255",
+      "--bs-secondary-rgb": "39, 47, 78",
+      "--bs-secondary-text-emphasis": "rgb(15.6, 18.8, 31.2)",
+      "--bs-success": "#0aab2f",
+      "--bs-success-bg-subtle": "rgb(206, 238.2, 213.4)",
+      "--bs-success-border-subtle": "rgb(157, 221.4, 171.8)",
+      "--bs-success-rgb": "10, 171, 47",
+      "--bs-success-text-emphasis": "rgb(4, 68.4, 18.8)",
+      "--bs-teal": "#20c997",
+      "--bs-tertiary-bg": "#f8f9fa",
+      "--bs-tertiary-bg-rgb": "248, 249, 250",
+      "--bs-tertiary-color": "rgba(255, 255, 255, .5)",
+      "--bs-tertiary-color-rgb": "255, 255, 255",
+      "--bs-warning": "#ffc107",
+      "--bs-warning-bg-subtle": "rgb(255, 242.6, 205.4)",
+      "--bs-warning-border-subtle": "rgb(255, 230.2, 155.8)",
+      "--bs-warning-rgb": "255, 193, 7",
+      "--bs-warning-text-emphasis": "rgb(102, 77.2, 2.8)",
+      "--bs-white": "#fff",
+      "--bs-white-rgb": "255, 255, 255",
+      "--bs-yellow": "#ffc107",
+      "--dt-column-ordering": "255, 255, 255",
+      "--dt-html-background": "rgb(33, 37, 41)",
+      "--dt-row-hover": "255, 255, 255",
+      "--dt-row-selected": "13, 110, 253",
+      "--dt-row-selected-link": "9, 10, 11",
+      "--dt-row-selected-text": "255, 255, 255",
+      "--dt-row-stripe": "255, 255, 255",
+      "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 7 Brands\"",
+      "--fa-font-chisel-regular": "normal 400 1em/1 \"Font Awesome 7 Chisel\"",
+      "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 7 Duotone\"",
+      "--fa-font-duotone-light": "normal 300 1em/1 \"Font Awesome 7 Duotone\"",
+      "--fa-font-duotone-regular": "normal 400 1em/1 \"Font Awesome 7 Duotone\"",
+      "--fa-font-duotone-thin": "normal 100 1em/1 \"Font Awesome 7 Duotone\"",
+      "--fa-font-etch-solid": "normal 900 1em/1 \"Font Awesome 7 Etch\"",
+      "--fa-font-jelly-duo-regular": "normal 400 1em/1 \"Font Awesome 7 Jelly Duo\"",
+      "--fa-font-jelly-fill-regular": "normal 400 1em/1 \"Font Awesome 7 Jelly Fill\"",
+      "--fa-font-jelly-regular": "normal 400 1em/1 \"Font Awesome 7 Jelly\"",
+      "--fa-font-light": "normal 300 1em/1 \"Font Awesome 7 Pro\"",
+      "--fa-font-notdog-duo-solid": "normal 900 1em/1 \"Font Awesome 7 Notdog Duo\"",
+      "--fa-font-notdog-solid": "normal 900 1em/1 \"Font Awesome 7 Notdog\"",
+      "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 7 Free\"",
+      "--fa-font-sharp-duotone-light": "normal 300 1em/1 \"Font Awesome 7 Sharp Duotone\"",
+      "--fa-font-sharp-duotone-regular": "normal 400 1em/1 \"Font Awesome 7 Sharp Duotone\"",
+      "--fa-font-sharp-duotone-solid": "normal 900 1em/1 \"Font Awesome 7 Sharp Duotone\"",
+      "--fa-font-sharp-duotone-thin": "normal 100 1em/1 \"Font Awesome 7 Sharp Duotone\"",
+      "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 7 Sharp\"",
+      "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 7 Sharp\"",
+      "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 7 Sharp\"",
+      "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 7 Sharp\"",
+      "--fa-font-slab-press-regular": "normal 400 1em/1 \"Font Awesome 7 Slab Press\"",
+      "--fa-font-slab-regular": "normal 400 1em/1 \"Font Awesome 7 Slab\"",
+      "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 7 Free\"",
+      "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 7 Pro\"",
+      "--fa-font-thumbprint-light": "normal 300 1em/1 \"Font Awesome 7 Thumbprint\"",
+      "--fa-font-utility-duo-semibold": "normal 600 1em/1 \"Font Awesome 7 Utility Duo\"",
+      "--fa-font-utility-fill-semibold": "normal 600 1em/1 \"Font Awesome 7 Utility Fill\"",
+      "--fa-font-utility-semibold": "normal 600 1em/1 \"Font Awesome 7 Utility\"",
+      "--fa-font-whiteboard-semibold": "normal 600 1em/1 \"Font Awesome 7 Whiteboard\"",
+      "--fade-out-box-bg-end": "rgba(23, 28, 42, 1)",
+      "--fade-out-box-bg-start": "rgba(23, 28, 42, 0)",
+      "--fg": "#fff",
+      "--footer-fg": "rgba(255, 255, 255, .4)",
+      "--green": "#83fd00",
+      "--grey": "#7e7e7e",
+      "--hover-bg": "#12131e",
+      "--icon": "#f1f1f1",
+      "--info": "#00ddff",
+      "--link-color": "#00ddff",
+      "--link-hover-color": "rgb(0, 154.7, 178.5)",
+      "--liquid": "#116761",
+      "--liquidtestnet": "#494a4a",
+      "--liquidtestnet-alt": "#272e46",
+      "--mainnet-alt": "#9339f4",
+      "--mempool-block-loading": "#554b45",
+      "--mempool-block-side": "#2d2825",
+      "--mempool-block-top": "#403834",
+      "--nav-bg": "#11131f",
+      "--nav-icon": "#fff",
+      "--nav-shadow": "#000",
+      "--navbar-bg": "#212121",
+      "--opacity": ".57",
+      "--orange": "#ff9f00",
+      "--pink": "#e83e8c",
+      "--primary": "#007cfa",
+      "--red": "#ff3d00",
+      "--regtest": "#7d7d7d",
+      "--regtest-alt": "#4a4a4a",
+      "--search-button": "#4d2d77",
+      "--search-button-border": "#472a6e",
+      "--search-button-focus": "#533180",
+      "--search-button-shadow": "#7c58ab80",
+      "--secondary": "#272f4e",
+      "--signet": "#6f1d5d",
+      "--signet-alt": "#471850",
+      "--skeleton-bg": "#2e324e",
+      "--skeleton-bg-light": "#5d6182",
+      "--stat-box-bg": "#0b1018",
+      "--success": "#0aab2f",
+      "--taproot": "#eba814",
+      "--taproot-dark": "#9d7c05",
+      "--taproot-light": "#d5a90a",
+      "--tertiary": "#6225b2",
+      "--testnet": "#1d486f",
+      "--testnet-alt": "#183550",
+      "--title-fg": "#2055e3",
+      "--tooltip-grey": "#b1b1b1",
+      "--transparent-fg": "#ffffffbb",
+      "--world-map-bg": "#272b3f",
+      "--world-map-border": "#000",
+      "--yellow": "#fff000"
+    },
+    "font_faces": [],
+    "font_sizes": [
+      {
+        "count": 180,
+        "value": "12px"
+      },
+      {
+        "count": 176,
+        "value": "16px"
+      },
+      {
+        "count": 148,
+        "value": "11px"
+      },
+      {
+        "count": 38,
+        "value": "10px"
+      },
+      {
+        "count": 37,
+        "value": "13px"
+      },
+      {
+        "count": 6,
+        "value": "22px"
+      },
+      {
+        "count": 4,
+        "value": "10.5px"
+      },
+      {
+        "count": 3,
+        "value": "8px"
+      },
+      {
+        "count": 2,
+        "value": "14px"
+      },
+      {
+        "count": 1,
+        "value": "9px"
+      },
+      {
+        "count": 1,
+        "value": "15px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 466,
+        "value": "400"
+      },
+      {
+        "count": 117,
+        "value": "700"
+      },
+      {
+        "count": 13,
+        "value": "500"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 575,
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+      },
+      {
+        "count": 21,
+        "value": "sans-serif"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 27,
+        "value": "145px"
+      },
+      {
+        "count": 6,
+        "value": "150px"
+      },
+      {
+        "count": 6,
+        "value": "300px"
+      },
+      {
+        "count": 5,
+        "value": "1140px"
+      },
+      {
+        "count": 1,
+        "value": "500px"
+      },
+      {
+        "count": 1,
+        "value": "1440px"
+      },
+      {
+        "count": 1,
+        "value": "125px"
+      },
+      {
+        "count": 1,
+        "value": "160px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 49,
+        "value": "4px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 24,
+        "value": "rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset"
+      },
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 0px 0px 15px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgb(0, 0, 0) 5px 0px 30px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 106,
+        "value": "3px"
+      },
+      {
+        "count": 82,
+        "value": "10px"
+      },
+      {
+        "count": 82,
+        "value": "4px"
+      },
+      {
+        "count": 68,
+        "value": "5px"
+      },
+      {
+        "count": 68,
+        "value": "4.8px"
+      },
+      {
+        "count": 66,
+        "value": "12px"
+      },
+      {
+        "count": 44,
+        "value": "8px"
+      },
+      {
+        "count": 36,
+        "value": "2px"
+      },
+      {
+        "count": 34,
+        "value": "10.4px"
+      },
+      {
+        "count": 34,
+        "value": "12.8px"
+      },
+      {
+        "count": 33,
+        "value": "20px"
+      },
+      {
+        "count": 25,
+        "value": "15px"
+      },
+      {
+        "count": 10,
+        "value": "24px"
+      },
+      {
+        "count": 8,
+        "value": "6px"
+      },
+      {
+        "count": 5,
+        "value": "36px"
+      },
+      {
+        "count": 2,
+        "value": "32px"
+      },
+      {
+        "count": 2,
+        "value": "9px"
+      },
+      {
+        "count": 2,
+        "value": "-13px"
+      },
+      {
+        "count": 2,
+        "value": "23.52px"
+      },
+      {
+        "count": 2,
+        "value": "16px"
+      },
+      {
+        "count": 1,
+        "value": "60px"
+      },
+      {
+        "count": 1,
+        "value": "120px"
+      },
+      {
+        "count": 1,
+        "value": "30px"
+      },
+      {
+        "count": 1,
+        "value": "40px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 332,
+        "value": "#ffffff"
+      },
+      {
+        "count": 144,
+        "value": "#fff000"
+      },
+      {
+        "count": 50,
+        "value": "#00ddff"
+      },
+      {
+        "count": 26,
+        "value": "#ffffff66"
+      },
+      {
+        "count": 21,
+        "value": "#ffffffbb"
+      },
+      {
+        "count": 14,
+        "value": "#2055e3"
+      },
+      {
+        "count": 6,
+        "value": "#00000000"
+      },
+      {
+        "count": 2,
+        "value": "#83fd00"
+      },
+      {
+        "count": 1,
+        "value": "#09a3ba"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "Explore the full Bitcoin ecosystem",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    }
+  ],
+  "headings": [],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en-US",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 1440,
+          "y": 118
+        },
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            32,
+            0,
+            32
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 1440,
+          "y": 118
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 183
+        },
+        {
+          "column": {
+            "max_w": 1440,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1440,
+            "x": 0
+          },
+          "h": 1392,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "main",
+          "w": 1440,
+          "y": 88
+        },
+        {
+          "background": "#11131f",
+          "column": {
+            "max_w": 1140,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1140,
+            "x": 150
+          },
+          "h": 521,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 1440,
+          "y": 1510
+        }
+      ],
+      "page_h": 2031,
+      "page_w": 1440,
+      "type": {
+        "body": 16,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "header",
+          "w": 768,
+          "y": 298
+        },
+        {
+          "background": "#11131f",
+          "h": 64,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 2,
+          "tag": "nav",
+          "w": 768,
+          "y": 298
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 363
+        },
+        {
+          "column": {
+            "max_w": 768,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 768,
+            "x": 0
+          },
+          "h": 1302,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 8,
+          "tag": "main",
+          "w": 768,
+          "y": 88
+        },
+        {
+          "background": "#11131f",
+          "h": 1193,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 768,
+          "y": 1420
+        }
+      ],
+      "page_h": 2661,
+      "page_w": 768,
+      "type": {
+        "body": 16,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "header",
+          "w": 390,
+          "y": 185
+        },
+        {
+          "background": "#11131f",
+          "h": 104,
+          "pad": [
+            8,
+            16,
+            8,
+            16
+          ],
+          "per_row": 2,
+          "tag": "nav",
+          "w": 390,
+          "y": 185
+        },
+        {
+          "background": "#11131f",
+          "h": 835,
+          "pad": [
+            20,
+            20,
+            200,
+            20
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 225,
+          "y": 290
+        },
+        {
+          "column": {
+            "max_w": 390,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 390,
+            "x": 0
+          },
+          "h": 1713,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 8,
+          "tag": "main",
+          "w": 390,
+          "y": 128
+        },
+        {
+          "background": "#11131f",
+          "h": 1323,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "footer",
+          "w": 390,
+          "y": 1871
+        }
+      ],
+      "page_h": 3243,
+      "page_w": 390,
+      "type": {
+        "body": 16,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "https://mempool.space/",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/",
+      "text": "Mainnet"
+    },
+    {
+      "href": "https://mempool.space/signet",
+      "text": "Signet"
+    },
+    {
+      "href": "https://mempool.space/testnet",
+      "text": "Testnet3"
+    },
+    {
+      "href": "https://mempool.space/testnet4",
+      "text": "Testnet4"
+    },
+    {
+      "href": "https://mempool.space/",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/acceleration",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mining",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/lightning",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/graphs",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/enterprise",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/about",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/0",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/1",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/2",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/3",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/4",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/5",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/6",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/mempool-block/7",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000002a6942080a6501e42ccc38281de4d097dc6656e9f58a",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000002a6942080a6501e42ccc38281de4d097dc6656e9f58a",
+      "text": "975639"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/antpool",
+      "text": "AntPool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000388e03ebfb077cff69a815f6f05b3971e48a2da8f809",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000388e03ebfb077cff69a815f6f05b3971e48a2da8f809",
+      "text": "975638"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/antpool",
+      "text": "AntPool"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000010ebdba7ecad04a6c51d41c46545c6500114dd0109de1",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000010ebdba7ecad04a6c51d41c46545c6500114dd0109de1",
+      "text": "975637"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/antpool",
+      "text": "AntPool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000001778ed09d4c4f800d924d8431fc649057bf5703b7e45b",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000001778ed09d4c4f800d924d8431fc649057bf5703b7e45b",
+      "text": "975636"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/spiderpool",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000118a74d5f37c8bc98cf6341132531e99e8bd4c4f72503",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000118a74d5f37c8bc98cf6341132531e99e8bd4c4f72503",
+      "text": "975635"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/antpool",
+      "text": "AntPool"
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000132884a2555a2995786eda82554436712f3681818cbd9",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000132884a2555a2995786eda82554436712f3681818cbd9",
+      "text": "975634"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/ocean",
+      "text": "Sympatheia"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000015618003449a272f3dd343fd82e270f7317830ba6b7a4",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000015618003449a272f3dd343fd82e270f7317830ba6b7a4",
+      "text": "975633"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000150125577caa2c5164b1403998b01ed555fb1b76f3d96",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000150125577caa2c5164b1403998b01ed555fb1b76f3d96",
+      "text": "975632"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "text": "F2Pool"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000018bd112025f0830ee3947fb495b6b6424d5b27ed49adc",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000018bd112025f0830ee3947fb495b6b6424d5b27ed49adc",
+      "text": "975631"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "text": "F2Pool"
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000045064c9ffc775fd12429f697e92968fe0a97e85a0923",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000045064c9ffc775fd12429f697e92968fe0a97e85a0923",
+      "text": "975630"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/braiinspool",
+      "text": "Braiins Pool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000b3221250ccdc2d666f73158549955d2833923d496821",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000b3221250ccdc2d666f73158549955d2833923d496821",
+      "text": "975629"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/luxor",
+      "text": "Luxor"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000c5dc5517039c8957e9b6e4cec93ac48ef9a38d2bb6d1",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000c5dc5517039c8957e9b6e4cec93ac48ef9a38d2bb6d1",
+      "text": "975628"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "text": "F2Pool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000001d7a2a98dd3ad24c6cde43cbc897ed083b5fd619e3478",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000001d7a2a98dd3ad24c6cde43cbc897ed083b5fd619e3478",
+      "text": "975627"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000198238294349e4c24e4c4ff9813c4cfaa1cbb8b0fe4aa",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000198238294349e4c24e4c4ff9813c4cfaa1cbb8b0fe4aa",
+      "text": "975626"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/marapool",
+      "text": "MARA Pool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000aebbaa67e0db90895a6dcf73f615b121af2e1d95b729",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000aebbaa67e0db90895a6dcf73f615b121af2e1d95b729",
+      "text": "975625"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/marapool",
+      "text": "MARA Pool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000ed967992625f2d2009d06eb085bb124d81dded974042",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000ed967992625f2d2009d06eb085bb124d81dded974042",
+      "text": "975624"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000aac8157f980882d6cc787aa48cfce81759f0665eb267",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000aac8157f980882d6cc787aa48cfce81759f0665eb267",
+      "text": "975623"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000017dcc5111c3b207654b2ff971a22a155f78a9b5998987",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000017dcc5111c3b207654b2ff971a22a155f78a9b5998987",
+      "text": "975622"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000018f66d9e978d785cdcb32cc22ad0da42d895da1472ace",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000018f66d9e978d785cdcb32cc22ad0da42d895da1472ace",
+      "text": "975621"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000046b2da1a22ab790ae51228a95079d8bce7a58438e0f5",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000046b2da1a22ab790ae51228a95079d8bce7a58438e0f5",
+      "text": "975620"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "text": "F2Pool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000a047e43f85cd3bd63887f20e3149cdf6071988e2b50a",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000a047e43f85cd3bd63887f20e3149cdf6071988e2b50a",
+      "text": "975619"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/spiderpool",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000013d41f7c56e45fa41c427fe0c8d7210cb5d51ab526ff2",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000013d41f7c56e45fa41c427fe0c8d7210cb5d51ab526ff2",
+      "text": "975618"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000cb57beca5abd159609c250bda886d58b1e8b51381ea0",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000cb57beca5abd159609c250bda886d58b1e8b51381ea0",
+      "text": "975617"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "text": "ViaBTC"
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000185ee3bf5d16bc696180832400204892ddb27cf621a1c",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/0000000000000000000185ee3bf5d16bc696180832400204892ddb27cf621a1c",
+      "text": "975616"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/antpool",
+      "text": "AntPool"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000016f18d2e458e16620bfc2cdbd47e991608fb1a8862659",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000016f18d2e458e16620bfc2cdbd47e991608fb1a8862659",
+      "text": "975615"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "text": "Foundry USA"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000b4a435c6af8883fba4faecae685ed7be59bd4eaad4c4",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000000b4a435c6af8883fba4faecae685ed7be59bd4eaad4c4",
+      "text": "975614"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "text": "F2Pool"
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000001675c78834eec42f497e520dedea89e5809d36513213c",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/00000000000000000001675c78834eec42f497e520dedea89e5809d36513213c",
+      "text": "975613"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/spiderpool",
+      "text": "SpiderPool"
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000013710bfbfc3e948f255069a4a1ff86dc5a7b0b96eb628",
+      "text": ""
+    },
+    {
+      "href": "https://mempool.space/block/000000000000000000013710bfbfc3e948f255069a4a1ff86dc5a7b0b96eb628",
+      "text": "975612"
+    },
+    {
+      "href": "https://mempool.space/mining/pool/antpool",
+      "text": "AntPool"
+    },
+    {
+      "href": "https://mempool.space/",
+      "text": "24h"
+    },
+    {
+      "href": "https://mempool.space/",
+      "text": "1m"
+    },
+    {
+      "href": "https://mempool.space/",
+      "text": "1y"
+    },
+    {
+      "href": "https://mempool.space/",
+      "text": "all"
+    },
+    {
+      "href": "https://mempool.space/mempool-block/0",
+      "text": "Mempool Goggles® : Accelerations"
+    },
+    {
+      "href": "https://mempool.space/graphs/acceleration/fees",
+      "text": "View more »"
+    },
+    {
+      "href": "https://mempool.space/acceleration/list",
+      "text": "Recent Accelerations"
+    },
+    {
+      "href": "https://mempool.space/tx/8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016",
+      "text": "8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a 5d016 8bac623118c14db766b675c1616589911e"
+    },
+    {
+      "href": "https://mempool.space/block/975639",
+      "text": "975639"
+    },
+    {
+      "href": "https://mempool.space/tx/e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f",
+      "text": "e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44 e280f e8567d15f4cc3bdbb926993ce09392d7c1"
+    },
+    {
+      "href": "https://mempool.space/block/975628",
+      "text": "975628"
+    },
+    {
+      "href": "https://mempool.space/tx/b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade",
+      "text": "b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62 f6ade b650d677df68a88c6eaa51fe683b0edc2a"
+    },
+    {
+      "href": "https://mempool.space/block/975628",
+      "text": "975628"
+    },
+    {
+      "href": "https://mempool.space/tx/e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217",
+      "text": "e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b8512 7f217 e0d8ecdc18a573f5a30be617d7d8a8881a"
+    },
+    {
+      "href": "https://mempool.space/block/975628",
+      "text": "975628"
+    },
+    {
+      "href": "https://mempool.space/tx/01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc",
+      "text": "01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d 93afc 01ff48269aa6c925cb35e3ab7a0f26c940"
+    },
+    {
+      "href": "https://mempool.space/block/975617",
+      "text": "975617"
+    },
+    {
+      "href": "https://mempool.space/tx/6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed",
+      "text": "6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f83 23bed 6cd4f28b7ef2976dd589190276a3d0bcb0"
+    },
+    {
+      "href": "https://mempool.space/block/975614",
+      "text": "975614"
+    },
+    {
+      "href": "https://mempool.holdings/",
+      "text": "®"
+    },
+    {
+      "href": "https://mempool.space/mining",
+      "text": "Mining Dashboard"
+    },
+    {
+      "href": "https://mempool.space/lightning",
+      "text": "Lightning Explorer"
+    },
+    {
+      "href": "https://mempool.space/blocks",
+      "text": "Recent Blocks"
+    },
+    {
+      "href": "https://mempool.space/tx/push",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "href": "https://mempool.space/tx/test",
+      "text": "Test Transaction"
+    },
+    {
+      "href": "https://mempool.space/tx/preview",
+      "text": "Preview Transaction"
+    },
+    {
+      "href": "https://mempool.space/lightning/group/the-mempool-open-source-project",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "href": "https://mempool.space/docs/api",
+      "text": "API Documentation"
+    },
+    {
+      "href": "https://mempool.space/docs/faq#what-is-a-mempool",
+      "text": "What is a mempool?"
+    },
+    {
+      "href": "https://mempool.space/docs/faq#what-is-a-block-explorer",
+      "text": "What is a block explorer?"
+    },
+    {
+      "href": "https://mempool.space/docs/faq#what-is-a-mempool-explorer",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "href": "https://mempool.space/docs/faq#why-is-transaction-stuck-in-mempool",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "href": "https://mempool.space/docs/faq#host-my-own-instance-raspberry-pi",
+      "text": "Be your own explorer™"
+    },
+    {
+      "href": "https://mempool.space/docs/faq",
+      "text": "More FAQs »"
+    },
+    {
+      "href": "https://mempool.space/research",
+      "text": "Research"
+    },
+    {
+      "href": "https://mempool.space/testnet",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "href": "https://mempool.space/testnet4",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "href": "https://mempool.space/signet",
+      "text": "Signet Explorer"
+    },
+    {
+      "href": "https://liquid.network/testnet",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "href": "https://liquid.network/",
+      "text": "Liquid Explorer"
+    },
+    {
+      "href": "https://mempool.space/terms-of-service",
+      "text": "Terms of Service"
+    },
+    {
+      "href": "https://mempool.space/privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "https://mempool.space/trademark-policy",
+      "text": "Trademark Policy"
+    },
+    {
+      "href": "https://mempool.space/3rdpartylicenses.txt",
+      "text": "Third-party Licenses"
+    },
+    {
+      "href": "https://github.com/mempool",
+      "text": "mempool on GitHub"
+    },
+    {
+      "href": "https://x.com/mempool",
+      "text": "mempool on X"
+    },
+    {
+      "href": "nostr:npub18d4r6wanxkyrdfjdrjqzj2ukua5cas669ew2g5w7lf4a8te7awzqey6lt3",
+      "text": "mempool on Nostr"
+    },
+    {
+      "href": "https://primal.net/mempool",
+      "text": "mempool on Primal"
+    },
+    {
+      "href": "https://youtube.com/@mempool",
+      "text": "mempool on YouTube"
+    },
+    {
+      "href": "https://bitcointv.com/c/mempool/videos",
+      "text": "mempool on BitcoinTV"
+    },
+    {
+      "href": "https://mempool.chat/",
+      "text": "mempool on Matrix"
+    },
+    {
+      "href": "https://github.com/mempool/mempool/commit/04c299c3",
+      "text": "04c299c3"
+    }
+  ],
+  "meta": {
+    "description": "Explore the full Bitcoin ecosystem with The Mempool Open Source Project®. See the real-time status of your transactions, get network info, and more.",
+    "icons": [
+      "https://mempool.space/resources/favicons/apple-touch-icon.png",
+      "https://mempool.space/resources/favicons/favicon-32x32.png",
+      "https://mempool.space/resources/favicons/favicon-16x16.png",
+      "https://mempool.space/resources/favicons/favicon.ico"
+    ],
+    "og_image": "https://mempool.space/resources/previews/accelerator.jpg",
+    "og_title": "Accelerator Dashboard",
+    "theme_color": "#1d1f31"
+  },
+  "outline": [
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 175
+      },
+      "class": "sticky-header ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 4,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "header"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 64,
+        "w": 1440,
+        "x": 0,
+        "y": 175
+      },
+      "class": "navbar navbar-expand-md navbar-dark",
+      "color": "#ffffff",
+      "depth": 5,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 45,
+        "w": 140,
+        "x": 32,
+        "y": 185
+      },
+      "class": "navbar-brand d-none d-md-flex",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "20px 400",
+      "href": "https://mempool.space/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 35,
+        "w": 140,
+        "x": 32,
+        "y": 190
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "20px 400",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 36,
+        "w": 62,
+        "x": 188,
+        "y": 192
+      },
+      "class": "dropdown-toggle btn btn-secondary dropdown-toggle-split d-flex justify-content-center align-items-center",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 203,
+        "y": 200
+      },
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 403,
+        "x": 266,
+        "y": 175
+      },
+      "class": "navbar-nav",
+      "color": "#ffffff",
+      "depth": 7,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 276,
+        "y": 185
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "href": "https://mempool.space/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 284,
+        "y": 198
+      },
+      "color": "#f1f1f1",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 334,
+        "y": 185
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "href": "https://mempool.space/acceleration",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 342,
+        "y": 198
+      },
+      "color": "#f1f1f1",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 391,
+        "y": 185
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "href": "https://mempool.space/mining",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 399,
+        "y": 198
+      },
+      "color": "#f1f1f1",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 449,
+        "y": 185
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "href": "https://mempool.space/lightning",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 457,
+        "y": 198
+      },
+      "color": "#f1f1f1",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 506,
+        "y": 185
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "href": "https://mempool.space/graphs",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 514,
+        "y": 198
+      },
+      "color": "#f1f1f1",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 564,
+        "y": 185
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "href": "https://mempool.space/enterprise",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 572,
+        "y": 198
+      },
+      "color": "#f1f1f1",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 38,
+        "x": 621,
+        "y": 185
+      },
+      "class": "nav-link",
+      "color": "#f1f1f1",
+      "depth": 9,
+      "font": "16px 400",
+      "href": "https://mempool.space/about",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 22,
+        "x": 629,
+        "y": 198
+      },
+      "color": "#f1f1f1",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 38,
+        "w": 485,
+        "x": 923,
+        "y": 191
+      },
+      "class": "ng-untouched ng-pristine ng-invalid",
+      "color": "#ffffff",
+      "depth": 8,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "form"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 38,
+        "w": 415,
+        "x": 923,
+        "y": 191
+      },
+      "class": "form-control ng-untouched ng-pristine ng-invalid",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "name": "",
+      "placeholder": "Explore the full Bitcoin ecosystem",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 38,
+        "w": 62,
+        "x": 1346,
+        "y": 191
+      },
+      "class": "btn btn-purple search-submit",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 20,
+        "x": 1367,
+        "y": 202
+      },
+      "color": "#ffffff",
+      "depth": 13,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 835,
+        "w": 225,
+        "x": -250,
+        "y": 240
+      },
+      "class": "scrollable menu-click",
+      "color": "#ffffff",
+      "depth": 8,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 1392,
+        "w": 1440,
+        "x": 0,
+        "y": 88
+      },
+      "color": "#ffffff",
+      "depth": 6,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "main"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 555,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/0",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 400,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/1",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 245,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/2",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 90,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/3",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -65,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/4",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -220,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/5",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -375,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/6",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": -530,
+        "y": 163
+      },
+      "class": "blockLink ng-tns-c41619706-0",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/7",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 760,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000002a6942080a6501e42ccc38281de4d097dc6656e9f58a",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 782,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000002a6942080a6501e42ccc38281de4d097dc6656e9f58a",
+      "tag": "a",
+      "text": "975639"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 784,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/antpool",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 789,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 915,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000388e03ebfb077cff69a815f6f05b3971e48a2da8f809",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 937,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000388e03ebfb077cff69a815f6f05b3971e48a2da8f809",
+      "tag": "a",
+      "text": "975638"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 939,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/antpool",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 944,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1070,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000010ebdba7ecad04a6c51d41c46545c6500114dd0109de1",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 1092,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000010ebdba7ecad04a6c51d41c46545c6500114dd0109de1",
+      "tag": "a",
+      "text": "975637"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 1094,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/antpool",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1099,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1225,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000001778ed09d4c4f800d924d8431fc649057bf5703b7e45b",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1247,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000001778ed09d4c4f800d924d8431fc649057bf5703b7e45b",
+      "tag": "a",
+      "text": "975636"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 1240,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/spiderpool",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1245,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/spiderpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1380,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000118a74d5f37c8bc98cf6341132531e99e8bd4c4f72503",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1402,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000118a74d5f37c8bc98cf6341132531e99e8bd4c4f72503",
+      "tag": "a",
+      "text": "975635"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 1404,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/antpool",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1409,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1535,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000132884a2555a2995786eda82554436712f3681818cbd9",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1557,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000132884a2555a2995786eda82554436712f3681818cbd9",
+      "tag": "a",
+      "text": "975634"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 104,
+        "x": 1545,
+        "y": 299
+      },
+      "class": "badge miner-name",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/ocean",
+      "tag": "a",
+      "text": "Sympatheia"
+    },
+    {
+      "alt": "Logo of Sympatheia mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1550,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/ocean.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1690,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000015618003449a272f3dd343fd82e270f7317830ba6b7a4",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1712,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000015618003449a272f3dd343fd82e270f7317830ba6b7a4",
+      "tag": "a",
+      "text": "975633"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 1716,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1720,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 1845,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000150125577caa2c5164b1403998b01ed555fb1b76f3d96",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1867,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000150125577caa2c5164b1403998b01ed555fb1b76f3d96",
+      "tag": "a",
+      "text": "975632"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 1872,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 1877,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2000,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000018bd112025f0830ee3947fb495b6b6424d5b27ed49adc",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 2023,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000018bd112025f0830ee3947fb495b6b6424d5b27ed49adc",
+      "tag": "a",
+      "text": "975631"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 2027,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2032,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2155,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000045064c9ffc775fd12429f697e92968fe0a97e85a0923",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2177,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000045064c9ffc775fd12429f697e92968fe0a97e85a0923",
+      "tag": "a",
+      "text": "975630"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 101,
+        "x": 2167,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/braiinspool",
+      "tag": "a",
+      "text": "Braiins Pool"
+    },
+    {
+      "alt": "Logo of Braiins Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2172,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/braiinspool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2310,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000b3221250ccdc2d666f73158549955d2833923d496821",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2332,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000b3221250ccdc2d666f73158549955d2833923d496821",
+      "tag": "a",
+      "text": "975629"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 64,
+        "x": 2341,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/luxor",
+      "tag": "a",
+      "text": "Luxor"
+    },
+    {
+      "alt": "Logo of Luxor mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2346,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/luxor.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2465,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000c5dc5517039c8957e9b6e4cec93ac48ef9a38d2bb6d1",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2487,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000c5dc5517039c8957e9b6e4cec93ac48ef9a38d2bb6d1",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 2492,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2497,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2620,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000001d7a2a98dd3ad24c6cde43cbc897ed083b5fd619e3478",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 2643,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000001d7a2a98dd3ad24c6cde43cbc897ed083b5fd619e3478",
+      "tag": "a",
+      "text": "975627"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 2628,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2633,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2775,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000198238294349e4c24e4c4ff9813c4cfaa1cbb8b0fe4aa",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2797,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000198238294349e4c24e4c4ff9813c4cfaa1cbb8b0fe4aa",
+      "tag": "a",
+      "text": "975626"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 96,
+        "x": 2790,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/marapool",
+      "tag": "a",
+      "text": "MARA Pool"
+    },
+    {
+      "alt": "Logo of MARA Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2794,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/marapool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 2930,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000aebbaa67e0db90895a6dcf73f615b121af2e1d95b729",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 2952,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000aebbaa67e0db90895a6dcf73f615b121af2e1d95b729",
+      "tag": "a",
+      "text": "975625"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 96,
+        "x": 2945,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/marapool",
+      "tag": "a",
+      "text": "MARA Pool"
+    },
+    {
+      "alt": "Logo of MARA Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 2949,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/marapool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3085,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000ed967992625f2d2009d06eb085bb124d81dded974042",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3107,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000ed967992625f2d2009d06eb085bb124d81dded974042",
+      "tag": "a",
+      "text": "975624"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 3093,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3098,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3240,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000aac8157f980882d6cc787aa48cfce81759f0665eb267",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3262,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000aac8157f980882d6cc787aa48cfce81759f0665eb267",
+      "tag": "a",
+      "text": "975623"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 3248,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3253,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3395,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000017dcc5111c3b207654b2ff971a22a155f78a9b5998987",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 56,
+        "x": 3417,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000017dcc5111c3b207654b2ff971a22a155f78a9b5998987",
+      "tag": "a",
+      "text": "975622"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 3421,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3425,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3550,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000018f66d9e978d785cdcb32cc22ad0da42d895da1472ace",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 3573,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000018f66d9e978d785cdcb32cc22ad0da42d895da1472ace",
+      "tag": "a",
+      "text": "975621"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 3576,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3580,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3705,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000046b2da1a22ab790ae51228a95079d8bce7a58438e0f5",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 3727,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000046b2da1a22ab790ae51228a95079d8bce7a58438e0f5",
+      "tag": "a",
+      "text": "975620"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 3732,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3737,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 3860,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000a047e43f85cd3bd63887f20e3149cdf6071988e2b50a",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 3883,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000a047e43f85cd3bd63887f20e3149cdf6071988e2b50a",
+      "tag": "a",
+      "text": "975619"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 3875,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/spiderpool",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 3880,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/spiderpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4015,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000013d41f7c56e45fa41c427fe0c8d7210cb5d51ab526ff2",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4038,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000013d41f7c56e45fa41c427fe0c8d7210cb5d51ab526ff2",
+      "tag": "a",
+      "text": "975618"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 4023,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4028,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4170,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000cb57beca5abd159609c250bda886d58b1e8b51381ea0",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4194,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000cb57beca5abd159609c250bda886d58b1e8b51381ea0",
+      "tag": "a",
+      "text": "975617"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 74,
+        "x": 4196,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/viabtc",
+      "tag": "a",
+      "text": "ViaBTC"
+    },
+    {
+      "alt": "Logo of ViaBTC mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4200,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/viabtc.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4325,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000185ee3bf5d16bc696180832400204892ddb27cf621a1c",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4348,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/0000000000000000000185ee3bf5d16bc696180832400204892ddb27cf621a1c",
+      "tag": "a",
+      "text": "975616"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 4349,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/antpool",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4354,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4480,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000016f18d2e458e16620bfc2cdbd47e991608fb1a8862659",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4503,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000016f18d2e458e16620bfc2cdbd47e991608fb1a8862659",
+      "tag": "a",
+      "text": "975615"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 109,
+        "x": 4488,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/foundryusa",
+      "tag": "a",
+      "text": "Foundry USA"
+    },
+    {
+      "alt": "Logo of Foundry USA mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4493,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/foundryusa.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4635,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000b4a435c6af8883fba4faecae685ed7be59bd4eaad4c4",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 4658,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000000b4a435c6af8883fba4faecae685ed7be59bd4eaad4c4",
+      "tag": "a",
+      "text": "975614"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 71,
+        "x": 4662,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/f2pool",
+      "tag": "a",
+      "text": "F2Pool"
+    },
+    {
+      "alt": "Logo of F2Pool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4667,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/f2pool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4790,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000001675c78834eec42f497e520dedea89e5809d36513213c",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4813,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/00000000000000000001675c78834eec42f497e520dedea89e5809d36513213c",
+      "tag": "a",
+      "text": "975613"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 95,
+        "x": 4805,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/spiderpool",
+      "tag": "a",
+      "text": "SpiderPool"
+    },
+    {
+      "alt": "Logo of SpiderPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4810,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/spiderpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 125,
+        "w": 125,
+        "x": 4945,
+        "y": 163
+      },
+      "class": "blockLink",
+      "color": "#00ddff",
+      "depth": 19,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000013710bfbfc3e948f255069a4a1ff86dc5a7b0b96eb628",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 4968,
+        "y": 107
+      },
+      "class": "block-height-link",
+      "color": "#00ddff",
+      "depth": 20,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/000000000000000000013710bfbfc3e948f255069a4a1ff86dc5a7b0b96eb628",
+      "tag": "a",
+      "text": "975612"
+    },
+    {
+      "box": {
+        "h": 21,
+        "w": 77,
+        "x": 4969,
+        "y": 299
+      },
+      "class": "badge",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "12px 700",
+      "href": "https://mempool.space/mining/pool/antpool",
+      "tag": "a",
+      "text": "AntPool"
+    },
+    {
+      "alt": "Logo of AntPool mining pool",
+      "box": {
+        "h": 15,
+        "w": 15,
+        "x": 4974,
+        "y": 301
+      },
+      "class": "mining-pool-logo",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "12px 700",
+      "src": "https://mempool.space/resources/mining-pools/antpool.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 19,
+        "x": 711,
+        "y": 89
+      },
+      "class": "block-display-toggle",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 13,
+        "x": 715,
+        "y": 89
+      },
+      "color": "#ffffff",
+      "depth": 17,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 16,
+        "x": 713,
+        "y": 322
+      },
+      "class": "time-toggle",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "12.8px 400",
+      "tag": "button"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 16,
+        "x": 713,
+        "y": 325
+      },
+      "color": "#ffffff",
+      "depth": 17,
+      "font": "12.8px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 63,
+        "x": 10,
+        "y": 193
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "50px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 19,
+        "x": 1194,
+        "y": 343
+      },
+      "class": "toggler-option inactive",
+      "color": "#ffffffbb",
+      "depth": 16,
+      "font": "12px 400",
+      "href": "https://mempool.space/",
+      "tag": "a",
+      "text": "24h"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 14,
+        "x": 1220,
+        "y": 343
+      },
+      "class": "toggler-option",
+      "color": "#00ddff",
+      "depth": 16,
+      "font": "12px 400",
+      "href": "https://mempool.space/",
+      "tag": "a",
+      "text": "1m"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 11,
+        "x": 1242,
+        "y": 343
+      },
+      "class": "toggler-option",
+      "color": "#00ddff",
+      "depth": 16,
+      "font": "12px 400",
+      "href": "https://mempool.space/",
+      "tag": "a",
+      "text": "1y"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 11,
+        "x": 1260,
+        "y": 343
+      },
+      "class": "toggler-option",
+      "color": "#00ddff",
+      "depth": 16,
+      "font": "12px 400",
+      "href": "https://mempool.space/",
+      "tag": "a",
+      "text": "all"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 506,
+        "x": 182,
+        "y": 533
+      },
+      "class": "title-link",
+      "color": "#ffffff",
+      "depth": 14,
+      "font": "16px 400",
+      "href": "https://mempool.space/mempool-block/0",
+      "tag": "a",
+      "text": "Mempool Goggles® : Accelerations"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 16,
+        "x": 559,
+        "y": 540
+      },
+      "color": "#2055e3",
+      "depth": 16,
+      "font": "13px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 400,
+        "w": 522,
+        "x": 744,
+        "y": 564
+      },
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 91,
+        "x": 960,
+        "y": 980
+      },
+      "color": "#00ddff",
+      "depth": 15,
+      "font": "16px 400",
+      "href": "https://mempool.space/graphs/acceleration/fees",
+      "tag": "a",
+      "text": "View more »"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 498,
+        "x": 756,
+        "y": 1067
+      },
+      "class": "title-link",
+      "color": "#ffffff",
+      "depth": 14,
+      "font": "16px 400",
+      "href": "https://mempool.space/acceleration/list",
+      "tag": "a",
+      "text": "Recent Accelerations"
+    },
+    {
+      "box": {
+        "h": 13,
+        "w": 16,
+        "x": 1077,
+        "y": 1073
+      },
+      "color": "#2055e3",
+      "depth": 16,
+      "font": "13px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 125,
+        "x": 768,
+        "y": 1158
+      },
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016",
+      "tag": "a",
+      "text": "8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a 5d016 8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1060,
+        "y": 1161
+      },
+      "class": "ng-star-inserted",
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/975639",
+      "tag": "a",
+      "text": "975639"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 125,
+        "x": 768,
+        "y": 1205
+      },
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f",
+      "tag": "a",
+      "text": "e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44 e280f e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1061,
+        "y": 1208
+      },
+      "class": "ng-star-inserted",
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 125,
+        "x": 768,
+        "y": 1253
+      },
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade",
+      "tag": "a",
+      "text": "b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62 f6ade b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1061,
+        "y": 1256
+      },
+      "class": "ng-star-inserted",
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 125,
+        "x": 768,
+        "y": 1300
+      },
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217",
+      "tag": "a",
+      "text": "e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b8512 7f217 e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 57,
+        "x": 1061,
+        "y": 1303
+      },
+      "class": "ng-star-inserted",
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/975628",
+      "tag": "a",
+      "text": "975628"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 125,
+        "x": 768,
+        "y": 1347
+      },
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc",
+      "tag": "a",
+      "text": "01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d 93afc 01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 54,
+        "x": 1064,
+        "y": 1350
+      },
+      "class": "ng-star-inserted",
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/975617",
+      "tag": "a",
+      "text": "975617"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 125,
+        "x": 768,
+        "y": 1394
+      },
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed",
+      "tag": "a",
+      "text": "6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f83 23bed 6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 55,
+        "x": 1063,
+        "y": 1397
+      },
+      "class": "ng-star-inserted",
+      "color": "#00ddff",
+      "depth": 21,
+      "font": "16px 400",
+      "href": "https://mempool.space/block/975614",
+      "tag": "a",
+      "text": "975614"
+    },
+    {
+      "background": "#11131f",
+      "box": {
+        "h": 521,
+        "w": 1440,
+        "x": 0,
+        "y": 1510
+      },
+      "color": "#ffffff",
+      "depth": 7,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "footer"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 220,
+        "x": 165,
+        "y": 1558
+      },
+      "class": "footer-logo-wrapper ng-star-inserted",
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.holdings/",
+      "tag": "a",
+      "text": "®"
+    },
+    {
+      "box": {
+        "h": 83,
+        "w": 327,
+        "x": 111,
+        "y": 1544
+      },
+      "color": "#ffffff66",
+      "depth": 14,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 120,
+        "x": 647,
+        "y": 1558
+      },
+      "class": "form-select form-select-sm form-control-secondary form-control mx-auto ng-untouched ng-pristine ng-valid",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenšči",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 85,
+        "x": 777,
+        "y": 1558
+      },
+      "class": "form-select form-select-sm form-control-secondary form-control mx-auto ng-untouched ng-pristine ng-valid",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "AUD CAD CHF EUR GBP JPY USD",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 110,
+        "x": 872,
+        "y": 1558
+      },
+      "class": "form-select form-select-sm form-control-secondary form-control mx-auto ng-untouched ng-pristine ng-valid",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "UTC+3 - Moscow Standard Time (MSK) UTC - Greenwich Mean Time (GMT) ──── UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard ",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 75,
+        "x": 992,
+        "y": 1558
+      },
+      "class": "form-select form-select-sm form-control-secondary form-control mx-auto ng-untouched ng-pristine ng-valid",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "BTC sats Fiat",
+      "type": "select-one"
+    },
+    {
+      "background": "#272f4e",
+      "box": {
+        "h": 31,
+        "w": 108,
+        "x": 1077,
+        "y": 1558
+      },
+      "class": "form-select form-select-sm form-control-secondary form-control mx-auto ng-untouched ng-pristine ng-valid",
+      "color": "#ffffff",
+      "depth": 15,
+      "font": "14px 400",
+      "name": "",
+      "placeholder": "",
+      "tag": "select",
+      "text": "wiz BlueMatt softsimon nymkappa",
+      "type": "select-one"
+    },
+    {
+      "background": "#6225b2",
+      "box": {
+        "h": 31,
+        "w": 75,
+        "x": 1195,
+        "y": 1558
+      },
+      "class": "btn btn-purple sponsor justify-content-center d-none d-md-flex ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "button",
+      "text": "Sign In"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 1110,
+        "x": 165,
+        "y": 1629
+      },
+      "class": "explore-tagline-desktop ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Explore the full Bitcoin ecosystem®"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1681
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Explore"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1709
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1712
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/mining",
+      "tag": "a",
+      "text": "Mining Dashboard"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1737
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 132,
+        "x": 165,
+        "y": 1740
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/lightning",
+      "tag": "a",
+      "text": "Lightning Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1765
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 103,
+        "x": 165,
+        "y": 1768
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/blocks",
+      "tag": "a",
+      "text": "Recent Blocks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1793
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 162,
+        "x": 165,
+        "y": 1796
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/push",
+      "tag": "a",
+      "text": "Broadcast Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1821
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 119,
+        "x": 165,
+        "y": 1824
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/test",
+      "tag": "a",
+      "text": "Test Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1849
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 165,
+        "y": 1852
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/tx/preview",
+      "tag": "a",
+      "text": "Preview Transaction"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1877
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 160,
+        "x": 165,
+        "y": 1880
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/lightning/group/the-mempool-open-source-project",
+      "tag": "a",
+      "text": "Connect to our Nodes"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 167,
+        "x": 165,
+        "y": 1905
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 139,
+        "x": 165,
+        "y": 1908
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/docs/api",
+      "tag": "a",
+      "text": "API Documentation"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1681
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Learn"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1709
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 146,
+        "x": 447,
+        "y": 1712
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/docs/faq#what-is-a-mempool",
+      "tag": "a",
+      "text": "What is a mempool?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1737
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 182,
+        "x": 447,
+        "y": 1740
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/docs/faq#what-is-a-block-explorer",
+      "tag": "a",
+      "text": "What is a block explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1765
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 210,
+        "x": 447,
+        "y": 1768
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/docs/faq#what-is-a-mempool-explorer",
+      "tag": "a",
+      "text": "What is a mempool explorer?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1793
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 268,
+        "x": 447,
+        "y": 1796
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/docs/faq#why-is-transaction-stuck-in-mempool",
+      "tag": "a",
+      "text": "Why isn't my transaction confirming?"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1821
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 447,
+        "y": 1824
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/docs/faq#host-my-own-instance-raspberry-pi",
+      "tag": "a",
+      "text": "Be your own explorer™"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1849
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 94,
+        "x": 447,
+        "y": 1852
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/docs/faq",
+      "tag": "a",
+      "text": "More FAQs »"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 273,
+        "x": 447,
+        "y": 1877
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 67,
+        "x": 447,
+        "y": 1880
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/research",
+      "tag": "a",
+      "text": "Research"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 834,
+        "y": 1681
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Networks"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 834,
+        "y": 1709
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 834,
+        "y": 1712
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/testnet",
+      "tag": "a",
+      "text": "Testnet3 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 834,
+        "y": 1737
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 128,
+        "x": 834,
+        "y": 1740
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/testnet4",
+      "tag": "a",
+      "text": "Testnet4 Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 834,
+        "y": 1765
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 110,
+        "x": 834,
+        "y": 1768
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/signet",
+      "tag": "a",
+      "text": "Signet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 834,
+        "y": 1793
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 166,
+        "x": 834,
+        "y": 1796
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://liquid.network/testnet",
+      "tag": "a",
+      "text": "Liquid Testnet Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 171,
+        "x": 834,
+        "y": 1821
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 108,
+        "x": 834,
+        "y": 1824
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://liquid.network/",
+      "tag": "a",
+      "text": "Liquid Explorer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1681
+      },
+      "class": "category",
+      "color": "#2055e3",
+      "depth": 11,
+      "font": "16px 700",
+      "tag": "p",
+      "text": "Legal"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1709
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 122,
+        "x": 1119,
+        "y": 1712
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/terms-of-service",
+      "tag": "a",
+      "text": "Terms of Service"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1737
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 100,
+        "x": 1119,
+        "y": 1740
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/privacy-policy",
+      "tag": "a",
+      "text": "Privacy Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1765
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 125,
+        "x": 1119,
+        "y": 1768
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/trademark-policy",
+      "tag": "a",
+      "text": "Trademark Policy"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 156,
+        "x": 1119,
+        "y": 1793
+      },
+      "color": "#ffffff",
+      "depth": 11,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 151,
+        "x": 1119,
+        "y": 1796
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "href": "https://mempool.space/3rdpartylicenses.txt",
+      "tag": "a",
+      "text": "Third-party Licenses"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 20,
+        "x": 568,
+        "y": 1942
+      },
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "https://github.com/mempool",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 568,
+        "y": 1943
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 17,
+        "x": 616,
+        "y": 1942
+      },
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "https://x.com/mempool",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 17,
+        "x": 616,
+        "y": 1943
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 20,
+        "x": 661,
+        "y": 1942
+      },
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "nostr:npub18d4r6wanxkyrdfjdrjqzj2ukua5cas669ew2g5w7lf4a8te7awzqey6lt3",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 661,
+        "y": 1943
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 20,
+        "x": 709,
+        "y": 1942
+      },
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "https://primal.net/mempool",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 709,
+        "y": 1943
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 20,
+        "x": 757,
+        "y": 1942
+      },
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "https://youtube.com/@mempool",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 757,
+        "y": 1943
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 20,
+        "x": 805,
+        "y": 1942
+      },
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "https://bitcointv.com/c/mempool/videos",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 805,
+        "y": 1943
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 20,
+        "x": 853,
+        "y": 1942
+      },
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "16px 400",
+      "href": "https://mempool.chat/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 20,
+        "x": 853,
+        "y": 1943
+      },
+      "color": "#ffffff66",
+      "depth": 12,
+      "font": "16px 400",
+      "role": "img",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 1410,
+        "x": 15,
+        "y": 1993
+      },
+      "class": "ng-star-inserted",
+      "color": "#ffffff66",
+      "depth": 11,
+      "font": "12px 400",
+      "tag": "p",
+      "text": "node208.fra.mempool.space (v3.4-dev) [04c299c3][ca77acb1]"
+    },
+    {
+      "box": {
+        "h": 15,
+        "w": 59,
+        "x": 774,
+        "y": 1994
+      },
+      "color": "#09a3ba",
+      "depth": 13,
+      "font": "12px 400",
+      "href": "https://github.com/mempool/mempool/commit/04c299c3",
+      "tag": "a",
+      "text": "04c299c3"
+    }
+  ],
+  "page": {
+    "h": 2031,
+    "w": 1440
+  },
+  "text": "~4 sat/vB 3.02 - 505 sat/vB ‎0.059 BTC 3,365 transactions In ~10 minutes ~2 sat/vB 1.69 - 3.02 sat/vB ‎0.022 BTC 2,381 transactions In ~21 minutes ~1 sat/vB 1.01 - 1.85 sat/vB ‎0.013 BTC 1,378 transactions In ~32 minutes ~1 sat/vB 0.12 - 1.01 sat/vB ‎0.006 BTC 2,473 transactions In ~43 minutes ~0 sat/vB 0.12 - 0.13 sat/vB ‎0.001 BTC 7,922 transactions In ~54 minutes ~0 sat/vB 0.12 - 0.12 sat/vB ‎0.001 BTC 7,984 transactions In ~65 minutes ~0 sat/vB 0.12 - 0.12 sat/vB ‎0.001 BTC 5,346 transactions In ~76 minutes ~0 sat/vB 0.10 - 0.12 sat/vB ‎0.031 BTC 40,209 transactions (27 blocks) 975639 ~3 sat/vB 2.03 - 405 sat/vB ‎0.04 BTC 3,140 transactions 32 minutes ago AntPool 975638 ~4 sat/vB 2.51 - 300 sat/vB ‎0.047 BTC 3,765 transactions 50 minutes ago AntPool 975637 ~2 sat/vB 1.85 - 101 sat/vB ‎0.033 BTC 2,474 transactions 86 minutes ago AntPool 975636 ~3 sat/vB 2.00 - 151 sat/vB ‎0.038 BTC 3,493 transactions 2 hours ago SpiderPool 975635 ~0 sat/vB 0.12 - 200 sat/vB ‎0.005 BTC 7,161 transactions 2 hours ago AntPool 975634 ~0 sat/vB 1.00 - 202 sat/vB ‎0.013 BTC 1,536 transactions 2 hours ago Sympatheia 975633 ~1 sat/vB 1.00 - 68.3 sat/vB ‎0.011 BTC 1,503 transactions 2 hours ago ViaBTC 975632 ~4 sat/vB 1.51 - 213 sat/vB ‎0.043 BTC 2,610 transactions 2 hours ago F2Pool 975631 ~1 sat/vB 0.12 - 101 sat/vB ‎0.017 BTC 4,496 transactions 3 hours ago F2Pool 975630 ~1 sat/vB 0.12 - 30.4 sat/vB ‎0.013 BTC 3,548 transactions 3 hours ago Braiins Pool 975629 ~2 sat/vB 1.47 - 60.0 sat/vB ‎0.027 BTC 3,436 transactions 3 hours ago Luxor 975628 ~5 sat/vB 3.49 - 521 sat/vB ‎0.058 BTC 2,939 transactions 3 hours ago F2Pool 975627 ~0 sat/vB 0.12 - 60.1 sat/vB ‎0.004 BTC 7,326 transactions 4 hours ago Foundry USA 975626 ~0 sat/vB 0.12 - 60.0 sat/vB ‎0.008 BTC 6,354 transactions 4 hours ago MARA Pool 975625 ~1 sat/vB 0.12 - 149 sat/vB ‎0.025 BTC 4,347 transactions 4 hours ago MARA Pool 975624 ~2 sat/vB 0.13 - 312 sat/vB ‎0.028 BTC 3,508 transactions 4 hours ago Foundry USA 975623 ~0 sat/vB 0.12 - 100 sat/vB ‎0.006 BTC 6,397 transactions 5 hours ago Foundry USA 975622 ~0 sat/vB 1.00 - 50.6 sat/vB ‎0.008 BTC 909 transactions 5 hours ago ViaBTC 975621 ~1 sat/vB 0.13 - 476 sat/vB ‎0.018 BTC 3,634 transactions 5 hours ago ViaBTC 975620 ~2 sat/vB 1.00 - 60.2 sat/vB ‎0.018 BTC 2,421 transactions 5 hours ago F2Pool 975619 ~3 sat/vB 2.01 - 241 sat/vB ‎0.031 BTC 3,730 transactions 5 hours ago SpiderPool 975618 ~4 sat/vB 3.02 - 2,010 sat/vB ‎0.054 BTC 3,723 transactions 5 hours ago Foundry USA 975617 ~4 sat/vB 3.01 - 265 sat/vB ‎0.056 BTC 3,535 transactions 6 hours ago ViaBTC 975616 ~1 sat/vB 0.92 - 140 sat/vB ‎0.024 BTC 3,592 transactions 7 hours ago AntPool 975615 ~2 sat/vB 1.03 - 265 sat/vB ‎0.033 BTC 3,451 transactions 7 hours ago Foundry USA 975614 ~2 sat/vB 1.20 - 101 sat/vB ‎0.027 BTC 3,213 transactions 7 hours ago F2Pool 975613 ~4 sat/vB 2.33 - 302 sat/vB ‎0.066 BTC 3,529 transactions 7 hours ago SpiderPool 975612 ~1 sat/vB 0.12 - 302 sat/vB ‎0.018 BTC 5,145 transactions 8 hours ago AntPool ACTIVE ACCELERATIONS Requests 0 pending Avg Max Bid 0.0000 BTC $0.00 Total vSize ‎0 vB 0.00% of block ACCELERATION STATS (1 DAY) Requests 22 accelerated Total Bid Boost 0.0001 BTC $3.77 Total vSize ‎10.8 kvB 0.01% of blocks 24h | 1m | 1y | all Mempool Goggles® : Accelerations Historical Trend Total bid boost Accelerated 0 sats 20000 sats 40000 sats 60000 sats 80000 sats 0.001 BTC 0.001 BTC 0 3 6 9 12 15 18 21 October 17 October 25 November 9 November 1 View more » Active Accelerations There are no active accelerations Recent Accelerations TXID Bid Boost Block Status 8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a 5d016 8bac623118c14db766b675c1616589911e590e8537240235ca70d24b42a5d016 199 sats 975639 Completed ⌛ e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44 e280f e8567d15f4cc3bdbb926993ce09392d7c1b1280985a64de2ee91a1aaa44e280f 921 sats 975628 Completed b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62 f6ade b650d677df68a88c6eaa51fe683b0edc2ab308dce24d7fc0c786da18e62f6ade 408 sats 975628 Completed e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b8512 7f217 e0d8ecdc18a573f5a30be617d7d8a8881a93f26f61b827fa484585b85127f217 2,252 sats 975628 Completed 01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d 93afc 01ff48269aa6c925cb35e3ab7a0f26c9408558e8cdd22daa01c1338699d93afc 0 sats 975617 Mined 6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f83 23bed 6cd4f28b7ef2976dd589190276a3d0bcb077afde28c2af3217f92782f8323bed 0 sats 975614 Completed ® العربية Čeština Dansk Deutsch English Español فارسی Français 한국어 Hrvatski हिन्दी नेपाली Italiano עברית ქართული Lietuvių Magyar Македонски Nederlands 日本語 Norsk Polski Português Română Русский Slovenščina Suomi Svenska ไทย Türkçe Українська Tiếng Việt 中文 AUD CAD CHF EUR GBP JPY USD UTC+3 - Moscow Standard Time (MSK) UTC - Greenwich Mean Time (GMT) ──── UTC-12 - Anywhere on Earth (AoE) UTC-11 - Samoa Standard Time (SST) UTC-10 - Hawaii Standard Time (HST) UTC-9 - Alaska Standard Time (AKST) UTC-8 - Pacific Standard Time (PST) UTC-7 - Mountain Standard Time (MST) UTC-6 - Central Standard Time (CST) UTC-5 - Eastern Standard Time (EST) UTC-4 - Atlantic Standard Time (AST) UTC-3 - Argentina Time (ART) UTC-2 - Fernando de Noronha Time (FNT) UTC-1 - Azores Time (AZOT) UTC+1 - Central European Time (CET) UTC+2 - Eastern European Time (EET) UTC+4 - Armenia Time (AMT) UTC+5 - Pakistan Standard Time (PKT) UTC+6 - Xinjiang Time (XJT) UTC+7 - Indochina Time (ICT) UTC+8 - Hong Kong Time (HKT) UTC+9 - Japan Standard Time (JST) UTC+10 - Australian Eastern Standard Time (AEST) UTC+11 - Norfolk Time (NFT) UTC+12 - New Zealand Standard Time (NZST) UTC+13 - Tonga Time (TOT) UTC+14 - Line Islands Time (LINT) BTC sats Fiat wiz BlueMatt softsimon nymkappa Sign In Explore the full Bitcoin ecosystem® Explore Mining Dashboard Lightning Explorer Recent Blocks Broadcast Transaction Test Transaction Preview Transaction Connect to our Nodes API Documentation Learn What is a mempool? What is a block explorer? What is a mempool explorer? Why isn't my transaction confirming? Be your own explorer™ More FAQs » Research Networks Testnet3 Explorer Testnet4 Explorer Signet Explorer Liquid Testnet Explorer Liquid Explorer Legal Terms of Service Privacy Policy Trademark Policy Third-party Licenses node208.fra.mempool.space (v3.4-dev) [04c299c3][ca77acb1]",
+  "title": "Accelerator Dashboard - mempool - Bitcoin Explorer",
+  "unreadable_stylesheets": 0,
+  "url": "https://mempool.space/acceleration",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}
