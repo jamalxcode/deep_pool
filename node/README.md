@@ -61,16 +61,29 @@ your node.
 1. Finish macOS setup, install all updates, and create two accounts: your **admin** account, and a
    **standard** (non-admin) account called `node` that will run everything.
 2. **FileVault on**: System Settings → Privacy & Security → FileVault.
-3. **Firewall on, in stealth mode** (the Mac ignores probes from the local network):
-   ```bash
-   sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on --setstealthmode on
-   ```
+3. **Firewall on, in stealth mode** (the Mac ignores probes from the local network). The `node`
+   account is a standard user and can't change this alone: use the **admin** account's name and
+   password (the account marked **Admin** in System Settings → Users & Groups). You don't need to
+   log in as admin.
+   - **Without Terminal:** System Settings → Network → Firewall → on. When macOS asks for an
+     administrator, enter the admin's name and password (not `node`'s). Then **Options…** → turn on
+     **Enable stealth mode** → **OK**.
+   - **In Terminal:** if you're logged in as `node`, switch to the admin for this window first
+     (`adminname` = the admin's short name; the password doesn't show as you type), run the
+     command, then `exit`:
+     ```bash
+     su adminname
+     sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on --setstealthmode on
+     exit
+     ```
+   A standard user running `sudo` directly gets "is not in the sudoers file": that's this.
 4. **Automatic updates**: System Settings → General → Software Update → Automatic updates →
    turn everything on.
 5. **Sharing off**: System Settings → General → Sharing → turn off everything (File Sharing, Screen
    Sharing, Remote Login, Remote Management, Media Sharing, AirPlay Receiver). You'll manage it
    through Tailscale instead (step 6).
-6. **Never sleep, restart after power cuts**:
+6. **Never sleep, restart after power cuts** (as the admin; from `node`, `su adminname` first, as
+   in step 3):
    ```bash
    sudo pmset -a sleep 0 disksleep 0 autorestart 1
    ```

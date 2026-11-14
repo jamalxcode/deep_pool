@@ -8,9 +8,12 @@ The short version of [node/README.md](node/README.md): the whole Mac mini setup 
 
 3. Turn on FileVault in System Settings → Privacy & Security. Write down the recovery key and keep it somewhere safe, away from the Mac.
 
-4. Open Terminal as admin and paste: `sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on --setstealthmode on`. This hides the Mac from other devices on your network.
+4. Turn on the firewall in stealth mode. This hides the Mac from other devices on your network. "node" is a standard user and can't do this alone: you use the **admin account's** name and password (the account marked **Admin** in System Settings → Users & Groups). You don't have to log in as admin. Pick one way:
 
-5. In System Settings → General → Sharing, turn everything off. In Software Update, turn on all automatic updates. Then paste: `sudo pmset -a sleep 0 disksleep 0 autorestart 1`.
+    - **Easiest (no Terminal):** System Settings → Network → Firewall → turn it on. When macOS asks for an administrator, type the **admin** name and password, not "node"'s. Then click **Options…**, turn on **Enable stealth mode**, and click **OK**.
+    - **Terminal:** open Terminal (⌘ Space, type Terminal, Return). If you're logged in as "node", first type `su adminname` (the admin's short name) and the admin's password; nothing shows while you type. Then paste `sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on --setstealthmode on` and press Return (type the admin password again if asked). It should say the firewall and stealth mode are enabled. Type `exit` to go back.
+
+5. In System Settings → General → Sharing, turn everything off. In Software Update, turn on all automatic updates (enter the admin name and password when asked). Then in Terminal, the same way as step 4 (`su adminname` first if you're "node"), paste: `sudo pmset -a sleep 0 disksleep 0 autorestart 1`, then `exit`.
 
 6. Log into your router's settings page. Turn off UPnP. Make sure no port forwarding rules point at the Mac. Change the router's admin password to something strong.
 
