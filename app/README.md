@@ -42,15 +42,54 @@ statistics, and the Mining, Lightning and Graphs tabs.
 
 Settings (currency, theme, timezone, closed banners, your node's address) are kept in the browser's local storage only.
 
-## Tests
+## Local development
+
+Needs Node 22 (`node -v`). The site itself has no dependencies; Playwright is a development-only
+dependency for the tests.
 
 ```bash
-npm test
+cd app
+npm install          # once: installs Playwright and its Chromium (into ~/Library/Caches/ms-playwright)
+npm run dev          # builds, serves http://localhost:8000/ and rebuilds when src/ changes (reload to see it)
+npm test             # offline: builds, then 13 browser scenarios with every API mocked
+npm run test:live    # online: probes every candidate provider, then opens the site against the real APIs
+npm run check        # both
 ```
 
-Builds the site, then drives it in Chromium with every API mocked: 13 scenarios covering each
-data source, the fallbacks, a visitor's node, deep pool's own node (also dashboard-only), Testnet4
-and a phone-width layout. It needs Playwright (`npm i -g playwright && npx playwright install chromium`)
-and exits non-zero if anything fails. Screenshots go to `tests/out/`.
+Switch on the push gate once per clone, from the repo folder: `git config core.hooksPath .githooks`.
+`.githooks/pre-push` then runs `npm test` and `npm run test:live` before every push and stops the push
+on any failure, or when `app/dist` doesn't match the commit (run `npm run build` and commit it).
+
+### The mocked suite (`npm test`)
+
+Drives the built site in Chromium with every API mocked: 13 scenarios covering each data source,
+the fallbacks, a visitor's node, deep pool's own node (also dashboard-only), Testnet4 and a
+phone-width layout. Exits non-zero if anything fails. Screenshots go to `tests/out/`.
+
+### The live tests (`npm run test:live`)
+
+1. `tests/providers.live.js` calls each of the 10 candidate providers in
+   [DESIGN.md](../docs/DESIGN.md#providers) on every network it claims: tip, a settled block, its
+   80-byte header (hashed to check it really is that block), fees, mempool, a transaction and an
+   address lookup, plus the mempool extras and WebSocket. It records the CORS header (sent with the
+   published site's origin), latency, tip height and hash, then compares tips (2+ blocks behind =
+   stale). It writes the full report to `tests/out/providers-report.json`, and rewrites
+   `src/providers.json` only when a provider, network or capability passes or fails differently
+   (`--write` forces it). It fails only if fewer than 3 mainnet providers work. Anything else (a
+   provider down, or rate-limiting this machine, which it labels `[rate-limited this machine]`) is
+   reported, not failed.
+2. `tests/smoke.live.js` opens the built site on all four networks with nothing mocked, and checks
+   that every dashboard panel shows live data (tip matching the API, fees, projected blocks, mempool,
+   difficulty, chart, recent transactions, replacements). On mainnet it also opens a block and
+   searches a transaction, a block height and an address. Screenshots go to `tests/out/live-*.png`.
+   It fails when a page doesn't go live, a panel lacks real data, a view or search breaks, or a
+   JavaScript error happens. If a provider answered this machine with a rate limit (HTTP 429/430)
+   during a page's checks, that page's data problems become warnings: visitors call from their own
+   IP addresses, so a limit on your Mac isn't a site problem. JavaScript errors fail regardless.
+   `SMOKE_RATE_LIMIT=mempool.space` and `SMOKE_DOWN=mempool.space,blockstream.info` simulate both
+   cases to check this logic (the first must warn, the second must fail).
+
+The probe calls each provider gently (bitaps blocks an IP for 5 minutes after 3 calls in 5 seconds),
+but running it many times in a row can still get this machine rate-limited by the strictest free tiers.
 
 See also the repo's [README](../README.md), [design notes](../docs/DESIGN.md) and [lessons learned](../docs/LESSONS.md).

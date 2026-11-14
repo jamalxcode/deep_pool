@@ -3,8 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "description": "deep pool - a Bitcoin mempool explorer with a colour-blind friendly palette",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
+    "postinstall": "playwright install chromium",
     "build": "sh scripts/build.sh",
-    "test": "sh scripts/build.sh && node tests/live-data.test.js"
+    "dev": "node scripts/dev.js",
+    "test": "sh scripts/build.sh && node tests/live-data.test.js",
+    "test:live": "node tests/providers.live.js && sh scripts/build.sh && node tests/smoke.live.js",
+    "check": "npm test && npm run test:live"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.1"
   }
 }

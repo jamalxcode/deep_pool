@@ -32,7 +32,7 @@ here; only work that passed the tests gets pushed to GitHub (see [docs/DESIGN.md
 
 14. When it asks permission to run commands like `npm install` or tests, read each one and approve. That's normal.
 
-15. When step 1 is done, type in a second Terminal window: `cd ~/code/deep_pool/app && npm test`. Everything should pass.
+15. When step 1 is done, type in a second Terminal window: `cd ~/code/deep_pool/app && npm install` (once; it downloads the test browser), then `npm test`. Everything should pass.
 
 16. Then run `npm run test:live`. This tests the real Bitcoin providers from your Mac. Note which ones pass or fail.
 
@@ -43,6 +43,3 @@ here; only work that passed the tests gets pushed to GitHub (see [docs/DESIGN.md
 19. One-time on GitHub: Settings → Pages → Source → choose "GitHub Actions". Without this, nothing gets published. The repo is private, so this needs a paid GitHub plan.
 
 20. From now on, open Terminal, `cd ~/code/deep_pool`, type `claude`, and say what you want next. Repeat steps 15–18 for every change.
-
-Steps 15–17 need the tooling from build step 1 (`npm run test:live` and the `.githooks` folder).
-Until Claude has done that step, they don't exist yet.

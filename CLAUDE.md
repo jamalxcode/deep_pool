@@ -27,9 +27,12 @@ any work**, and [docs/LESSONS.md](docs/LESSONS.md) for traps already hit.
 ## Commands
 
 ```sh
+cd app && npm install                # once: Playwright + Chromium (dev-only; the site has no deps)
 cd app && npm run build              # copies src/ to dist/ and makes one index.html per route; no deps
-cd app && npm test                   # build + 13 browser scenarios with all APIs mocked (needs Playwright)
-python3 -m http.server -d app/dist 8000
+cd app && npm run dev                # build + http://localhost:8000 + rebuild on change
+cd app && npm test                   # build + 13 browser scenarios with all APIs mocked
+cd app && npm run test:live          # probe the 10 candidate providers (writes src/providers.json) + live browser smoke test
+git config core.hooksPath .githooks  # once per clone: pre-push runs both test suites
 sh node/tests/gateway.test.sh        # node gateway rules vs a stand-in backend (needs caddy + node)
 cd node && cp .env.example .env && docker compose config --quiet   # compose syntax check (no daemon needed)
 ```
@@ -80,7 +83,7 @@ cd node && cp .env.example .env && docker compose config --quiet   # compose syn
 
 - **Development and testing happen locally** (on the owner's Mac, set up with
   [LOCAL-SETUP.md](LOCAL-SETUP.md)). **Only work that passed `npm test` and `npm run test:live`
-  locally is synced to GitHub.** Once build step 1 exists, `.githooks/pre-push` enforces this
+  locally is synced to GitHub.** `.githooks/pre-push` enforces this
   (`git config core.hooksPath .githooks`).
 - **Then merge to `main`** (the owner's standing instruction): fast-forward `main` and push. Don't
   wait for a pull request unless asked for one.

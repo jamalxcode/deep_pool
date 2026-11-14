@@ -41,8 +41,16 @@ sources), so no single provider has to be trusted.
 
 ## Providers
 
-Candidates. **None are confirmed yet:** they were chosen from documentation knowledge without
-network access. Build step 1's live check decides which ones go into `providers.json`.
+Candidates, chosen from documentation knowledge without network access. Build step 1's live
+check (`npm run test:live`, first run 2026-11-14) decides which ones are enabled in `providers.json`.
+
+**First live results (2026-11-14, from the owner's Mac):** usable on mainnet: mempool.space,
+blockstream.info, publicnode.com, BlockCypher, blockchain.com (via its `/q/` endpoints; `/latestblock`
+has no CORS header), Bitaps, and Blockchair (only when this IP isn't on its temporary blacklist).
+Failed: mempool.emzy.de (rate limited, then refusing connections; its testnet/signet paths give 502),
+mempool.bisq.services (the domain no longer resolves), dRPC (Bitcoin needs a paid plan).
+BlockCypher's `test3` is ~349,000 blocks behind (stale), so it's mainnet only. Testnet4 has one
+source (mempool.space). The report in `tests/out/providers-report.json` has every check's reason.
 
 | # | Provider | API style | Expected capabilities |
 |---|---|---|---|
@@ -84,7 +92,8 @@ Published with the site, read at start-up, written by `npm run test:live` (never
       "budget": { "perMinute": 60 },
       "attribution": null,
       "enabled": true,
-      "lastCheck": { "ok": true, "cors": true, "latencyMs": 180, "tip": 975700, "failed": [] }
+      "lastCheck": { "mainnet": { "ok": true, "cors": true, "latencyMs": 180, "tip": 975700,
+                                  "capabilities": ["address", "block", "fees", "header", "tip", "tx"], "failed": [] } }
     }
   ]
 }

@@ -1,0 +1,531 @@
+{
+  "checked": "2026-11-14T02:59:40Z",
+  "providers": [
+    {
+      "id": "mempool-space",
+      "name": "mempool.space",
+      "type": "mempool",
+      "api": {
+        "mainnet": "https://mempool.space/api",
+        "signet": "https://mempool.space/signet/api",
+        "testnet": "https://mempool.space/testnet/api",
+        "testnet4": "https://mempool.space/testnet4/api"
+      },
+      "ws": {
+        "mainnet": "wss://mempool.space/api/v1/ws",
+        "signet": "wss://mempool.space/signet/api/v1/ws",
+        "testnet": "wss://mempool.space/testnet/api/v1/ws",
+        "testnet4": "wss://mempool.space/testnet4/api/v1/ws"
+      },
+      "budget": {
+        "perMinute": 60
+      },
+      "attribution": null,
+      "enabled": true,
+      "lastCheck": {
+        "mainnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 260,
+          "tip": 975736,
+          "capabilities": [
+            "address",
+            "block",
+            "blockTxs",
+            "blocks",
+            "difficulty",
+            "feeHistogram",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "prices",
+            "projected",
+            "recent",
+            "replacements",
+            "stats",
+            "stream",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        },
+        "signet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 517,
+          "tip": 330753,
+          "capabilities": [
+            "address",
+            "block",
+            "blockTxs",
+            "blocks",
+            "difficulty",
+            "feeHistogram",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "projected",
+            "recent",
+            "replacements",
+            "stats",
+            "stream",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        },
+        "testnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 522,
+          "tip": 5347263,
+          "capabilities": [
+            "address",
+            "block",
+            "blockTxs",
+            "blocks",
+            "difficulty",
+            "feeHistogram",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "projected",
+            "recent",
+            "replacements",
+            "stats",
+            "stream",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        },
+        "testnet4": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 521,
+          "tip": 161209,
+          "capabilities": [
+            "address",
+            "block",
+            "blockTxs",
+            "blocks",
+            "difficulty",
+            "feeHistogram",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "projected",
+            "recent",
+            "replacements",
+            "stats",
+            "stream",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        }
+      }
+    },
+    {
+      "id": "mempool-emzy",
+      "name": "mempool.emzy.de",
+      "type": "mempool",
+      "api": {
+        "mainnet": "https://mempool.emzy.de/api",
+        "signet": "https://mempool.emzy.de/signet/api",
+        "testnet": "https://mempool.emzy.de/testnet/api",
+        "testnet4": "https://mempool.emzy.de/testnet4/api"
+      },
+      "ws": {
+        "mainnet": "wss://mempool.emzy.de/api/v1/ws"
+      },
+      "budget": {
+        "perMinute": 30
+      },
+      "attribution": null,
+      "enabled": false,
+      "lastCheck": {
+        "mainnet": {
+          "ok": false,
+          "cors": false,
+          "latencyMs": 558,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: HTTP 429 {\"error\":\"rate_limited\",\"message\":\"Too many requests. Please contact email: emzy@emzy.de for higher limits.\"}",
+            "cors: no CORS header on https://mempool.emzy.de/api/blocks/tip/height"
+          ]
+        },
+        "signet": {
+          "ok": false,
+          "cors": false,
+          "latencyMs": 648,
+          "tip": 330753,
+          "capabilities": [],
+          "failed": [
+            "address: HTTP 429 {\"error\":\"rate_limited\",\"message\":\"Too many requests. Please contact email: emzy@emzy.de for higher limits.\"}",
+            "cors: no CORS header on https://mempool.emzy.de/signet/api/address/tb1qaw56gat8gfljfswqz9cctg98ae97lzzk2ct8sv"
+          ]
+        },
+        "testnet": {
+          "ok": false,
+          "cors": false,
+          "latencyMs": 137,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: HTTP 502 <html> <head><title>502 Bad Gateway</title></head> <body> <center><h1>502 Bad Gateway</h1></center> <hr><center>nginx</c",
+            "cors: no CORS header on https://mempool.emzy.de/testnet/api/blocks/tip/height"
+          ]
+        },
+        "testnet4": {
+          "ok": false,
+          "cors": false,
+          "latencyMs": 245,
+          "tip": 161209,
+          "capabilities": [],
+          "failed": [
+            "address: HTTP 429 {\"error\":\"rate_limited\",\"message\":\"Too many requests. Please contact email: emzy@emzy.de for higher limits.\"}",
+            "cors: no CORS header on https://mempool.emzy.de/testnet4/api/address/tb1p37kyj778a68d9g9u5r2n09l6345xqw8vx5us4qjvatlp2jl4cdxsy5kq9v"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mempool-bisq",
+      "name": "mempool.bisq.services",
+      "type": "mempool",
+      "api": {
+        "mainnet": "https://mempool.bisq.services/api"
+      },
+      "ws": {
+        "mainnet": "wss://mempool.bisq.services/api/v1/ws"
+      },
+      "budget": {
+        "perMinute": 30
+      },
+      "attribution": null,
+      "enabled": false,
+      "lastCheck": {
+        "mainnet": {
+          "ok": false,
+          "cors": true,
+          "latencyMs": 80,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: fetch failed (ENOTFOUND)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blockstream",
+      "name": "blockstream.info",
+      "type": "esplora",
+      "api": {
+        "mainnet": "https://blockstream.info/api",
+        "signet": "https://blockstream.info/signet/api",
+        "testnet": "https://blockstream.info/testnet/api"
+      },
+      "budget": {
+        "perMinute": 60
+      },
+      "attribution": null,
+      "enabled": true,
+      "lastCheck": {
+        "mainnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 1798,
+          "tip": 975736,
+          "capabilities": [
+            "address",
+            "block",
+            "blockTxs",
+            "feeHistogram",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "recent",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        },
+        "signet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 502,
+          "tip": 330753,
+          "capabilities": [
+            "address",
+            "block",
+            "blockTxs",
+            "feeHistogram",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "recent",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        },
+        "testnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 533,
+          "tip": 5347263,
+          "capabilities": [
+            "address",
+            "block",
+            "blockTxs",
+            "feeHistogram",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "recent",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        }
+      }
+    },
+    {
+      "id": "publicnode",
+      "name": "publicnode.com",
+      "type": "bitcoind-rpc",
+      "api": {
+        "mainnet": "https://bitcoin-rpc.publicnode.com",
+        "testnet": "https://bitcoin-testnet-rpc.publicnode.com"
+      },
+      "budget": {
+        "perMinute": 60
+      },
+      "attribution": null,
+      "enabled": true,
+      "lastCheck": {
+        "mainnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 531,
+          "tip": 975736,
+          "capabilities": [
+            "block",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        },
+        "testnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 650,
+          "tip": 5347263,
+          "capabilities": [
+            "block",
+            "fees",
+            "header",
+            "mempoolInfo",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        }
+      }
+    },
+    {
+      "id": "drpc",
+      "name": "dRPC",
+      "type": "bitcoind-rpc",
+      "api": {
+        "mainnet": "https://bitcoin.drpc.org",
+        "testnet": "https://bitcoin-testnet.drpc.org"
+      },
+      "budget": {
+        "perMinute": 30
+      },
+      "attribution": null,
+      "enabled": false,
+      "lastCheck": {
+        "mainnet": {
+          "ok": false,
+          "cors": true,
+          "latencyMs": 327,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: HTTP 400 {\"id\":1,\"jsonrpc\":\"2.0\",\"error\":{\"message\":\"chain is not available on free plan, please upgrade to paid plan\",\"code\":35}"
+          ]
+        },
+        "testnet": {
+          "ok": false,
+          "cors": true,
+          "latencyMs": 223,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: HTTP 400 {\"id\":1,\"jsonrpc\":\"2.0\",\"error\":{\"message\":\"chain is not available on free plan, please upgrade to paid plan\",\"code\":35}"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blockchair",
+      "name": "Blockchair",
+      "type": "blockchair",
+      "api": {
+        "mainnet": "https://api.blockchair.com/bitcoin",
+        "testnet": "https://api.blockchair.com/bitcoin/testnet"
+      },
+      "budget": {
+        "perMinute": 1
+      },
+      "attribution": "Blockchair",
+      "enabled": true,
+      "lastCheck": {
+        "mainnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 974,
+          "tip": 975736,
+          "capabilities": [
+            "fees",
+            "mempoolInfo",
+            "tip"
+          ],
+          "failed": [
+            "tx: HTTP 430 {\"data\":null,\"context\":{\"code\":430,\"error\":\"Your IP address is temporary blacklisted due to exceeding usage of API resou",
+            "address: HTTP 430 {\"data\":null,\"context\":{\"code\":430,\"error\":\"Your IP address is temporary blacklisted due to exceeding usage of API resou"
+          ]
+        },
+        "testnet": {
+          "ok": false,
+          "cors": true,
+          "latencyMs": 484,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: HTTP 430 {\"data\":null,\"context\":{\"code\":430,\"error\":\"Your IP address is temporary blacklisted due to exceeding usage of API resou"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blockcypher",
+      "name": "BlockCypher",
+      "type": "blockcypher",
+      "api": {
+        "mainnet": "https://api.blockcypher.com/v1/btc/main",
+        "testnet": "https://api.blockcypher.com/v1/btc/test3"
+      },
+      "budget": {
+        "perMinute": 1
+      },
+      "attribution": "BlockCypher",
+      "enabled": false,
+      "lastCheck": {
+        "mainnet": {
+          "ok": false,
+          "cors": false,
+          "latencyMs": 1047,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: HTTP 429 {\"error\": \"Limits reached.\"} ",
+            "cors: no CORS header on https://api.blockcypher.com/v1/btc/main"
+          ]
+        },
+        "testnet": {
+          "ok": false,
+          "cors": false,
+          "latencyMs": 516,
+          "tip": null,
+          "capabilities": [],
+          "failed": [
+            "tip: HTTP 429 {\"error\": \"Limits reached.\"} ",
+            "cors: no CORS header on https://api.blockcypher.com/v1/btc/test3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blockchain-info",
+      "name": "blockchain.com",
+      "type": "blockchaininfo",
+      "api": {
+        "mainnet": "https://blockchain.info"
+      },
+      "budget": {
+        "perMinute": 20
+      },
+      "attribution": null,
+      "enabled": true,
+      "lastCheck": {
+        "mainnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 892,
+          "tip": 975736,
+          "capabilities": [
+            "address",
+            "fees",
+            "mempoolInfo",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        }
+      }
+    },
+    {
+      "id": "bitaps",
+      "name": "Bitaps",
+      "type": "bitaps",
+      "api": {
+        "mainnet": "https://api.bitaps.com/btc/v1",
+        "testnet": "https://api.bitaps.com/btc/testnet/v1"
+      },
+      "budget": {
+        "perMinute": 20
+      },
+      "attribution": null,
+      "enabled": true,
+      "lastCheck": {
+        "mainnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 1222,
+          "tip": 975736,
+          "capabilities": [
+            "address",
+            "block",
+            "header",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        },
+        "testnet": {
+          "ok": true,
+          "cors": true,
+          "latencyMs": 502,
+          "tip": 5347263,
+          "capabilities": [
+            "address",
+            "block",
+            "header",
+            "tip",
+            "tx"
+          ],
+          "failed": []
+        }
+      }
+    }
+  ]
+}

@@ -128,3 +128,27 @@ them again.
 38. **Design changes are cheap on paper.** The own-node design (v2) was fully specified and tested
     before being dropped for v3. Writing the architecture down first (DESIGN.md) makes such pivots
     a document change, not a rewrite.
+
+## The first live provider probe (build step 1)
+
+39. **Half the candidates from documentation were wrong in some way.** One domain is gone
+    (mempool.bisq.services), one keyless endpoint now needs a paid plan for Bitcoin (dRPC), one
+    instance rate-limits and then refuses connections (mempool.emzy.de). Only a live probe tells.
+40. **CORS differs per endpoint, not per provider.** blockchain.com sends `Access-Control-Allow-Origin`
+    on `/q/getblockcount` and `/rawtx` but not on `/latestblock`. Node's `fetch` ignores CORS, so the
+    probe sends the site's `Origin` and checks the header on every answer, and the smoke test runs
+    in a real browser.
+41. **Free tiers are stricter than their docs suggest.** Blockchair blacklisted this IP temporarily
+    (HTTP 430) before the probe made more than a handful of calls; bitaps blocks an IP for 5 minutes
+    after 3 calls in 5 seconds. Space out calls per provider, and expect the strict tiers' results to
+    vary from run to run.
+42. **A fresh answer can still be years stale.** BlockCypher's testnet3 tip is ~349,000 blocks behind
+    while answering in 200 ms. Compare every tip with the highest seen.
+43. **Raw headers come in odd wrappers.** bitaps serves the header as base64 with the transaction
+    count appended (81 bytes); BlockCypher gives only the fields, from which the 80 bytes can be
+    rebuilt. Hashing the result and comparing with the block hash catches every such mistake.
+44. **A tie isn't a disagreement.** On testnet, two sources at the same new height with different
+    hashes is a race or a short fork; only flag a source when a real majority disagrees with it.
+45. **Generated files that track the outside world shouldn't block a push.** `providers.json`
+    changes whenever a free tier has a bad minute, so the pre-push hook reports a change to it but
+    only blocks on a stale build.

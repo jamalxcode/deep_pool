@@ -1,0 +1,27 @@
+#!/bin/sh
+# Only locally tested work reaches GitHub (docs/DESIGN.md, "Development workflow").
+# Runs the mocked suite and the live tests; any failure stops the push.
+# Switch on once per clone:  git config core.hooksPath .githooks
+# Skip in an emergency only: git push --no-verify
+set -e
+cd "$(git rev-parse --show-toplevel)/app"
+if [ ! -d node_modules/playwright ]; then
+  echo "pre-push: run 'cd app && npm install' first (it installs Playwright and Chromium)" >&2
+  exit 1
+fi
+echo "pre-push: npm test (mocked APIs)"
+npm test --silent
+echo "pre-push: npm run test:live (real providers)"
+npm run test:live --silent
+# the build must match what's committed: unbuilt src/ changes would publish an old site
+if ! git diff --quiet -- dist ':!dist/providers.json'; then
+  echo "pre-push: app/dist differs from the commit: run npm run build, commit app/dist, then push again" >&2
+  git status --short -- dist >&2
+  exit 1
+fi
+# providers.json moves with the providers' moods (rate limits, outages): report, don't block
+if ! git diff --quiet -- src/providers.json dist/providers.json; then
+  echo "pre-push: note: the probe updated app/src/providers.json (see tests/out/providers-report.json);" >&2
+  echo "          commit it with your next change if the new picture looks right" >&2
+fi
+echo "pre-push: all tests passed"
