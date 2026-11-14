@@ -15,11 +15,14 @@ This file guides Claude Code when working in this repository.
 ## Overview
 
 deep pool is a Bitcoin mempool explorer: a static site (vanilla HTML/CSS/JS, no framework, no
-dependencies) with five routes (`/`, `/signet`, `/testnet`, `/testnet4`, `/acceleration`). Live data
-is fetched by the visitor's browser, with a fallback chain ending in a snapshot built into the site.
-`node/` holds the optional self-hosted Bitcoin node (Mac mini, Docker/OrbStack, Cloudflare Tunnel).
-Read [docs/DESIGN.md](docs/DESIGN.md) before changing the data flow or the node, and
-[docs/LESSONS.md](docs/LESSONS.md) for traps already hit.
+dependencies) on GitHub Pages, with five routes (`/`, `/signet`, `/testnet`, `/testnet4`, `/acceleration`).
+
+**Direction (v3):** no server and no node of our own. The browser reads the blockchain through about
+10 public, keyless providers, with a router (health scores, circuit breaker, hedging, budgets), a
+verifier (proof of work and block links checked in the browser) and an offline cache.
+**The code is still v2:** a fixed fallback chain plus the superseded own-node kit in `node/`.
+**[docs/DESIGN.md](docs/DESIGN.md) has the architecture and the 5-step build plan: read it before
+any work**, and [docs/LESSONS.md](docs/LESSONS.md) for traps already hit.
 
 ## Commands
 
@@ -46,7 +49,7 @@ cd node && cp .env.example .env && docker compose config --quiet   # compose syn
   for views. Views are pure string builders re-rendered by `renderContent()`/`renderBlockchain()`.
   The simulated activity (`tick`) runs only in snapshot mode.
 - `app/src/style.css`: all styles. Colours are CSS variables; colour-blind-safe Okabe-Ito tones in the branding.
-- `node/`: `docker-compose.yml` (MariaDB, mempool backend with `MEMPOOL_BACKEND=none`, Caddy
+- `node/` (**superseded by v3; removed in build step 5**): `docker-compose.yml` (MariaDB, mempool backend with `MEMPOOL_BACKEND=none`, Caddy
   gateway, cloudflared; Bitcoin Core runs natively), `Caddyfile` (allowlist gateway) and
   `Caddyfile.macos` (same rules for Homebrew, which must stay in sync: the gateway test checks
   this), `bitcoin.conf.example`, `.env.example`, `README.md`, `MACOS-NATIVE.md`, `tests/`.
@@ -59,9 +62,11 @@ cd node && cp .env.example .env && docker compose config --quiet   # compose syn
 - **Never present invented data as live.** When a source lacks something (Blockstream has no
   replacements, chart or pool names), say "not available from <source>" rather than keeping
   snapshot values.
-- **The fallback chain must survive any single failure**, including deep pool's own node being
-  down, blocked, rate limited or misconfigured. A provider that can't do something gets a
-  capability flag (like `lookups: false`), so its 404 doesn't stop the chain.
+- **The data layer must survive any single failure**: a provider down, blocked, slow, stale, rate
+  limited or returning bad data. A provider that can't do something declares it (capabilities), so
+  its 404 doesn't stop the chain. A 404 on a lookup is confirmed by a second source before the
+  page says "not found".
+- **Keyless providers only.** A provider that needs an API key can't be used (see the hard rules).
 - `toast()` uses `textContent`: write `…`, not `&hellip;`, in toast messages.
 - New `data.js` behaviour needs a scenario in `app/tests/live-data.test.js`, with an expectation in `check()`.
 - Gateway changes go in both Caddyfiles, then run `node/tests/gateway.test.sh`. The allowlist must
@@ -73,8 +78,15 @@ cd node && cp .env.example .env && docker compose config --quiet   # compose syn
 
 ## Git workflow
 
-- **Always merge finished work to `main`** (the owner's standing instruction). Work on a branch,
-  then fast-forward `main` to it and push both. Don't wait for a pull request unless asked for one.
+- **Development and testing happen locally** (on the owner's Mac, set up with
+  [LOCAL-SETUP.md](LOCAL-SETUP.md)). **Only work that passed `npm test` and `npm run test:live`
+  locally is synced to GitHub.** Once build step 1 exists, `.githooks/pre-push` enforces this
+  (`git config core.hooksPath .githooks`).
+- **Then merge to `main`** (the owner's standing instruction): fast-forward `main` and push. Don't
+  wait for a pull request unless asked for one.
+- **Fetch before working:** other sessions push to `main` too. Start from the latest `origin/main`.
+- **Cloud sessions can't reach the providers**, so they can't run the live tests. From a cloud
+  session, push only docs or changes the owner will verify locally, and say which tests were not run.
 
 ## Deployment
 
@@ -83,5 +95,5 @@ cd node && cp .env.example .env && docker compose config --quiet   # compose syn
   `https://jamalxcode.github.io/deep_pool/` (a project site, so in a subfolder; all links are relative).
 - One-time setup in the repo: Settings → Pages → Source: **GitHub Actions**. The repo is private,
   and Pages for a private repo needs a paid GitHub plan. The published site is public either way.
-- When the node is up, its `DEEPPOOL_ORIGIN` must be `https://jamalxcode.github.io` (the origin,
-  without `/deep_pool`), or the custom domain if one is added later.
+- GitHub only stores the code and hosts the site; nothing is built or decided there beyond
+  publishing. An optional provider-monitor workflow may open issues, but must never commit.

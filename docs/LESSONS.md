@@ -80,6 +80,30 @@ them again.
 27. **The CORS origin is scheme + host only.** For `https://jamalxcode.github.io/deep_pool/` the origin
     browsers send is `https://jamalxcode.github.io`; putting the path in `DEEPPOOL_ORIGIN` breaks every call.
 
+## The no-node design (v3)
+
+28. **A browser can't join the Bitcoin network.** Nodes talk over raw TCP (port 8333), which web
+    pages can't open. "Reading the blockchain directly" from a static site means asking public
+    nodes and explorers over HTTPS, then verifying what can be verified in the browser.
+29. **Verification makes public data trustworthy.** Checking each block header's proof of work
+    and its link to the previous block (double SHA-256, via WebCrypto) means a provider can't fake
+    blocks without real mining work. Agreement between 2+ sources covers the rest.
+30. **WebCrypto only works on secure pages** (https and localhost), not from `file://`. Plan for
+    "verification skipped" rather than failing.
+31. **Many providers beat one machine.** Ten public sources, routed per data type, give more
+    resilience than a self-hosted node, with no hardware, syncing or upkeep. The price is
+    maintaining the provider list as public APIs change.
+32. **A fixed fallback order is blind to slow and stale sources.** A source that answers quickly
+    with a block from 20 minutes ago looks healthy to a simple chain. The router compares every
+    source's tip with the highest one seen and asks a second source when the first is slow.
+33. **A 404 from one node isn't final.** A just-broadcast transaction can be unknown to some nodes.
+    Confirm "not found" with a second source.
+34. **A public site can only use keyless APIs.** Any key in the page is readable by every visitor,
+    so it's effectively published. Origin-locked keys are still visible.
+35. **Per-visitor calls spread rate limits for free.** Every browser calls from its own IP address,
+    so free per-IP limits apply per visitor, not to the whole site. Per-source budgets keep each
+    visitor under the strictest one.
+
 ## Working method
 
 19. **Build offline, verify online.** This sandbox couldn't reach mempool.space or Blockstream, so
@@ -96,3 +120,11 @@ them again.
     so it compared mostly empty cards. Visual scores need a settled page.
 23. **A shallow clone that tracks only `main` makes a pushed branch look unpushed.** Add a fetch
     refspec for the branch (`git config --add remote.origin.fetch ...`) and set its upstream.
+36. **Develop where the network is real.** Cloud sessions couldn't reach any provider, so their
+    tests could only use mocks. Development moved to the local Mac, where `npm run test:live` can
+    check the real APIs, and only locally tested work is pushed.
+37. **Fetch before you edit.** Another session pushed to `main` while this one was working. Starting
+    from the latest `origin/main` (fast-forward) avoided a conflict.
+38. **Design changes are cheap on paper.** The own-node design (v2) was fully specified and tested
+    before being dropped for v3. Writing the architecture down first (DESIGN.md) makes such pivots
+    a document change, not a rewrite.

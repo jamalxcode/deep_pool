@@ -1,5 +1,9 @@
 # Mini install
 
+> **Superseded (2026-11-14).** deep pool no longer uses its own node: it reads the blockchain through
+> public providers instead (see [docs/DESIGN.md](docs/DESIGN.md)). This is kept for reference until build step 5
+> removes it; after that it's in git history.
+
 The short version of [node/README.md](node/README.md): the whole Mac mini setup in 24 plain steps.
 
 1. Buy a 2 TB external SSD and a small UPS battery. Plug the Mac mini into the UPS, plug the SSD into the Mac. Name the SSD "BitcoinSSD".

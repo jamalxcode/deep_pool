@@ -1,5 +1,9 @@
 # deep pool's own Bitcoin node: the recommended setup
 
+> **Superseded (2026-11-14).** deep pool no longer uses its own node: it reads the blockchain through
+> public providers instead (see [docs/DESIGN.md](../docs/DESIGN.md)). This is kept for reference until build step 5
+> removes it; after that it's in git history.
+
 Goals: **maximum safety for the Mac mini**, **anyone on the internet can use deep pool**, **easy to
 install**, **as few things as possible that can break**.
 
